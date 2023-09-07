@@ -1,0 +1,2227 @@
+[
+  {
+    "id": "test-project.1591897782877.generated_i18n_0",
+    "defaultMessage": "User typing ...",
+    "message": "Пользователь набрав ..."
+  },
+  {
+    "id": "test-project.1591897837764.generated_i18n_0",
+    "defaultMessage": "photos",
+    "message": "Фотографии",
+    "filepath": "./src/components/ImageGallery/ImageGallery.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897837764.generated_i18n_1",
+    "defaultMessage": "Добавить фото",
+    "message": "Добавить фото",
+    "filepath": "./src/components/ImageGallery/ImageGallery.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897857715.generated_i18n_0",
+    "defaultMessage": "Incoming call ...",
+    "message": "Входящий звонок ...",
+    "filepath": "./src/components/IncomingCall/IncomingCall.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897857715.generated_i18n_1",
+    "defaultMessage": "Answer the call",
+    "message": "Ответить на звонок",
+    "filepath": "./src/components/IncomingCall/IncomingCall.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897890831.generated_i18n_0",
+    "defaultMessage": "Мы отправили вам на почту",
+    "message": "Мы отправили вам на почту",
+    "filepath": "./src/components/Modals/ActivationEmailSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897890831.generated_i18n_1",
+    "defaultMessage": "письмо",
+    "message": "письмо",
+    "filepath": "./src/components/Modals/ActivationEmailSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897890831.generated_i18n_2",
+    "defaultMessage": "Перейдите по ссылке из почты для завершения регистрации",
+    "message": "Перейдите по ссылке из почты для завершения регистрации",
+    "filepath": "./src/components/Modals/ActivationEmailSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897906807.generated_i18n_0",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "test-project.1591897919068.generated_i18n_0",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "test-project.1591898137150.generated_i18n_0",
+    "defaultMessage": "Пароль",
+    "message": "Пароль",
+    "filepath": "./src/components/Modals/components/shared.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898137150.generated_i18n_1",
+    "defaultMessage": "Ваш e-mail",
+    "message": "Ваш адрес электронной почты",
+    "filepath": "./src/components/Modals/components/shared.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898137150.generated_i18n_2",
+    "defaultMessage": "Ваше имя",
+    "message": "Ваше имя",
+    "filepath": "./src/components/Modals/components/shared.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897925412.generated_i18n_0",
+    "defaultMessage": "CONFIRM NEW EMAIL",
+    "message": "Подтвердить новую почту",
+    "filepath": "./src/components/Modals/ConfirmNewEmail.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897925412.generated_i18n_1",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to confirm your email.",
+    "message": "Мы отправили письмо на ваш адрес. Кликнув по ссылке в письме, чтобы подтвердить адрес электронной почты.",
+    "filepath": "./src/components/Modals/ConfirmNewEmail.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897926752.generated_i18n_0",
+    "defaultMessage": "DELETE CHAT FOREVER?",
+    "message": "УДАЛИТЬ ЧАТ НАВСЕГДА?",
+    "filepath": "./src/components/Modals/DeleteChat.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897926752.generated_i18n_1",
+    "defaultMessage": "NO",
+    "message": "НЕТ",
+    "filepath": "./src/components/Modals/DeleteChat.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897926752.generated_i18n_2",
+    "defaultMessage": "YES, DELETE",
+    "message": "ДА, УДАЛИТЬ",
+    "filepath": "./src/components/Modals/DeleteChat.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897927618.generated_i18n_0",
+    "defaultMessage": "DELETE PROFILe",
+    "message": "УД",
+    "filepath": "./src/components/Modals/DeleteProfile.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897927618.generated_i18n_1",
+    "defaultMessage": "NO",
+    "message": "НЕТ",
+    "filepath": "./src/components/Modals/DeleteProfile.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897927618.generated_i18n_2",
+    "defaultMessage": "YES, DELETE",
+    "message": "ДА, УДАЛИТЬ",
+    "filepath": "./src/components/Modals/DeleteProfile.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897930935.generated_i18n_0",
+    "defaultMessage": "LETTER sent",
+    "message": "Письмо отправлено",
+    "filepath": "./src/components/Modals/LetterSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_0",
+    "defaultMessage": "sign in",
+    "message": "войти в систему"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_1",
+    "defaultMessage": "Email",
+    "message": "Электронное письмо"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_2",
+    "defaultMessage": "Password",
+    "message": "пароль"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_3",
+    "defaultMessage": "I forgot my password",
+    "message": "я забыл мой пароль"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_4",
+    "defaultMessage": "SIGN IN",
+    "message": "ВОЙТИ В СИСТЕМУ"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_5",
+    "defaultMessage": "Or with",
+    "message": "Или с"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_6",
+    "defaultMessage": "Вконтакте",
+    "message": "Вконтакте"
+  },
+  {
+    "id": "test-project.1591897957563.generated_i18n_7",
+    "defaultMessage": "Google",
+    "message": "Google"
+  },
+  {
+    "id": "test-project.1591897961732.generated_i18n_0",
+    "defaultMessage": "PASSWORD CHANGED",
+    "message": "Пароль изменен",
+    "filepath": "./src/components/Modals/PasswordChanged.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897963451.generated_i18n_0",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to recover the password.",
+    "message": "Мы отправили письмо на ваш адрес. Кликнув по ссылке в письме, чтобы восстановить пароль."
+  },
+  {
+    "id": "test-project.1591897963451.generated_i18n_1",
+    "defaultMessage": "Email",
+    "message": "Электронное письмо"
+  },
+  {
+    "id": "test-project.1591897963451.generated_i18n_2",
+    "defaultMessage": "RESEND",
+    "message": "ОТПРАВИТЬ"
+  },
+  {
+    "id": "test-project.1591897963451.generated_i18n_3",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "message": "ВОССТАНОВИТЬ ПАРОЛЬ"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_0",
+    "defaultMessage": "sign up",
+    "message": "Подписаться"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_1",
+    "defaultMessage": "sign in",
+    "message": "войти в систему"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_2",
+    "defaultMessage": "Name",
+    "message": "имя"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_3",
+    "defaultMessage": "Email",
+    "message": "Электронное письмо"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_4",
+    "defaultMessage": "Password",
+    "message": "пароль"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_5",
+    "defaultMessage": "SIGN UP",
+    "message": "ПОДПИСАТЬСЯ"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_6",
+    "defaultMessage": "Or with",
+    "message": "Или с"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_7",
+    "defaultMessage": "Вконтакте",
+    "message": "Вконтакте"
+  },
+  {
+    "id": "test-project.1591897980274.generated_i18n_8",
+    "defaultMessage": "Google",
+    "message": "Google"
+  },
+  {
+    "id": "test-project.1591897988526.generated_i18n_0",
+    "defaultMessage": "report sent",
+    "message": "отчет отправлен"
+  },
+  {
+    "id": "test-project.1591898089594.generated_i18n_0",
+    "defaultMessage": "your Email",
+    "message": "Ваш адрес электронной почты",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalEmail.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898089594.generated_i18n_1",
+    "defaultMessage": "Submit",
+    "message": "Разместить",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalEmail.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898094393.generated_i18n_0",
+    "defaultMessage": "Describe whats wrong",
+    "message": "Опишите, что случилось",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalText.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898094393.generated_i18n_1",
+    "defaultMessage": "Submit",
+    "message": "Сохранить",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalText.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898097307.generated_i18n_0",
+    "defaultMessage": "report",
+    "message": "доклад"
+  },
+  {
+    "id": "test-project.1591898110040.generated_i18n_0",
+    "defaultMessage": "Email",
+    "message": "Электронное письмо"
+  },
+  {
+    "id": "test-project.1591898110040.generated_i18n_1",
+    "defaultMessage": "SEND",
+    "message": "ОТПРАВИТЬ"
+  },
+  {
+    "id": "test-project.1591898110040.generated_i18n_2",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "message": "ВОССТАНОВИТЬ ПАРОЛЬ"
+  },
+  {
+    "id": "test-project.1591898118634.generated_i18n_0",
+    "defaultMessage": "Password (Latin, number, min 6 symbols)",
+    "message": "Пароль (Latin, число, не менее 6 символов)"
+  },
+  {
+    "id": "test-project.1591898118634.generated_i18n_1",
+    "defaultMessage": "Repeat the password",
+    "message": "Повторите пароль"
+  },
+  {
+    "id": "test-project.1591898118634.generated_i18n_2",
+    "defaultMessage": "SEND",
+    "message": "ОТПРАВИТЬ"
+  },
+  {
+    "id": "test-project.1591898118634.generated_i18n_3",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "message": "ВОССТАНОВИТЬ ПАРОЛЬ"
+  },
+  {
+    "id": "test-project.1591898130097.generated_i18n_0",
+    "defaultMessage": "Send",
+    "message": "послать"
+  },
+  {
+    "id": "test-project.1591898162812.generated_i18n_0",
+    "defaultMessage": "How do you rate me?",
+    "message": "Как вы оцениваете меня?",
+    "filepath": "./src/components/ReviewBox/ReviewBox.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898162812.generated_i18n_1",
+    "defaultMessage": "Report user",
+    "message": "Пожаловаться на пользователя",
+    "filepath": "./src/components/ReviewBox/ReviewBox.i18n.ts"
+  },
+  {
+    "id": "test-project.1591898177883.generated_i18n_0",
+    "defaultMessage": "Back",
+    "message": "назад"
+  },
+  {
+    "id": "test-project.1591898184280.generated_i18n_0",
+    "defaultMessage": "CONTACTS",
+    "message": "КОНТАКТЫ"
+  },
+  {
+    "id": "test-project.1591898184280.generated_i18n_1",
+    "defaultMessage": "REQUESTS",
+    "message": "ЗАПРОСЫ"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_0",
+    "defaultMessage": "Man",
+    "message": "мужчина"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_1",
+    "defaultMessage": "Woman",
+    "message": "Женщина"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_2",
+    "defaultMessage": "Any",
+    "message": "Любые"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_3",
+    "defaultMessage": "Age",
+    "message": "Возраст"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_4",
+    "defaultMessage": "Maximum distance",
+    "message": "Максимальное расстояние"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_5",
+    "defaultMessage": "Preferred rating",
+    "message": "Preferred рейтинг"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_6",
+    "defaultMessage": "Only with high rating",
+    "message": "Только с высоким рейтингом"
+  },
+  {
+    "id": "test-project.1591898208837.generated_i18n_7",
+    "defaultMessage": "Any",
+    "message": "Любые"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_0",
+    "defaultMessage": "PRIVACY",
+    "message": "КОНФИДЕНЦИАЛЬНОСТЬ"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_1",
+    "defaultMessage": "Everyone can see",
+    "message": "Каждый может видеть"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_2",
+    "defaultMessage": "Userpic",
+    "message": "Userpic"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_3",
+    "defaultMessage": "Status",
+    "message": "Положение дел"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_4",
+    "defaultMessage": "Profile info",
+    "message": "Информация о профиле"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_5",
+    "defaultMessage": "Photos",
+    "message": "Фотографии"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_6",
+    "defaultMessage": "My rating can see",
+    "message": "Мой рейтинг может видеть"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_7",
+    "defaultMessage": "SECURITY",
+    "message": "БЕЗОПАСНОСТЬ"
+  },
+  {
+    "id": "test-project.1591898222477.generated_i18n_8",
+    "defaultMessage": "Password",
+    "message": "пароль"
+  },
+  {
+    "id": "test-project.1591898242295.generated_i18n_0",
+    "defaultMessage": "Chats",
+    "message": "Чаты"
+  },
+  {
+    "id": "test-project.1591898242295.generated_i18n_1",
+    "defaultMessage": "Contacts",
+    "message": "контакты"
+  },
+  {
+    "id": "test-project.1591898242295.generated_i18n_2",
+    "defaultMessage": "Filter",
+    "message": "Фильтр"
+  },
+  {
+    "id": "test-project.1591898242295.generated_i18n_3",
+    "defaultMessage": "Settings",
+    "message": "настройки"
+  },
+  {
+    "id": "test-project.1591898289740.generated_i18n_0",
+    "defaultMessage": "About me",
+    "message": "Обо мне"
+  },
+  {
+    "id": "test-project.1591898296157.generated_i18n_0",
+    "defaultMessage": "Save",
+    "message": "Сохранить"
+  },
+  {
+    "id": "test-project.1591898299412.generated_i18n_0",
+    "defaultMessage": "Tags",
+    "message": "Теги"
+  },
+  {
+    "id": "test-project.1591898283897.generated_i18n_0",
+    "defaultMessage": "km from you",
+    "message": "км от вас"
+  },
+  {
+    "id": "test-project.1591898283897.generated_i18n_1",
+    "defaultMessage": "Report",
+    "message": "отчет"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_0",
+    "defaultMessage": "Profile editing",
+    "message": "Редактировать",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_1",
+    "defaultMessage": "Username (Max 10 symbols)",
+    "message": "Имя",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_2",
+    "defaultMessage": "Another field",
+    "message": "Другое поле",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_3",
+    "defaultMessage": "Gender",
+    "message": "Пол",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_4",
+    "defaultMessage": "Country",
+    "message": "Страна",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_5",
+    "defaultMessage": "City",
+    "message": "Город",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_6",
+    "defaultMessage": "Tags",
+    "message": "Теги",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_7",
+    "defaultMessage": "About me",
+    "message": "Обо мне",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_8",
+    "defaultMessage": "Save",
+    "message": "Сохранить",
+    "filepath": "./src/forms/ProfileEditForm/ProfileEditForm.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899546692.generated_i18n_0",
+    "defaultMessage": "Save",
+    "message": "Сохранить",
+    "filepath": "./src/components/Modals/ChangeEmail.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899551748.generated_i18n_0",
+    "defaultMessage": "Save",
+    "message": "Сохранить",
+    "filepath": "./src/components/Modals/ChangePassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_0",
+    "defaultMessage": "sign up",
+    "message": "Регистрация",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_1",
+    "defaultMessage": "sign in",
+    "message": "Войти",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_2",
+    "defaultMessage": "Email",
+    "message": "Эл. адрес",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_3",
+    "defaultMessage": "Password",
+    "message": "Пароль",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_4",
+    "defaultMessage": "I forgot my password",
+    "message": "Я забыл свой пароль",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_5",
+    "defaultMessage": "SIGN IN",
+    "message": "Вход",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_6",
+    "defaultMessage": "Or with",
+    "message": "или через социальные сети",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_7",
+    "defaultMessage": "Вконтакте",
+    "message": "Вконтакте",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_8",
+    "defaultMessage": "Google",
+    "message": "Google",
+    "filepath": "./src/components/Modals/LoginModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_0",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to recover the password.",
+    "message": "Sign up",
+    "filepath": "./src/components/Modals/PasswordResetSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_1",
+    "defaultMessage": "Email",
+    "message": "Email",
+    "filepath": "./src/components/Modals/PasswordResetSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_2",
+    "defaultMessage": "RESEND",
+    "message": "ОТПРАВИТЬ",
+    "filepath": "./src/components/Modals/PasswordResetSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_3",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "message": "ВОССТАНОВИТЬ ПАРОЛЬ",
+    "filepath": "./src/components/Modals/PasswordResetSent.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_0",
+    "defaultMessage": "sign up",
+    "message": "Регистрация",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_1",
+    "defaultMessage": "sign in",
+    "message": "Войти",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_2",
+    "defaultMessage": "Name",
+    "message": "Имя",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_3",
+    "defaultMessage": "Email",
+    "message": "Email",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_4",
+    "defaultMessage": "Password",
+    "message": "Пароль",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_5",
+    "defaultMessage": "SIGN UP",
+    "message": "РЕГИСТРАЦИЯ",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_6",
+    "defaultMessage": "Or with",
+    "message": "или через социальные сети",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_7",
+    "defaultMessage": "Вконтакте",
+    "message": "Вконтакте",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_8",
+    "defaultMessage": "Google",
+    "message": "Google",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899619359.generated_i18n_0",
+    "defaultMessage": "Email",
+    "message": "Почта",
+    "filepath": "./src/components/Modals/ResetPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899619359.generated_i18n_1",
+    "defaultMessage": "SEND",
+    "message": "ОТПРАВИТЬ",
+    "filepath": "./src/components/Modals/ResetPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899619359.generated_i18n_2",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "message": "ВОССТАНОВИТЬ ПАРОЛЬ",
+    "filepath": "./src/components/Modals/ResetPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_0",
+    "defaultMessage": "Password (Latin, number, min 6 symbols)",
+    "message": "Пароль",
+    "filepath": "./src/components/Modals/SetNewPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_1",
+    "defaultMessage": "Repeat the password",
+    "message": "Повторите пароль",
+    "filepath": "./src/components/Modals/SetNewPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_2",
+    "defaultMessage": "SEND",
+    "message": "ОТПРАВИТЬ",
+    "filepath": "./src/components/Modals/SetNewPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_3",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "message": "ВОССТАНОВИТЬ ПАРОЛЬ",
+    "filepath": "./src/components/Modals/SetNewPassword.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899630439.generated_i18n_0",
+    "defaultMessage": "Send",
+    "message": "Отправить",
+    "filepath": "./src/components/Modals/SupportHelp.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_0",
+    "defaultMessage": "Id",
+    "message": "Id",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_1",
+    "defaultMessage": "Name",
+    "message": "Имя",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_2",
+    "defaultMessage": "Male",
+    "message": "Мужчина",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_3",
+    "defaultMessage": "Female",
+    "message": "Женщина",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_4",
+    "defaultMessage": "Undefined",
+    "message": "Неопределенный",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_5",
+    "defaultMessage": "Any",
+    "message": "Любой",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_6",
+    "defaultMessage": "Country",
+    "message": "Страна",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_7",
+    "defaultMessage": "City",
+    "message": "Город",
+    "filepath": "./src/admin/AdminUserTable.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825145319.generated_i18n_0",
+    "defaultMessage": "Classic",
+    "message": "классический"
+  },
+  {
+    "id": "test-project.1592825145319.generated_i18n_1",
+    "defaultMessage": "Rate chat",
+    "message": "рейтинговый"
+  },
+  {
+    "id": "test-project.1592825145319.generated_i18n_2",
+    "defaultMessage": "About",
+    "message": "О проекте"
+  },
+  {
+    "id": "test-project.1592825145319.generated_i18n_3",
+    "defaultMessage": "FAQ",
+    "message": "FAQ"
+  },
+  {
+    "id": "test-project.1592825145319.generated_i18n_4",
+    "defaultMessage": "Sign up with email",
+    "message": "Подписаться на новости"
+  },
+  {
+    "id": "test-project.1592825145319.generated_i18n_5",
+    "defaultMessage": "Sign in",
+    "message": "Вход"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_0",
+    "defaultMessage": "Classic",
+    "message": "классика",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_1",
+    "defaultMessage": "Rate chat",
+    "message": "рейтинг",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_2",
+    "defaultMessage": "About",
+    "message": "О проекте",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_3",
+    "defaultMessage": "Sign up with email",
+    "message": "Регистрация",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_4",
+    "defaultMessage": "Sign in",
+    "message": "Вход",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_5",
+    "defaultMessage": "Sign up / Sign in",
+    "message": "Регистрация / Вход",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_6",
+    "defaultMessage": "My Profile",
+    "message": "Профиль",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_7",
+    "defaultMessage": "Help",
+    "message": "Помощь",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_8",
+    "defaultMessage": "Log out",
+    "message": "Выйти",
+    "filepath": "./src/components_old/Header/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_0",
+    "defaultMessage": "Report",
+    "message": "Пожаловаться",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_1",
+    "defaultMessage": "Let’s start to chat!",
+    "message": "Давайте начнем общаться!",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_2",
+    "defaultMessage": "Just say ‘hello’",
+    "message": "Просто скажи \"Привет\"",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_3",
+    "defaultMessage": "User is typing ...",
+    "message": "Пользователь печатает ...",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_4",
+    "defaultMessage": "Back",
+    "message": "Назад",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_5",
+    "defaultMessage": "Profile",
+    "message": "Профиль",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_6",
+    "defaultMessage": "Video Call",
+    "message": "Видеозвонок",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_7",
+    "defaultMessage": "Delete Chat",
+    "message": "Удалить чат",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_8",
+    "defaultMessage": "Report",
+    "message": "Жалоба",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_9",
+    "defaultMessage": "Let’s start to chat!",
+    "message": "Давайте начнем общаться!",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_10",
+    "defaultMessage": "Just say ‘hello’",
+    "message": "Просто скажи \"Привет\"",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_11",
+    "defaultMessage": "User is typing ...",
+    "message": "Пользователь печатает ...",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_12",
+    "defaultMessage": "You can't send messages the user",
+    "message": "Вы не можете отправлять сообщения пользователя",
+    "filepath": "./src/components/Chat/Chat.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824819926.generated_i18n_0",
+    "defaultMessage": "Report sent",
+    "message": "Жалоба отправлена",
+    "filepath": "./src/components/Modals/ReportModal/ReportModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_0",
+    "defaultMessage": "Report user",
+    "message": "Пожаловаться на пользователя",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_1",
+    "defaultMessage": "What is the issue?",
+    "message": "В чем проблема?",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_2",
+    "defaultMessage": "Harassment and cyberbullying",
+    "message": "Оскорбления и угрозы",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_3",
+    "defaultMessage": "Violent threats",
+    "message": "Насильственные угрозы",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_4",
+    "defaultMessage": "Child endangerment",
+    "message": "Насилие над детьми",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_5",
+    "defaultMessage": "Hate speech against a protected group",
+    "message": "Ненависть к меньшинствам",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_6",
+    "defaultMessage": "Spam and Scams",
+    "message": "Спам и мошенничество",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_7",
+    "defaultMessage": "Privacy",
+    "message": "Нарущение конфиденциальности",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_8",
+    "defaultMessage": "None of these are your issue",
+    "message": "Здесь нет подходящей проблемы",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_9",
+    "defaultMessage": "Report",
+    "message": "Сообщить",
+    "filepath": "./src/components/Modals/ReportModal/ReportModalTypeSelection.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824903386.generated_i18n_0",
+    "defaultMessage": "You have no messages",
+    "message": "У вас нет сообщений",
+    "filepath": "./src/components/Sidebar/ChatsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824922431.generated_i18n_0",
+    "defaultMessage": "You have no contacts",
+    "message": "У вас нет контактов",
+    "filepath": "./src/components/Sidebar/ContactsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824922431.generated_i18n_1",
+    "defaultMessage": "Contacts",
+    "message": "Контакты",
+    "filepath": "./src/components/Sidebar/ContactsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824922431.generated_i18n_2",
+    "defaultMessage": "Requests",
+    "message": "Заявки",
+    "filepath": "./src/components/Sidebar/ContactsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_0",
+    "defaultMessage": "Search filter",
+    "message": "Фильтр",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_1",
+    "defaultMessage": "Don't show erotic content",
+    "message": "Не показывать эротический контент",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_2",
+    "defaultMessage": "Gender:",
+    "message": "Пол:",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_3",
+    "defaultMessage": "Man",
+    "message": "Мужчина",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_4",
+    "defaultMessage": "Woman",
+    "message": "Женщина",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_5",
+    "defaultMessage": "Any",
+    "message": "Любой",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_6",
+    "defaultMessage": "Age:",
+    "message": "Возраст:",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_7",
+    "defaultMessage": "Location:",
+    "message": "Расположение:",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_8",
+    "defaultMessage": "The Closest of All",
+    "message": "Ближе всех",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_9",
+    "defaultMessage": "Any",
+    "message": "Любое",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_10",
+    "defaultMessage": "Rating:",
+    "message": "Рейтинг:",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_11",
+    "defaultMessage": "Only with a High Rating",
+    "message": "Только с высоким рейтингом",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_12",
+    "defaultMessage": "Any",
+    "message": "Любой",
+    "filepath": "./src/components/Sidebar/FilterSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_0",
+    "defaultMessage": "Privacy",
+    "message": "Конфиденциальность",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_1",
+    "defaultMessage": "Everyone can see:",
+    "message": "Каждый может видеть:",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_2",
+    "defaultMessage": "Userpic",
+    "message": "Аватар",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_3",
+    "defaultMessage": "Status message",
+    "message": "Статус",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_4",
+    "defaultMessage": "only for follow contacts",
+    "message": "только для друзей",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_5",
+    "defaultMessage": "Profile Info",
+    "message": "Общая информация",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_6",
+    "defaultMessage": "Photos",
+    "message": "Фото",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_7",
+    "defaultMessage": "My rating can be seen:",
+    "message": "Мой рейтинг можно увидеть:",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_8",
+    "defaultMessage": "Everyone",
+    "message": "Все",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_9",
+    "defaultMessage": "Contacts Only",
+    "message": "Только друзья",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_10",
+    "defaultMessage": "Nobody",
+    "message": "Никто",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_11",
+    "defaultMessage": "Security",
+    "message": "Безопасность",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_12",
+    "defaultMessage": "Password",
+    "message": "Пароль",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_13",
+    "defaultMessage": "updated a month ago",
+    "message": "обновлен месяц назад",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_14",
+    "defaultMessage": "Email",
+    "message": "Email",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_15",
+    "defaultMessage": "a***@gmail.com",
+    "message": "a***@gmail.com",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_16",
+    "defaultMessage": "Email notification",
+    "message": "Уведомление по электронной почте",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_17",
+    "defaultMessage": "New messages",
+    "message": "Новые сообщения",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_18",
+    "defaultMessage": "Friend Requests",
+    "message": "Запросы в друзья",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_19",
+    "defaultMessage": "Site News",
+    "message": "Новости сайта",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_20",
+    "defaultMessage": "Delete account",
+    "message": "Удалить аккаунт",
+    "filepath": "./src/components/Sidebar/SettingsSlide.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_0",
+    "defaultMessage": "Chats",
+    "message": "Чаты",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_1",
+    "defaultMessage": "Contacts",
+    "message": "Контакты",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_2",
+    "defaultMessage": "Filter",
+    "message": "Фильтр",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_3",
+    "defaultMessage": "Settings",
+    "message": "Настройки",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_4",
+    "defaultMessage": "About",
+    "message": "О проекте",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_5",
+    "defaultMessage": "FAQ",
+    "message": "FAQ",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_6",
+    "defaultMessage": "In Eng",
+    "message": "In Eng",
+    "filepath": "./src/components/Sidebar/Sidebar.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825094540.generated_i18n_0",
+    "defaultMessage": "Save",
+    "message": "Сохранить",
+    "filepath": "./src/components/UserCard/components/InlineStatusEdit.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825082571.generated_i18n_0",
+    "defaultMessage": "km from you",
+    "message": "км от вас"
+  },
+  {
+    "id": "test-project.1592825082571.generated_i18n_1",
+    "defaultMessage": "Report",
+    "message": "жалоба"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_0",
+    "defaultMessage": "Update Photo",
+    "message": "Обновить фото",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_1",
+    "defaultMessage": "Profile editing",
+    "message": "Редактировать",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_2",
+    "defaultMessage": "Username (Max 10 symbols)",
+    "message": "Имя",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_3",
+    "defaultMessage": "Birthday",
+    "message": "День",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_4",
+    "defaultMessage": "Date",
+    "message": "Дата",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_5",
+    "defaultMessage": "Month",
+    "message": "Месяц",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_6",
+    "defaultMessage": "Year",
+    "message": "Год",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_7",
+    "defaultMessage": "Gender",
+    "message": "Пол",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_8",
+    "defaultMessage": "None selected",
+    "message": "Не выбрано, ничего не выбрано",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_9",
+    "defaultMessage": "Country",
+    "message": "Страна",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_10",
+    "defaultMessage": "None selected",
+    "message": "Не выбрано,",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_11",
+    "defaultMessage": "City",
+    "message": "Город",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_12",
+    "defaultMessage": "Tags",
+    "message": "Теги",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_13",
+    "defaultMessage": "About me",
+    "message": "Обо мне",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_14",
+    "defaultMessage": "Save",
+    "message": "Сохранить",
+    "filepath": "./src/forms/ProfileEditForm/markup.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_0",
+    "defaultMessage": "Search Filter",
+    "message": "Фильтр поиска",
+    "filepath": "./src/markup/Advantages.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_1",
+    "defaultMessage": "Chat with only who are needed",
+    "message": "Общайтесь только с важными людьми",
+    "filepath": "./src/markup/Advantages.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_2",
+    "defaultMessage": "Contacts",
+    "message": "Контакты",
+    "filepath": "./src/markup/Advantages.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_3",
+    "defaultMessage": "You can follow friends",
+    "message": "Будьте в курсе новостей друзей",
+    "filepath": "./src/markup/Advantages.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_4",
+    "defaultMessage": "Chats",
+    "message": "Чаты",
+    "filepath": "./src/markup/Advantages.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_5",
+    "defaultMessage": "You can chat with follow friends",
+    "message": "Вы можете общаться с друзьями",
+    "filepath": "./src/markup/Advantages.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825247569.generated_i18n_0",
+    "defaultMessage": "Classic chat is anonymous and random /",
+    "message": "Классический чат анонимный и случайный /",
+    "filepath": "./src/markup/ClassicChatPromo.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825247569.generated_i18n_1",
+    "defaultMessage": "rate chat give you chance to find the soulmate",
+    "message": "Рейтинговый чат даст вам шанс найти вторую половинку",
+    "filepath": "./src/markup/ClassicChatPromo.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_0",
+    "defaultMessage": "FAQ",
+    "message": "FAQ",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_1",
+    "defaultMessage": "Support help",
+    "message": "Помощь",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_2",
+    "defaultMessage": "What is Revolver?",
+    "message": "Что такое Revolver?",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_3",
+    "defaultMessage": "How can I use Revolver?",
+    "message": "Как я могу использовать Revolver?",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_4",
+    "defaultMessage": "Is Revolver free?",
+    "message": "Revolver - бесплатный?",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_5",
+    "defaultMessage": "Can I use Revolver anywhere in the world?",
+    "message": "Могу ли я использовать Revolver в любой точке мира?",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_6",
+    "defaultMessage": "What is the minimum age requirement?",
+    "message": "Каков минимальный возраст?",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_7",
+    "defaultMessage": "Can I use anywhere in the world?",
+    "message": "Могу ли я использовать в любой точке мира?",
+    "filepath": "./src/markup/Layout.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825279616.generated_i18n_0",
+    "defaultMessage": "Turn On",
+    "message": "Включить",
+    "filepath": "./src/markup/MyVideo.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825279616.generated_i18n_1",
+    "defaultMessage": "Microphone OFF",
+    "message": "Микрофон выключен",
+    "filepath": "./src/markup/MyVideo.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_0",
+    "defaultMessage": "Start",
+    "message": "Начать",
+    "filepath": "./src/markup/RouletteButtons.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_1",
+    "defaultMessage": "Stop",
+    "message": "Стоп",
+    "filepath": "./src/markup/RouletteButtons.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_2",
+    "defaultMessage": "Stop",
+    "message": "Стоп",
+    "filepath": "./src/markup/RouletteButtons.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_3",
+    "defaultMessage": "Next user",
+    "message": "Следующий",
+    "filepath": "./src/markup/RouletteButtons.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_4",
+    "defaultMessage": "Stop",
+    "message": "Стоп",
+    "filepath": "./src/markup/RouletteButtons.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825292096.generated_i18n_0",
+    "defaultMessage": "join us and get acсess to more features /",
+    "message": "присоединиться к нам и получить доступ к большому количеству функций /",
+    "filepath": "./src/markup/SignUpPromo.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825292096.generated_i18n_1",
+    "defaultMessage": "Learn more",
+    "message": "узнать больше",
+    "filepath": "./src/markup/SignUpPromo.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825306893.generated_i18n_0",
+    "defaultMessage": "Email",
+    "message": "Email",
+    "filepath": "./src/pages-i18n/admin/login.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825306893.generated_i18n_1",
+    "defaultMessage": "Password",
+    "message": "Пароль",
+    "filepath": "./src/pages-i18n/admin/login.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825306893.generated_i18n_2",
+    "defaultMessage": "Submit",
+    "message": "Отправить",
+    "filepath": "./src/pages-i18n/admin/login.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825317763.generated_i18n_0",
+    "defaultMessage": "Email confirmed",
+    "message": "Email подтвержден",
+    "filepath": "./src/pages-i18n/email_confirmed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825317763.generated_i18n_1",
+    "defaultMessage": "Go to main page",
+    "message": "Перейти на главную страницу",
+    "filepath": "./src/pages-i18n/email_confirmed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825320736.generated_i18n_0",
+    "defaultMessage": "Введите Ваш email",
+    "message": "Введите Ваш email",
+    "filepath": "./src/pages-i18n/email_needed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825320736.generated_i18n_1",
+    "defaultMessage": "Продолжить",
+    "message": "Продолжить",
+    "filepath": "./src/pages-i18n/email_needed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_0",
+    "defaultMessage": "You should give access to your camera and microphone for start",
+    "message": "Вы должны предоставить доступ к вашей камере и микрофону для запуска",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_1",
+    "defaultMessage": "Report",
+    "message": "Жалоба",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_2",
+    "defaultMessage": "About me:",
+    "message": "Обо мне:",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_3",
+    "defaultMessage": "PHOTOS",
+    "message": "ФОТО",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_4",
+    "defaultMessage": "Add photos",
+    "message": "Добавить фотографии",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_5",
+    "defaultMessage": "Error uploading photos",
+    "message": "Ошибка при загрузке фотографии",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_6",
+    "defaultMessage": "You should give access to your camera and microphone for start",
+    "message": "Вы должны предоставить доступ к вашей камере и микрофону для запуска",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_0",
+    "defaultMessage": "You should give access to your camera and microphone for start",
+    "message": "Вы должны предоставить доступ к вашей камере и микрофону для запуска",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_1",
+    "defaultMessage": "Report",
+    "message": "Жалоба",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_2",
+    "defaultMessage": "About me:",
+    "message": "Обо мне:",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_3",
+    "defaultMessage": "Video call",
+    "message": "Видеозвонок",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_4",
+    "defaultMessage": "PHOTOS",
+    "message": "ФОТО",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_5",
+    "defaultMessage": "Add photos",
+    "message": "Добавить фотографии",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_6",
+    "defaultMessage": "Error uploading photos",
+    "message": "Ошибка при загрузке фотографии",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825433090.generated_i18n_0",
+    "defaultMessage": "profile deleted",
+    "message": "Профиль удален",
+    "filepath": "./src/pages-i18n/profile/deleted.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825437801.generated_i18n_0",
+    "defaultMessage": "Loading...",
+    "message": "Загрузка",
+    "filepath": "./src/pages-i18n/profile/edit.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_0",
+    "defaultMessage": "Loading",
+    "message": "Загрузка",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_1",
+    "defaultMessage": "Update Photo",
+    "message": "Обновление Фото",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_2",
+    "defaultMessage": "Edit profile",
+    "message": "Редактировать профиль",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_3",
+    "defaultMessage": "Update the location",
+    "message": "Обновление местоположения",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_4",
+    "defaultMessage": "About me:",
+    "message": "Обо мне:",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_5",
+    "defaultMessage": "PHOTOS",
+    "message": "ФОТО",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_6",
+    "defaultMessage": "Add photos",
+    "message": "Добавить фотографии",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.title",
+    "defaultMessage": "Title",
+    "message": "Revolver - рандомный видео-чат с поиском по геолокации и рейтингом",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825364466.description",
+    "defaultMessage": "Description",
+    "message": "Revolver видео чат",
+    "filepath": "./src/pages-i18n/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.title",
+    "defaultMessage": "Профиль {username}",
+    "message": "Профиль {username}",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825421445.description",
+    "defaultMessage": "Description",
+    "message": "Профиль пользователя",
+    "filepath": "./src/pages-i18n/profile/[id].i18n.ts"
+  },
+  {
+    "id": "test-project.1592825433090.title",
+    "defaultMessage": "Пользователь удален",
+    "message": "Пользователь удален",
+    "filepath": "./src/pages-i18n/profile/deleted.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825433090.description",
+    "defaultMessage": "Description",
+    "message": "Пользователь удален",
+    "filepath": "./src/pages-i18n/profile/deleted.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.title",
+    "defaultMessage": "Профиль {username}",
+    "message": "Профиль {username}",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.description",
+    "defaultMessage": "Description",
+    "message": "Мой профиль",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825317763.title",
+    "defaultMessage": "Title имейл подтвержден",
+    "message": "Почта подтверждена!",
+    "filepath": "./src/pages-i18n/email_confirmed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825317763.description",
+    "defaultMessage": "Description имейл подтвержден",
+    "message": "Почта подтверждена!",
+    "filepath": "./src/pages-i18n/email_confirmed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825320736.title",
+    "defaultMessage": "Title нужен email",
+    "message": "Осталась только почта!",
+    "filepath": "./src/pages-i18n/email_needed.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825320736.description",
+    "defaultMessage": "Description нужен email",
+    "message": "Осталась только почта!",
+    "filepath": "./src/pages-i18n/email_needed.i18n.ts"
+  },
+  {
+    "id": "test-project.techworks-page.title",
+    "defaultMessage": "Title",
+    "message": "Технические работы",
+    "filepath": "./src/pages-i18n/techworks.i18n.ts"
+  },
+  {
+    "id": "test-project.techworks-page.description",
+    "defaultMessage": "Description",
+    "message": "Ведутся технические работы",
+    "filepath": "./src/pages-i18n/techworks.i18n.ts"
+  },
+  {
+    "id": "test-project.techworks-page.works",
+    "defaultMessage": "Technical works",
+    "message": "Ведутся технические работы",
+    "filepath": "./src/pages-i18n/techworks.i18n.ts"
+  },
+  {
+    "id": "test-project.techworks-page.patience",
+    "defaultMessage": "Well, patience...",
+    "message": "Благодарим за ожидание ❤️",
+    "filepath": "./src/pages-i18n/techworks.i18n.ts"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_0",
+    "defaultMessage": "Classic",
+    "message": "Классика",
+    "filepath": "./src/components/AuthComponents/HeaderAlternate.i18n.ts"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_1",
+    "defaultMessage": "Rate chat",
+    "message": "Рейтинг",
+    "filepath": "./src/components/AuthComponents/HeaderAlternate.i18n.ts"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_2",
+    "defaultMessage": "About",
+    "message": "О проекте",
+    "filepath": "./src/components/AuthComponents/HeaderAlternate.i18n.ts"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_3",
+    "defaultMessage": "Sign up with email",
+    "message": "Регистрация",
+    "filepath": "./src/components/AuthComponents/HeaderAlternate.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825094540.edit_status",
+    "defaultMessage": "Set status text",
+    "message": "Изменить статус",
+    "filepath": "./src/components/UserCard/components/InlineStatusEdit.i18n.ts"
+  },
+  {
+    "id": "test-project.stream.there_will_be_yourvideo",
+    "defaultMessage": "здесь появится изображение с твоей камеры",
+    "message": "здесь появится изображение с твоей камеры",
+    "filepath": "./src/components/VideoStream/Stream.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.lets_complete",
+    "defaultMessage": "Let’s complete the profile",
+    "message": "Давай закончим регистрацию!",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.why_complete",
+    "defaultMessage": "You should add infomation into your profile for better experience in communication",
+    "message": "Заполни профиль, чтобы другие могли узнать тебя ближе!",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.man",
+    "defaultMessage": "Male",
+    "message": "Мужчина",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825480116.female",
+    "defaultMessage": "Female",
+    "message": "Женщина",
+    "filepath": "./src/pages-i18n/profile/index.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.activation_code_not_found",
+    "defaultMessage": "ACTIVATION CODE NOT FOUND",
+    "message": "ACTIVATION CODE NOT FOUND",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.user_locked",
+    "defaultMessage": "USER LOCKED",
+    "message": "USER LOCKED",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.email_incorrect_format",
+    "defaultMessage": "Невалидный email",
+    "message": "Невалидный email",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.bad_oauth",
+    "defaultMessage": "BAD OAUTH",
+    "message": "BAD OAUTH",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.need_email",
+    "defaultMessage": "NEED EMAIL",
+    "message": "NEED EMAIL",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.unknown",
+    "defaultMessage": "UNKNOWN",
+    "message": "UNKNOWN",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.user_not_found",
+    "defaultMessage": "Пользователь с таким email не существует",
+    "message": "Пользователь с таким email не существует",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.recovery_code_not_found",
+    "defaultMessage": "Неверный код восстановления пароля",
+    "message": "Неверный код восстановления пароля",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.user_not_activated",
+    "defaultMessage": "Email не подтвержден",
+    "message": "Email не подтвержден",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.wrong_password",
+    "defaultMessage": "Неверный пароль",
+    "message": "Неверный пароль",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.email_in_use",
+    "defaultMessage": "Этот Email уже существует. Попробуйте войти в аккаунт",
+    "message": "Этот Email уже существует. Попробуйте войти в аккаунт",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors.ILLEGAL_STATE_NO_RIGHTS",
+    "defaultMessage": "ILLEGAL_STATE_NO_RIGHTS",
+    "message": "ILLEGAL_STATE_NO_RIGHTS",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.backend_errors._ignore_this_message",
+    "defaultMessage": "..",
+    "message": "..",
+    "filepath": "./src/utils/form/backendErrors.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.email",
+    "defaultMessage": "Невалидный email",
+    "message": "Невалидный email",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.required",
+    "defaultMessage": "Это поле обязательное",
+    "message": "Это поле обязательное",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.positive",
+    "defaultMessage": "Должно быть положительно",
+    "message": "Должно быть положительно",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.digits",
+    "defaultMessage": "Невалидный телефон",
+    "message": "Невалидный телефон",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.date",
+    "defaultMessage": "Формат времени ДД.ММ.ГГГГ",
+    "message": "Формат времени ДД.ММ.ГГГГ",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.min_length",
+    "defaultMessage": "Пароль минимум {len} символов",
+    "message": "Пароль минимум {len} символов",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.title",
+    "defaultMessage": "Регистрация",
+    "message": "Регистрация",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.description",
+    "defaultMessage": "Description",
+    "message": "Регистрация на Revolver",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.title",
+    "defaultMessage": "Авторизация",
+    "message": "Авторизация",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.description",
+    "defaultMessage": "Description",
+    "message": "Авторизация в Revolver",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.email",
+    "defaultMessage": "Email",
+    "message": "Email",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-new-page.title",
+    "defaultMessage": "Придумайте новый пароль",
+    "message": "Придумайте новый пароль",
+    "filepath": "./src/pages-i18n/auth/recover-password-new.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-new-page.description",
+    "defaultMessage": "Description",
+    "message": "Задайте новый пароль",
+    "filepath": "./src/pages-i18n/auth/recover-password-new.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-new-page.password_new",
+    "defaultMessage": "Пароль(минимум 6 символов)",
+    "message": "Пароль(минимум 6 символов)",
+    "filepath": "./src/pages-i18n/auth/recover-password-new.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-new-page.password_repeat",
+    "defaultMessage": "Повторите пароль",
+    "message": "Повторите пароль",
+    "filepath": "./src/pages-i18n/auth/recover-password-new.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.title",
+    "defaultMessage": "Ссылка на восстановление пароля отправлена",
+    "message": "Ссылка на восстановление пароля отправлена",
+    "filepath": "./src/pages-i18n/auth/recover-password-sent.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.description",
+    "defaultMessage": "Description",
+    "message": "Ссылка на восстановление пароля отправлена",
+    "filepath": "./src/pages-i18n/auth/recover-password-sent.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.back",
+    "defaultMessage": "Назад",
+    "message": "Назад",
+    "filepath": "./src/pages-i18n/auth/recover-password-sent.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.sent",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to recover the password.",
+    "message": "Мы отправили сообщение на указанную почту. Перейдите по ссылке для завершения регистрации!",
+    "filepath": "./src/pages-i18n/auth/recover-password-sent.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.recover",
+    "defaultMessage": "Recover the password",
+    "message": "Восстановление пароля",
+    "filepath": "./src/pages-i18n/auth/recover-password-sent.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.email",
+    "defaultMessage": "Email",
+    "message": "Email",
+    "filepath": "./src/pages-i18n/auth/recover-password-sent.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-page.title",
+    "defaultMessage": "Восстановление пароля",
+    "message": "Восстановление пароля",
+    "filepath": "./src/pages-i18n/auth/recover-password.i18n.ts"
+  },
+  {
+    "id": "revolver.recover-password-page.description",
+    "defaultMessage": "Description",
+    "message": "Восстановление пароля",
+    "filepath": "./src/pages-i18n/auth/recover-password.i18n.ts"
+  },
+  {
+    "id": "test-project.1592825259743.terms",
+    "defaultMessage": "Пользовательское соглашение",
+    "message": "Пользовательское соглашение"
+  },
+  {
+    "id": "test-project.1592825259743.privacy",
+    "defaultMessage": "Обработка персональных данных",
+    "message": "Обработка персональных данных"
+  },
+  {
+    "id": "revolver.faq-titles._what_is_",
+    "defaultMessage": "Что такое Revolver и зачем он нужен?",
+    "message": "Что такое Revolver и зачем он нужен?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.link_what_is",
+    "defaultMessage": "Что такое Revolver?",
+    "message": "Что такое Revolver?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.link_how_use",
+    "defaultMessage": "Как пользоваться Revolver?",
+    "message": "Как пользоваться Revolver?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.register",
+    "defaultMessage": "Как и для чего регистрироваться?",
+    "message": "Как и для чего регистрироваться?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.rating",
+    "defaultMessage": "Для чего нужен рейтинговый режим?",
+    "message": "Для чего нужен рейтинговый режим?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.link_rating",
+    "defaultMessage": "Зачем нужен рейтинг?",
+    "message": "Зачем нужен рейтинг?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.privacy",
+    "defaultMessage": "Насколько все анонимно?",
+    "message": "Насколько все анонимно?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.link_privacy",
+    "defaultMessage": "Насколько все анонимно?",
+    "message": "Насколько все анонимно?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.help",
+    "defaultMessage": "Как помочь проекту?",
+    "message": "Как помочь проекту?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.link_help",
+    "defaultMessage": "Как помочь проекту?",
+    "message": "Как помочь проекту?",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles._terms_of_use_",
+    "defaultMessage": "Соглашение об обработке персональных данных",
+    "message": "Соглашение об обработке персональных данных",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles._privacy_policy_",
+    "defaultMessage": "Пользовательское соглашение",
+    "message": "Пользовательское соглашение",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.i_agree",
+    "defaultMessage": "Мне есть 18 лет и я согласен с",
+    "message": "Мне есть 18 лет и я согласен с",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.service_rules",
+    "defaultMessage": "правилами сервиса",
+    "message": "правилами сервиса",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "test-project.1591899604768.sign_up",
+    "defaultMessage": "Регистрация",
+    "message": "Регистрация",
+    "filepath": "./src/components/Modals/RegisterModal.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.signup",
+    "defaultMessage": "Регистрация",
+    "message": "Регистрация",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.signin",
+    "defaultMessage": "Вход",
+    "message": "Вход",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.or_with",
+    "defaultMessage": "или через социальные сети",
+    "message": "или через социальные сети",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.forgot_password",
+    "defaultMessage": "Забыл пароль...",
+    "message": "Забыл пароль...",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.password",
+    "defaultMessage": "Пароль",
+    "message": "Пароль",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.login-page.sign_me_in",
+    "defaultMessage": "Войти",
+    "message": "Войти",
+    "filepath": "./src/pages-i18n/auth/login.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.terms",
+    "defaultMessage": "Пользовательское соглашение",
+    "message": "",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.faq-titles.privacy_policy",
+    "defaultMessage": "Обработка персональных данных",
+    "message": "",
+    "filepath": "./src/pages-i18n/faq/faq-title.i18n.ts"
+  },
+  {
+    "id": "revolver.validation.max_length",
+    "defaultMessage": "Максимум {len} символов",
+    "message": "",
+    "filepath": "./src/utils/form/validation.i18n.ts"
+  }
+]

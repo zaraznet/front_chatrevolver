@@ -1,0 +1,86 @@
+@import "src/shared/ui/styles/layout/var";
+
+.video_chat_controls {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+  flex-shrink: 0;
+
+  .stop {
+    @extend %paragraph6;
+
+    background: $black;
+    border-radius: $radius;
+    color: $grey;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    padding-top: 33px;
+    position: relative;
+    transition: 0.3s;
+
+    &:hover {
+      color: $secondary;
+
+      &:before {
+        background: $secondary;
+      }
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      background: $grey;
+      top: 14px;
+      left: 22px;
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: $black;
+      top: 21px;
+      left: 29px;
+      transition: 0.3s;
+    }
+  }
+
+  .button {
+    @extend %heading1;
+
+    color: $black;
+    border-radius: $radius;
+    height: 64px;
+    background: $primary;
+    padding: 4px 16px 0;
+    flex-grow: 1;
+    cursor: pointer;
+
+    &:hover {
+      background: $secondary;
+      color: $black;
+    }
+
+    &:disabled {
+      background: $grey56;
+      color: $grey8;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+
+  .stop + .button {
+    margin-left: 8px;
+  }
+}

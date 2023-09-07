@@ -1,0 +1,14 @@
+@import "src/shared/ui/styles/layout/var";
+
+.sidebar_panel_empty {
+  @extend %paragraph6;
+
+  width: 100%;
+  height: calc(100% - 150px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: $grey56;
+}

@@ -1,0 +1,13 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card {
+  background: $black8;
+  border-radius: $radius;
+  padding: 20px;
+  width: 100%;
+  max-width: 720px;
+
+  @media (max-width: 767px) {
+    padding: 12px;
+  }
+}

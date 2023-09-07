@@ -1,0 +1,291 @@
+@import "layout/var";
+
+.sidebar-contacts {
+  flex-grow: 1;
+  overflow: auto;
+  margin-top: 28px;
+
+  &--empty {
+    display: flex;
+
+    .sidebar-contacts-item {
+      display: none;
+    }
+
+    .sidebar-contacts__empty-text {
+      display: block;
+    }
+  }
+
+  &--messages {
+    margin-top: 40px;
+  }
+
+  &__empty-text {
+    @extend %paragraph6;
+
+    display: none;
+    margin: auto;
+    color: $grey56;
+  }
+}
+
+.sidebar-contacts-tabs {
+  display: flex;
+  margin-top: 40px;
+
+  &__item {
+    @extend %heading1;
+
+    color: $grey;
+    position: relative;
+    padding: 0 16px;
+    margin-right: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    @media (max-width: 767px) {
+      padding: 0;
+      margin-right: 0;
+
+      &:first-child {
+        margin-right: 27px;
+      }
+    }
+
+    &:hover {
+      color: $primary;
+    }
+
+    &--active {
+      color: $primary;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 4px;
+        background: $primary;
+        top: calc(100% + 4px);
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--disabled {
+      color: $grey08;
+      cursor: default;
+      pointer-events: none;
+
+      .sidebar-contacts-tabs__count {
+        display: none;
+      }
+    }
+  }
+
+  &__count {
+    top: -2px;
+    left: calc(100% - 22px);
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.sidebar-contacts-item {
+  background: $black;
+  cursor: pointer;
+  margin-bottom: 4px;
+  padding: 16px;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+
+  @media (max-width: 767px) {
+    padding: 12px 8px;
+  }
+
+  &:hover {
+    background: $black56;
+  }
+
+  &__ava {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    align-self: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__status {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid $black;
+    border-radius: 50%;
+    position: absolute;
+    left: 48px;
+    bottom: 16px;
+
+    @media (max-width: 767px) {
+      left: 40px;
+      bottom: 12px;
+    }
+
+    &--online {
+      background: $greenLabel;
+    }
+
+    &--offline {
+      background: $primary;
+    }
+  }
+
+  &__info {
+    flex-grow: 1;
+    margin-left: 12px;
+    max-width: calc(100% - 60px);
+
+    button {
+      margin-top: 8px;
+    }
+  }
+
+  &__info-top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__time {
+    @extend %caption;
+
+    color: $grey56;
+    flex-shrink: 0;
+    position: relative;
+
+    &--sent {
+      padding-left: 16px;
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background-image: url("../img/sidebar-message-sent-icon.svg");
+        left: 0;
+        top: 2px;
+      }
+    }
+  }
+
+  &__name {
+    @extend %paragraph2;
+
+    color: $grey;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__info-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+  }
+
+  &__text {
+    @extend %paragraph3;
+
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $grey56;
+  }
+
+  &__count {
+    position: relative;
+    margin-left: 25px;
+  }
+
+  &__place {
+    @extend %paragraph5;
+
+    margin-top: 4px;
+    color: $grey8;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__button {
+    display: block;
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 16px;
+
+    &--video {
+      background-image: url("../img/sidebar-video-icon.svg");
+      opacity: 0.56;
+
+      &:hover {
+        background-image: url("../img/sidebar-video-icon-hover.svg");
+        opacity: 1;
+      }
+
+      &:disabled {
+        opacity: 0.08;
+        cursor: default;
+        pointer-events: none;
+      }
+    }
+
+    &--message {
+      background-image: url("../img/sidebar-message-icon.svg");
+
+      &:hover {
+        background-image: url("../img/sidebar-message-icon-hover.svg");
+      }
+    }
+
+    &--unfollow {
+      background-image: url("../img/sidebar-unfollow-icon.svg");
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+      &:hover {
+        background-image: url("../img/sidebar-unfollow-icon-hover.svg");
+      }
+    }
+
+    &--delete {
+      background-image: url("../img/sidebar-delete-icon.svg");
+
+      &:hover {
+        background-image: url("../img/sidebar-delete-icon-hover.svg");
+      }
+    }
+  }
+}

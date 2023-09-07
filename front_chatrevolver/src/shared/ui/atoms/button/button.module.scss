@@ -1,0 +1,102 @@
+@import "src/shared/ui/styles/layout/var";
+
+.button {
+  @extend %heading1;
+
+  width: 100%;
+  height: 64px;
+  color: $ultraBlack;
+  cursor: pointer;
+  padding-top: 7px;
+  border-radius: $radius;
+
+  &:disabled,
+  &.disabled {
+    background-color: $grey56 !important;
+    color: $grey8 !important;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &.primary {
+    background: $primary;
+
+    &:disabled,
+    &.disabled {
+      background: $grey56 !important;
+    }
+  }
+
+  &.black {
+    background: $black;
+
+    &:disabled,
+    &.disabled {
+      background: $black8 !important;
+    }
+  }
+
+  &.secondary {
+    background: $secondary;
+    color: $black;
+  }
+
+  &__hidden-xs {
+    @media (max-width: $xs) {
+      display: none;
+    }
+  }
+
+  &.light {
+    font-family: $lightFont !important;
+    font-size: 20px;
+  }
+
+  &:hover {
+    color: $black;
+    background: $secondary;
+  }
+
+  &.loading {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &.loading:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    transform: rotate(120deg);
+
+    animation: slide 1s infinite;
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+    @keyframes slide {
+      0% {
+        top: -110%;
+        left: -210%;
+      }
+      100% {
+        top: -30%;
+        left: 20%;
+      }
+    }
+  }
+
+  &.danger {
+    background-color: $alert;
+    color: #ffffff;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

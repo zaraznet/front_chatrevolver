@@ -1,0 +1,38 @@
+@import "src/shared/ui/styles/layout/var";
+
+.socials {
+  display: flex;
+  justify-content: center;
+
+  a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $primary;
+    color: $primary;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background: $secondary;
+      color: $ultraBlack;
+      border-color: $secondary;
+    }
+  }
+}
+
+.divider {
+  @extend %paragraph5;
+
+  margin-top: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: $grey56;
+}

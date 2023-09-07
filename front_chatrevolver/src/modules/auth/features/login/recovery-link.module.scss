@@ -1,0 +1,41 @@
+@import "src/shared/ui/styles/layout/var";
+
+.recovery_link {
+  @extend %text;
+
+  margin-top: 8px;
+  color: $primary;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 96px;
+    height: 1px;
+    background: $primary;
+  }
+
+  &:hover {
+    color: $secondary;
+
+    &:after {
+      background: $secondary;
+    }
+  }
+
+  &:disabled,
+  &--disabled {
+    color: $black56;
+    cursor: default;
+    pointer-events: none;
+
+    &:after {
+      display: none;
+    }
+  }
+}

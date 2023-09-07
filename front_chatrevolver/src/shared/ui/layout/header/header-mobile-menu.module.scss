@@ -1,0 +1,23 @@
+@import "src/shared/ui/styles/layout/var";
+
+.header_mobile_menu {
+  display: none !important;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    display: block;
+    margin: 5px auto;
+    width: 16px;
+    height: 1px;
+    background: #ffffff;
+  }
+
+  @media (max-width: 767px) {
+    display: block !important;
+  }
+}

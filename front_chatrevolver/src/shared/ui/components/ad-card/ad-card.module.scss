@@ -1,0 +1,9 @@
+@import "/src/shared/ui/styles/layout/var";
+
+.ad_card {
+  margin-top: 16px;
+  height: 144px;
+  border-radius: $radius;
+  overflow: hidden;
+  flex-shrink: 0;
+}

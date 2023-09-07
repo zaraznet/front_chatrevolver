@@ -1,0 +1,2191 @@
+[
+  {
+    "id": "revolver.backend_errors.ILLEGAL_STATE_NO_RIGHTS",
+    "defaultMessage": "ILLEGAL_STATE_NO_RIGHTS",
+    "description": "",
+    "en-US": "ILLEGAL_STATE_NO_RIGHTS",
+    "ru-RU": "ILLEGAL_STATE_NO_RIGHTS"
+  },
+  {
+    "id": "revolver.backend_errors._ignore_this_message",
+    "defaultMessage": "..",
+    "description": "",
+    "en-US": "..",
+    "ru-RU": ".."
+  },
+  {
+    "id": "revolver.backend_errors.activation_code_not_found",
+    "defaultMessage": "ACTIVATION CODE NOT FOUND",
+    "description": "",
+    "en-US": "ACTIVATION CODE NOT FOUND",
+    "ru-RU": "ACTIVATION CODE NOT FOUND"
+  },
+  {
+    "id": "revolver.backend_errors.bad_oauth",
+    "defaultMessage": "BAD OAUTH",
+    "description": "",
+    "en-US": "BAD OAUTH",
+    "ru-RU": "BAD OAUTH"
+  },
+  {
+    "id": "revolver.backend_errors.email_in_use",
+    "defaultMessage": "Этот Email уже существует. Попробуйте войти в аккаунт",
+    "description": "",
+    "en-US": "This Email already exists. Try sign in to your account",
+    "ru-RU": "Этот Email уже существует. Попробуйте войти в аккаунт"
+  },
+  {
+    "id": "revolver.backend_errors.email_incorrect_format",
+    "defaultMessage": "Невалидный email",
+    "description": "",
+    "en-US": "Invalid email",
+    "ru-RU": "Невалидный email"
+  },
+  {
+    "id": "revolver.backend_errors.need_email",
+    "defaultMessage": "NEED EMAIL",
+    "description": "",
+    "en-US": "NEED EMAIL",
+    "ru-RU": "NEED EMAIL"
+  },
+  {
+    "id": "revolver.backend_errors.recovery_code_not_found",
+    "defaultMessage": "Неверный код восстановления пароля",
+    "description": "",
+    "en-US": "Invalid password recovery code",
+    "ru-RU": "Неверный код восстановления пароля"
+  },
+  {
+    "id": "revolver.backend_errors.unknown",
+    "defaultMessage": "UNKNOWN",
+    "description": "",
+    "en-US": "UNKNOWN",
+    "ru-RU": "UNKNOWN"
+  },
+  {
+    "id": "revolver.backend_errors.user_locked",
+    "defaultMessage": "USER LOCKED",
+    "description": "",
+    "en-US": "USER LOCKED",
+    "ru-RU": "USER LOCKED"
+  },
+  {
+    "id": "revolver.backend_errors.user_not_activated",
+    "defaultMessage": "Email не подтвержден",
+    "description": "",
+    "en-US": "Email is not confirmed",
+    "ru-RU": "Email не подтвержден"
+  },
+  {
+    "id": "revolver.backend_errors.user_not_found",
+    "defaultMessage": "Пользователь с таким email не существует",
+    "description": "",
+    "en-US": "The user with this email address does not exist",
+    "ru-RU": "Пользователь с таким email не существует"
+  },
+  {
+    "id": "revolver.backend_errors.wrong_password",
+    "defaultMessage": "Неверный пароль",
+    "description": "",
+    "en-US": "Wrong password",
+    "ru-RU": "Неверный пароль"
+  },
+  {
+    "id": "revolver.faq-titles._privacy_policy_",
+    "defaultMessage": "Пользовательское соглашение",
+    "description": "",
+    "en-US": "User agreement",
+    "ru-RU": "Пользовательское соглашение"
+  },
+  {
+    "id": "revolver.faq-titles._terms_of_use_",
+    "defaultMessage": "Соглашение об обработке персональных данных",
+    "description": "",
+    "en-US": "Personal data processing agreement",
+    "ru-RU": "Соглашение об обработке персональных данных"
+  },
+  {
+    "id": "revolver.faq-titles._what_is_",
+    "defaultMessage": "Что такое Revolver и зачем он нужен?",
+    "description": "",
+    "en-US": "What is Revolver and why do I need it?",
+    "ru-RU": "Что такое Revolver и зачем он нужен?"
+  },
+  {
+    "id": "revolver.faq-titles.help",
+    "defaultMessage": "Как помочь проекту?",
+    "description": "",
+    "en-US": "How can I help the project?",
+    "ru-RU": "Как помочь проекту?"
+  },
+  {
+    "id": "revolver.faq-titles.link_help",
+    "defaultMessage": "Как помочь проекту?",
+    "description": "",
+    "en-US": "How can I help the project?",
+    "ru-RU": "Как помочь проекту?"
+  },
+  {
+    "id": "revolver.faq-titles.link_how_use",
+    "defaultMessage": "Как пользоваться Revolver?",
+    "description": "",
+    "en-US": "How do I use Revolver?",
+    "ru-RU": "Как пользоваться Revolver?"
+  },
+  {
+    "id": "revolver.faq-titles.link_privacy",
+    "defaultMessage": "Насколько все анонимно?",
+    "description": "",
+    "en-US": "Is it all anonymous?",
+    "ru-RU": "Насколько все анонимно?"
+  },
+  {
+    "id": "revolver.faq-titles.link_rating",
+    "defaultMessage": "Зачем нужен рейтинг?",
+    "description": "",
+    "en-US": "Why do I need a rating?",
+    "ru-RU": "Зачем нужен рейтинг?"
+  },
+  {
+    "id": "revolver.faq-titles.link_what_is",
+    "defaultMessage": "Что такое Revolver?",
+    "description": "",
+    "en-US": "What is Revolver?",
+    "ru-RU": "Что такое Revolver?"
+  },
+  {
+    "id": "revolver.faq-titles.privacy",
+    "defaultMessage": "Насколько все анонимно?",
+    "description": "",
+    "en-US": "Is it all anonymous?",
+    "ru-RU": "Насколько все анонимно?"
+  },
+  {
+    "id": "revolver.faq-titles.rating",
+    "defaultMessage": "Для чего нужен рейтинговый режим?",
+    "description": "",
+    "en-US": "Why do I need a rating mode?",
+    "ru-RU": "Для чего нужен рейтинговый режим?"
+  },
+  {
+    "id": "revolver.faq-titles.register",
+    "defaultMessage": "Как и для чего регистрироваться?",
+    "description": "",
+    "en-US": "How and why do I register?",
+    "ru-RU": "Как и для чего регистрироваться?"
+  },
+  {
+    "id": "revolver.login-page.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "Sign in Revolver",
+    "ru-RU": "Авторизация в Revolver"
+  },
+  {
+    "id": "revolver.login-page.email",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Email"
+  },
+  {
+    "id": "revolver.login-page.forgot_password",
+    "defaultMessage": "Забыл пароль...",
+    "description": "",
+    "en-US": "Fogot password?",
+    "ru-RU": "Забыл пароль..."
+  },
+  {
+    "id": "revolver.login-page.or_with",
+    "defaultMessage": "или через социальные сети",
+    "description": "",
+    "en-US": "or with",
+    "ru-RU": "или через социальные сети"
+  },
+  {
+    "id": "revolver.login-page.password",
+    "defaultMessage": "Пароль",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "revolver.login-page.sign_me_in",
+    "defaultMessage": "Войти",
+    "description": "",
+    "en-US": "Sign in",
+    "ru-RU": "Войти"
+  },
+  {
+    "id": "revolver.login-page.signin",
+    "defaultMessage": "Вход",
+    "description": "",
+    "en-US": "Sign in",
+    "ru-RU": "Вход"
+  },
+  {
+    "id": "revolver.login-page.signup",
+    "defaultMessage": "Регистрация",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "revolver.login-page.title",
+    "defaultMessage": "Авторизация",
+    "description": "",
+    "en-US": "Sign in",
+    "ru-RU": "Авторизация"
+  },
+  {
+    "id": "revolver.recover-password-new-page.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "Set a new password",
+    "ru-RU": "Задайте новый пароль"
+  },
+  {
+    "id": "revolver.recover-password-new-page.password_new",
+    "defaultMessage": "Пароль(минимум 6 символов)",
+    "description": "",
+    "en-US": "Password (min 6 symbols')",
+    "ru-RU": "Пароль(минимум 6 символов)"
+  },
+  {
+    "id": "revolver.recover-password-new-page.password_repeat",
+    "defaultMessage": "Повторите пароль",
+    "description": "",
+    "en-US": "Repeat password",
+    "ru-RU": "Повторите пароль"
+  },
+  {
+    "id": "revolver.recover-password-new-page.title",
+    "defaultMessage": "Придумайте новый пароль",
+    "description": "",
+    "en-US": "Set a new password",
+    "ru-RU": "Придумайте новый пароль"
+  },
+  {
+    "id": "revolver.recover-password-page.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "Password recovery",
+    "ru-RU": "Восстановление пароля"
+  },
+  {
+    "id": "revolver.recover-password-page.title",
+    "defaultMessage": "Восстановление пароля",
+    "description": "",
+    "en-US": "Password recovery",
+    "ru-RU": "Восстановление пароля"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.back",
+    "defaultMessage": "Назад",
+    "description": "",
+    "en-US": "Back",
+    "ru-RU": "Назад"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "The link to the password recovery sent",
+    "ru-RU": "Ссылка на восстановление пароля отправлена"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.email",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Email"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.recover",
+    "defaultMessage": "Recover the password",
+    "description": "",
+    "en-US": "Password recovery",
+    "ru-RU": "Восстановление пароля"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.sent",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to recover the password.",
+    "description": "",
+    "en-US": "We sent a message to the specified email. Follow the link to complete registration!",
+    "ru-RU": "Мы отправили сообщение на указанную почту. Перейдите по ссылке для завершения регистрации!"
+  },
+  {
+    "id": "revolver.recover-password-sent-page.title",
+    "defaultMessage": "Ссылка на восстановление пароля отправлена",
+    "description": "",
+    "en-US": "The link to the password recovery sent",
+    "ru-RU": "Ссылка на восстановление пароля отправлена"
+  },
+  {
+    "id": "revolver.validation.date",
+    "defaultMessage": "Формат времени ДД.ММ.ГГГГ",
+    "description": "",
+    "en-US": "Time format DD. MM. YYYY",
+    "ru-RU": "Формат времени ДД.ММ.ГГГГ"
+  },
+  {
+    "id": "revolver.validation.digits",
+    "defaultMessage": "Невалидный телефон",
+    "description": "",
+    "en-US": "Invalid phone number",
+    "ru-RU": "Невалидный телефон"
+  },
+  {
+    "id": "revolver.validation.email",
+    "defaultMessage": "Невалидный email",
+    "description": "",
+    "en-US": "Invalid email",
+    "ru-RU": "Невалидный email"
+  },
+  {
+    "id": "revolver.validation.min_length",
+    "defaultMessage": "Пароль минимум {len} символов",
+    "description": "",
+    "en-US": "The password is min {len} characters",
+    "ru-RU": "Пароль минимум {len} символов"
+  },
+  {
+    "id": "revolver.validation.positive",
+    "defaultMessage": "Должно быть положительно",
+    "description": "",
+    "en-US": "Should be positive",
+    "ru-RU": "Должно быть положительно"
+  },
+  {
+    "id": "revolver.validation.required",
+    "defaultMessage": "Это поле обязательное",
+    "description": "",
+    "en-US": "This field is required",
+    "ru-RU": "Это поле обязательное"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_0",
+    "defaultMessage": "Profile editing",
+    "description": "",
+    "en-US": "Edit profile",
+    "ru-RU": "Редактировать"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_1",
+    "defaultMessage": "Username (Max 10 symbols)",
+    "description": "",
+    "en-US": "User Name",
+    "ru-RU": "Имя"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_2",
+    "defaultMessage": "Another field",
+    "description": "",
+    "en-US": "Another field",
+    "ru-RU": "Другое поле"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_3",
+    "defaultMessage": "Gender",
+    "description": "",
+    "en-US": "Gender",
+    "ru-RU": "Пол"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_4",
+    "defaultMessage": "Country",
+    "description": "",
+    "en-US": "Country",
+    "ru-RU": "Страна"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_5",
+    "defaultMessage": "City",
+    "description": "",
+    "en-US": "City",
+    "ru-RU": "Город"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_6",
+    "defaultMessage": "Tags",
+    "description": "",
+    "en-US": "Tags",
+    "ru-RU": "Теги"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_7",
+    "defaultMessage": "About me",
+    "description": "",
+    "en-US": "About me",
+    "ru-RU": "Обо мне"
+  },
+  {
+    "id": "test-project.1591897637552.generated_i18n_8",
+    "defaultMessage": "Save",
+    "description": "",
+    "en-US": "Save",
+    "ru-RU": "Сохранить"
+  },
+  {
+    "id": "test-project.1591897837764.generated_i18n_0",
+    "defaultMessage": "photos",
+    "description": "",
+    "en-US": "Photos",
+    "ru-RU": "Фотографии"
+  },
+  {
+    "id": "test-project.1591897837764.generated_i18n_1",
+    "defaultMessage": "Добавить фото",
+    "description": "",
+    "en-US": "Add photo",
+    "ru-RU": "Добавить фото"
+  },
+  {
+    "id": "test-project.1591897857715.generated_i18n_0",
+    "defaultMessage": "Incoming call ...",
+    "description": "",
+    "en-US": "Incoming call ...",
+    "ru-RU": "Входящий звонок ..."
+  },
+  {
+    "id": "test-project.1591897857715.generated_i18n_1",
+    "defaultMessage": "Answer the call",
+    "description": "",
+    "en-US": "Pick up the phone",
+    "ru-RU": "Ответить на звонок"
+  },
+  {
+    "id": "test-project.1591897890831.generated_i18n_0",
+    "defaultMessage": "Мы отправили вам на почту",
+    "description": "",
+    "en-US": "We sent you a email",
+    "ru-RU": "Мы отправили вам на почту"
+  },
+  {
+    "id": "test-project.1591897890831.generated_i18n_1",
+    "defaultMessage": "письмо",
+    "description": "",
+    "en-US": "email",
+    "ru-RU": "письмо"
+  },
+  {
+    "id": "test-project.1591897890831.generated_i18n_2",
+    "defaultMessage": "Перейдите по ссылке из почты для завершения регистрации",
+    "description": "",
+    "en-US": "Follow the link from the email to complete sign up",
+    "ru-RU": "Перейдите по ссылке из почты для завершения регистрации"
+  },
+  {
+    "id": "test-project.1591897925412.generated_i18n_0",
+    "defaultMessage": "CONFIRM NEW EMAIL",
+    "description": "",
+    "en-US": "Confirm new email",
+    "ru-RU": "Подтвердить новую почту"
+  },
+  {
+    "id": "test-project.1591897925412.generated_i18n_1",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to confirm your email.",
+    "description": "",
+    "en-US": "We sent an email to your email. Clicking the link in the email to confirm your email address.",
+    "ru-RU": "Мы отправили письмо на ваш адрес. Кликнув по ссылке в письме, чтобы подтвердить адрес электронной почты."
+  },
+  {
+    "id": "test-project.1591897926752.generated_i18n_0",
+    "defaultMessage": "DELETE CHAT FOREVER?",
+    "description": "",
+    "en-US": "DELETE CHAT FOREVER?",
+    "ru-RU": "УДАЛИТЬ ЧАТ НАВСЕГДА?"
+  },
+  {
+    "id": "test-project.1591897926752.generated_i18n_1",
+    "defaultMessage": "NO",
+    "description": "",
+    "en-US": "NO",
+    "ru-RU": "НЕТ"
+  },
+  {
+    "id": "test-project.1591897926752.generated_i18n_2",
+    "defaultMessage": "YES, DELETE",
+    "description": "",
+    "en-US": "YES, DELETE IT",
+    "ru-RU": "ДА, УДАЛИТЬ"
+  },
+  {
+    "id": "test-project.1591897927618.generated_i18n_0",
+    "defaultMessage": "DELETE PROFILe",
+    "description": "",
+    "en-US": "DELETE PROFILE",
+    "ru-RU": "УД"
+  },
+  {
+    "id": "test-project.1591897927618.generated_i18n_1",
+    "defaultMessage": "NO",
+    "description": "",
+    "en-US": "NO",
+    "ru-RU": "НЕТ"
+  },
+  {
+    "id": "test-project.1591897927618.generated_i18n_2",
+    "defaultMessage": "YES, DELETE",
+    "description": "",
+    "en-US": "YES, DELETE IT",
+    "ru-RU": "ДА, УДАЛИТЬ"
+  },
+  {
+    "id": "test-project.1591897930935.generated_i18n_0",
+    "defaultMessage": "LETTER sent",
+    "description": "",
+    "en-US": "Email sent",
+    "ru-RU": "Письмо отправлено"
+  },
+  {
+    "id": "test-project.1591897961732.generated_i18n_0",
+    "defaultMessage": "PASSWORD CHANGED",
+    "description": "",
+    "en-US": "Password changed",
+    "ru-RU": "Пароль изменен"
+  },
+  {
+    "id": "test-project.1591898089594.generated_i18n_0",
+    "defaultMessage": "your Email",
+    "description": "",
+    "en-US": "Your email",
+    "ru-RU": "Ваш адрес электронной почты"
+  },
+  {
+    "id": "test-project.1591898089594.generated_i18n_1",
+    "defaultMessage": "Submit",
+    "description": "",
+    "en-US": "Submit",
+    "ru-RU": "Разместить"
+  },
+  {
+    "id": "test-project.1591898094393.generated_i18n_0",
+    "defaultMessage": "Describe whats wrong",
+    "description": "",
+    "en-US": "Describe what's wrong",
+    "ru-RU": "Опишите, что случилось"
+  },
+  {
+    "id": "test-project.1591898094393.generated_i18n_1",
+    "defaultMessage": "Submit",
+    "description": "",
+    "en-US": "Submit",
+    "ru-RU": "Сохранить"
+  },
+  {
+    "id": "test-project.1591898137150.generated_i18n_0",
+    "defaultMessage": "Пароль",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "test-project.1591898137150.generated_i18n_1",
+    "defaultMessage": "Ваш e-mail",
+    "description": "",
+    "en-US": "Your email",
+    "ru-RU": "Ваш адрес электронной почты"
+  },
+  {
+    "id": "test-project.1591898137150.generated_i18n_2",
+    "defaultMessage": "Ваше имя",
+    "description": "",
+    "en-US": "Your name",
+    "ru-RU": "Ваше имя"
+  },
+  {
+    "id": "test-project.1591898162812.generated_i18n_0",
+    "defaultMessage": "How do you rate me?",
+    "description": "",
+    "en-US": "How do you rate me?",
+    "ru-RU": "Как вы оцениваете меня?"
+  },
+  {
+    "id": "test-project.1591898162812.generated_i18n_1",
+    "defaultMessage": "Report user",
+    "description": "",
+    "en-US": "Report this user",
+    "ru-RU": "Пожаловаться на пользователя"
+  },
+  {
+    "id": "test-project.1591899546692.generated_i18n_0",
+    "defaultMessage": "Save",
+    "description": "",
+    "en-US": "Save",
+    "ru-RU": "Сохранить"
+  },
+  {
+    "id": "test-project.1591899551748.generated_i18n_0",
+    "defaultMessage": "Save",
+    "description": "",
+    "en-US": "Save",
+    "ru-RU": "Сохранить"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_0",
+    "defaultMessage": "sign up",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_1",
+    "defaultMessage": "sign in",
+    "description": "",
+    "en-US": "Sign in",
+    "ru-RU": "Войти"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_2",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Эл. адрес"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_3",
+    "defaultMessage": "Password",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_4",
+    "defaultMessage": "I forgot my password",
+    "description": "",
+    "en-US": "I've forgot my password",
+    "ru-RU": "Я забыл свой пароль"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_5",
+    "defaultMessage": "SIGN IN",
+    "description": "",
+    "en-US": "SIGN IN",
+    "ru-RU": "Вход"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_6",
+    "defaultMessage": "Or with",
+    "description": "",
+    "en-US": "or with",
+    "ru-RU": "или через социальные сети"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_7",
+    "defaultMessage": "Вконтакте",
+    "description": "",
+    "en-US": "VK",
+    "ru-RU": "Вконтакте"
+  },
+  {
+    "id": "test-project.1591899570615.generated_i18n_8",
+    "defaultMessage": "Google",
+    "description": "",
+    "en-US": "Google",
+    "ru-RU": "Google"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_0",
+    "defaultMessage": "We sent an email to your address. Сlick the link in the letter to recover the password.",
+    "description": "",
+    "en-US": "We sent an email to your email. Clicking the link in the email to retrieve the password.",
+    "ru-RU": "Sign up"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_1",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Email"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_2",
+    "defaultMessage": "RESEND",
+    "description": "",
+    "en-US": "SEND",
+    "ru-RU": "ОТПРАВИТЬ"
+  },
+  {
+    "id": "test-project.1591899598846.generated_i18n_3",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "description": "",
+    "en-US": "RECOVER PASSWORD",
+    "ru-RU": "ВОССТАНОВИТЬ ПАРОЛЬ"
+  },
+  {
+    "id": "test-project.1591899604768.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "Sign up Revolver",
+    "ru-RU": "Регистрация на Revolver"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_0",
+    "defaultMessage": "sign up",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_1",
+    "defaultMessage": "sign in",
+    "description": "",
+    "en-US": "Sign in",
+    "ru-RU": "Войти"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_2",
+    "defaultMessage": "Name",
+    "description": "",
+    "en-US": "Name",
+    "ru-RU": "Имя"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_3",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Email"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_4",
+    "defaultMessage": "Password",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_5",
+    "defaultMessage": "SIGN UP",
+    "description": "",
+    "en-US": "SIGN UP",
+    "ru-RU": "РЕГИСТРАЦИЯ"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_6",
+    "defaultMessage": "Or with",
+    "description": "",
+    "en-US": "or with",
+    "ru-RU": "или через социальные сети"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_7",
+    "defaultMessage": "Вконтакте",
+    "description": "",
+    "en-US": "VK",
+    "ru-RU": "Вконтакте"
+  },
+  {
+    "id": "test-project.1591899604768.generated_i18n_8",
+    "defaultMessage": "Google",
+    "description": "",
+    "en-US": "Google",
+    "ru-RU": "Google"
+  },
+  {
+    "id": "test-project.1591899604768.i_agree",
+    "defaultMessage": "Мне есть 18 лет и я согласен с",
+    "description": "",
+    "en-US": "I am already 18 years old and I agree with",
+    "ru-RU": "Мне есть 18 лет и я согласен с"
+  },
+  {
+    "id": "test-project.1591899604768.service_rules",
+    "defaultMessage": "правилами сервиса",
+    "description": "",
+    "en-US": "service rules",
+    "ru-RU": "правилами сервиса"
+  },
+  {
+    "id": "test-project.1591899604768.sign_up",
+    "defaultMessage": "Регистрация",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.1591899604768.title",
+    "defaultMessage": "Регистрация",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.1591899619359.generated_i18n_0",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Почта"
+  },
+  {
+    "id": "test-project.1591899619359.generated_i18n_1",
+    "defaultMessage": "SEND",
+    "description": "",
+    "en-US": "SEND",
+    "ru-RU": "ОТПРАВИТЬ"
+  },
+  {
+    "id": "test-project.1591899619359.generated_i18n_2",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "description": "",
+    "en-US": "RECOVER PASSWORD",
+    "ru-RU": "ВОССТАНОВИТЬ ПАРОЛЬ"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_0",
+    "defaultMessage": "Password (Latin, number, min 6 symbols)",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_1",
+    "defaultMessage": "Repeat the password",
+    "description": "",
+    "en-US": "Confirm password",
+    "ru-RU": "Повторите пароль"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_2",
+    "defaultMessage": "SEND",
+    "description": "",
+    "en-US": "SEND",
+    "ru-RU": "ОТПРАВИТЬ"
+  },
+  {
+    "id": "test-project.1591899624252.generated_i18n_3",
+    "defaultMessage": "RECOVER THE PASSWORD",
+    "description": "",
+    "en-US": "RESTORE PASSWORD",
+    "ru-RU": "ВОССТАНОВИТЬ ПАРОЛЬ"
+  },
+  {
+    "id": "test-project.1591899630439.generated_i18n_0",
+    "defaultMessage": "Send",
+    "description": "",
+    "en-US": "Send",
+    "ru-RU": "Отправить"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_0",
+    "defaultMessage": "Id",
+    "description": "",
+    "en-US": "Id",
+    "ru-RU": "Id"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_1",
+    "defaultMessage": "Name",
+    "description": "",
+    "en-US": "Name",
+    "ru-RU": "Имя"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_2",
+    "defaultMessage": "Male",
+    "description": "",
+    "en-US": "Male",
+    "ru-RU": "Мужчина"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_3",
+    "defaultMessage": "Female",
+    "description": "",
+    "en-US": "Female",
+    "ru-RU": "Женщина"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_4",
+    "defaultMessage": "Undefined",
+    "description": "",
+    "en-US": "Undefined",
+    "ru-RU": "Неопределенный"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_5",
+    "defaultMessage": "Any",
+    "description": "",
+    "en-US": "Any",
+    "ru-RU": "Любой"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_6",
+    "defaultMessage": "Country",
+    "description": "",
+    "en-US": "Country",
+    "ru-RU": "Страна"
+  },
+  {
+    "id": "test-project.1592824639461.generated_i18n_7",
+    "defaultMessage": "City",
+    "description": "",
+    "en-US": "City",
+    "ru-RU": "Город"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_0",
+    "defaultMessage": "Report",
+    "description": "",
+    "en-US": "Report",
+    "ru-RU": "Пожаловаться"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_1",
+    "defaultMessage": "Let’s start to chat!",
+    "description": "",
+    "en-US": "Let's start to chat!",
+    "ru-RU": "Давайте начнем общаться!"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_10",
+    "defaultMessage": "Just say ‘hello’",
+    "description": "",
+    "en-US": "Just say 'hello'",
+    "ru-RU": "Просто скажи \"Привет\""
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_11",
+    "defaultMessage": "User is typing ...",
+    "description": "",
+    "en-US": "User is typing ...",
+    "ru-RU": "Пользователь печатает ..."
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_12",
+    "defaultMessage": "You can't send messages the user",
+    "description": "",
+    "en-US": "You can't send messages to user",
+    "ru-RU": "Вы не можете отправлять сообщения пользователя"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_2",
+    "defaultMessage": "Just say ‘hello’",
+    "description": "",
+    "en-US": "Just say 'hello'",
+    "ru-RU": "Просто скажи \"Привет\""
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_3",
+    "defaultMessage": "User is typing ...",
+    "description": "",
+    "en-US": "User is typing ...",
+    "ru-RU": "Пользователь печатает ..."
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_4",
+    "defaultMessage": "Back",
+    "description": "",
+    "en-US": "Back",
+    "ru-RU": "Назад"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_5",
+    "defaultMessage": "Profile",
+    "description": "",
+    "en-US": "Profile",
+    "ru-RU": "Профиль"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_6",
+    "defaultMessage": "Video Call",
+    "description": "",
+    "en-US": "Video call",
+    "ru-RU": "Видеозвонок"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_7",
+    "defaultMessage": "Delete Chat",
+    "description": "",
+    "en-US": "Delete chat",
+    "ru-RU": "Удалить чат"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_8",
+    "defaultMessage": "Report",
+    "description": "",
+    "en-US": "Report",
+    "ru-RU": "Жалоба"
+  },
+  {
+    "id": "test-project.1592824716930.generated_i18n_9",
+    "defaultMessage": "Let’s start to chat!",
+    "description": "",
+    "en-US": "Let's start to chat!",
+    "ru-RU": "Давайте начнем общаться!"
+  },
+  {
+    "id": "test-project.1592824819926.generated_i18n_0",
+    "defaultMessage": "Report sent",
+    "description": "",
+    "en-US": "Report sent",
+    "ru-RU": "Жалоба отправлена"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_0",
+    "defaultMessage": "Report user",
+    "description": "",
+    "en-US": "Report this user",
+    "ru-RU": "Пожаловаться на пользователя"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_1",
+    "defaultMessage": "What is the issue?",
+    "description": "",
+    "en-US": "What is the problem?",
+    "ru-RU": "В чем проблема?"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_2",
+    "defaultMessage": "Harassment and cyberbullying",
+    "description": "",
+    "en-US": "Insults and threats",
+    "ru-RU": "Оскорбления и угрозы"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_3",
+    "defaultMessage": "Violent threats",
+    "description": "",
+    "en-US": "Violent threats",
+    "ru-RU": "Насильственные угрозы"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_4",
+    "defaultMessage": "Child endangerment",
+    "description": "",
+    "en-US": "Child endangerment",
+    "ru-RU": "Насилие над детьми"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_5",
+    "defaultMessage": "Hate speech against a protected group",
+    "description": "",
+    "en-US": "Hate speech against a protected group",
+    "ru-RU": "Ненависть к меньшинствам"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_6",
+    "defaultMessage": "Spam and Scams",
+    "description": "",
+    "en-US": "Spam and scams",
+    "ru-RU": "Спам и мошенничество"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_7",
+    "defaultMessage": "Privacy",
+    "description": "",
+    "en-US": "Confidentiality",
+    "ru-RU": "Нарущение конфиденциальности"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_8",
+    "defaultMessage": "None of these are your issue",
+    "description": "",
+    "en-US": "None of them is not your problem",
+    "ru-RU": "Здесь нет подходящей проблемы"
+  },
+  {
+    "id": "test-project.1592824844128.generated_i18n_9",
+    "defaultMessage": "Report",
+    "description": "",
+    "en-US": "Report",
+    "ru-RU": "Сообщить"
+  },
+  {
+    "id": "test-project.1592824903386.generated_i18n_0",
+    "defaultMessage": "You have no messages",
+    "description": "",
+    "en-US": "You have no messages",
+    "ru-RU": "У вас нет сообщений"
+  },
+  {
+    "id": "test-project.1592824922431.generated_i18n_0",
+    "defaultMessage": "You have no contacts",
+    "description": "",
+    "en-US": "You have no contacts",
+    "ru-RU": "У вас нет контактов"
+  },
+  {
+    "id": "test-project.1592824922431.generated_i18n_1",
+    "defaultMessage": "Contacts",
+    "description": "",
+    "en-US": "Contacts",
+    "ru-RU": "Контакты"
+  },
+  {
+    "id": "test-project.1592824922431.generated_i18n_2",
+    "defaultMessage": "Requests",
+    "description": "",
+    "en-US": "Requests",
+    "ru-RU": "Заявки"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_0",
+    "defaultMessage": "Search filter",
+    "description": "",
+    "en-US": "Filter search",
+    "ru-RU": "Фильтр"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_1",
+    "defaultMessage": "Don't show erotic content",
+    "description": "",
+    "en-US": "Do not show sexual content",
+    "ru-RU": "Не показывать эротический контент"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_10",
+    "defaultMessage": "Rating:",
+    "description": "",
+    "en-US": "Rating:",
+    "ru-RU": "Рейтинг:"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_11",
+    "defaultMessage": "Only with a High Rating",
+    "description": "",
+    "en-US": "Only with high rating",
+    "ru-RU": "Только с высоким рейтингом"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_12",
+    "defaultMessage": "Any",
+    "description": "",
+    "en-US": "Any",
+    "ru-RU": "Любой"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_2",
+    "defaultMessage": "Gender:",
+    "description": "",
+    "en-US": "Gender:",
+    "ru-RU": "Пол:"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_3",
+    "defaultMessage": "Man",
+    "description": "",
+    "en-US": "Male",
+    "ru-RU": "Мужчина"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_4",
+    "defaultMessage": "Woman",
+    "description": "",
+    "en-US": "Female",
+    "ru-RU": "Женщина"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_5",
+    "defaultMessage": "Any",
+    "description": "",
+    "en-US": "Any",
+    "ru-RU": "Любой"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_6",
+    "defaultMessage": "Age:",
+    "description": "",
+    "en-US": "Age:",
+    "ru-RU": "Возраст:"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_7",
+    "defaultMessage": "Location:",
+    "description": "",
+    "en-US": "Location:",
+    "ru-RU": "Расположение:"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_8",
+    "defaultMessage": "The Closest of All",
+    "description": "",
+    "en-US": "Closest",
+    "ru-RU": "Ближе всех"
+  },
+  {
+    "id": "test-project.1592824963507.generated_i18n_9",
+    "defaultMessage": "Any",
+    "description": "",
+    "en-US": "Any",
+    "ru-RU": "Любое"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_0",
+    "defaultMessage": "Privacy",
+    "description": "",
+    "en-US": "Confidentiality",
+    "ru-RU": "Конфиденциальность"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_1",
+    "defaultMessage": "Everyone can see:",
+    "description": "",
+    "en-US": "Everyone can see:",
+    "ru-RU": "Каждый может видеть:"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_10",
+    "defaultMessage": "Nobody",
+    "description": "",
+    "en-US": "Nobody",
+    "ru-RU": "Никто"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_11",
+    "defaultMessage": "Security",
+    "description": "",
+    "en-US": "Safety",
+    "ru-RU": "Безопасность"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_12",
+    "defaultMessage": "Password",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_13",
+    "defaultMessage": "updated a month ago",
+    "description": "",
+    "en-US": "updated a month ago",
+    "ru-RU": "обновлен месяц назад"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_14",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Email"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_15",
+    "defaultMessage": "a***@gmail.com",
+    "description": "",
+    "en-US": "a***@gmail.com",
+    "ru-RU": "a***@gmail.com"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_16",
+    "defaultMessage": "Email notification",
+    "description": "",
+    "en-US": "Email notification",
+    "ru-RU": "Уведомление по электронной почте"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_17",
+    "defaultMessage": "New messages",
+    "description": "",
+    "en-US": "New messages",
+    "ru-RU": "Новые сообщения"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_18",
+    "defaultMessage": "Friend Requests",
+    "description": "",
+    "en-US": "Request friend",
+    "ru-RU": "Запросы в друзья"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_19",
+    "defaultMessage": "Site News",
+    "description": "",
+    "en-US": "Site news",
+    "ru-RU": "Новости сайта"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_2",
+    "defaultMessage": "Userpic",
+    "description": "",
+    "en-US": "Userpic",
+    "ru-RU": "Аватар"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_20",
+    "defaultMessage": "Delete account",
+    "description": "",
+    "en-US": "Delete account",
+    "ru-RU": "Удалить аккаунт"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_3",
+    "defaultMessage": "Status message",
+    "description": "",
+    "en-US": "Status",
+    "ru-RU": "Статус"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_4",
+    "defaultMessage": "only for follow contacts",
+    "description": "",
+    "en-US": "only for follow-up contacts",
+    "ru-RU": "только для друзей"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_5",
+    "defaultMessage": "Profile Info",
+    "description": "",
+    "en-US": "Profile information",
+    "ru-RU": "Общая информация"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_6",
+    "defaultMessage": "Photos",
+    "description": "",
+    "en-US": "Photo",
+    "ru-RU": "Фото"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_7",
+    "defaultMessage": "My rating can be seen:",
+    "description": "",
+    "en-US": "My rating you can see:",
+    "ru-RU": "Мой рейтинг можно увидеть:"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_8",
+    "defaultMessage": "Everyone",
+    "description": "",
+    "en-US": "All",
+    "ru-RU": "Все"
+  },
+  {
+    "id": "test-project.1592824992343.generated_i18n_9",
+    "defaultMessage": "Contacts Only",
+    "description": "",
+    "en-US": "Contacts only",
+    "ru-RU": "Только друзья"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_0",
+    "defaultMessage": "Chats",
+    "description": "",
+    "en-US": "Chats",
+    "ru-RU": "Чаты"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_1",
+    "defaultMessage": "Contacts",
+    "description": "",
+    "en-US": "Contacts",
+    "ru-RU": "Контакты"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_2",
+    "defaultMessage": "Filter",
+    "description": "",
+    "en-US": "Filter",
+    "ru-RU": "Фильтр"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_3",
+    "defaultMessage": "Settings",
+    "description": "",
+    "en-US": "Settings",
+    "ru-RU": "Настройки"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_4",
+    "defaultMessage": "About",
+    "description": "",
+    "en-US": "About",
+    "ru-RU": "О проекте"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_5",
+    "defaultMessage": "FAQ",
+    "description": "",
+    "en-US": "FAQ",
+    "ru-RU": "FAQ"
+  },
+  {
+    "id": "test-project.1592825037424.generated_i18n_6",
+    "defaultMessage": "In Eng",
+    "description": "",
+    "en-US": "In Eng",
+    "ru-RU": "In Eng"
+  },
+  {
+    "id": "test-project.1592825094540.edit_status",
+    "defaultMessage": "Set status text",
+    "description": "",
+    "en-US": "Change status",
+    "ru-RU": "Изменить статус"
+  },
+  {
+    "id": "test-project.1592825094540.generated_i18n_0",
+    "defaultMessage": "Save",
+    "description": "",
+    "en-US": "Save",
+    "ru-RU": "Сохранить"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_0",
+    "defaultMessage": "Classic",
+    "description": "",
+    "en-US": "classic",
+    "ru-RU": "классика"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_1",
+    "defaultMessage": "Rate chat",
+    "description": "",
+    "en-US": "rate chat",
+    "ru-RU": "рейтинг"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_2",
+    "defaultMessage": "About",
+    "description": "",
+    "en-US": "About",
+    "ru-RU": "О проекте"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_3",
+    "defaultMessage": "Sign up with email",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_4",
+    "defaultMessage": "Sign in",
+    "description": "",
+    "en-US": "Sign in",
+    "ru-RU": "Вход"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_5",
+    "defaultMessage": "Sign up / Sign in",
+    "description": "",
+    "en-US": "Sign up / Sing in",
+    "ru-RU": "Регистрация / Вход"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_6",
+    "defaultMessage": "My Profile",
+    "description": "",
+    "en-US": "My profile",
+    "ru-RU": "Профиль"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_7",
+    "defaultMessage": "Help",
+    "description": "",
+    "en-US": "Help",
+    "ru-RU": "Помощь"
+  },
+  {
+    "id": "test-project.1592825181711.generated_i18n_8",
+    "defaultMessage": "Log out",
+    "description": "",
+    "en-US": "Sing out",
+    "ru-RU": "Выйти"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_0",
+    "defaultMessage": "Update Photo",
+    "description": "",
+    "en-US": "Update photo",
+    "ru-RU": "Обновить фото"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_1",
+    "defaultMessage": "Profile editing",
+    "description": "",
+    "en-US": "Edit",
+    "ru-RU": "Редактировать"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_10",
+    "defaultMessage": "None selected",
+    "description": "",
+    "en-US": "Not selected",
+    "ru-RU": "Не выбрано,"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_11",
+    "defaultMessage": "City",
+    "description": "",
+    "en-US": "City",
+    "ru-RU": "Город"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_12",
+    "defaultMessage": "Tags",
+    "description": "",
+    "en-US": "Tags",
+    "ru-RU": "Теги"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_13",
+    "defaultMessage": "About me",
+    "description": "",
+    "en-US": "About me",
+    "ru-RU": "Обо мне"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_14",
+    "defaultMessage": "Save",
+    "description": "",
+    "en-US": "Save",
+    "ru-RU": "Сохранить"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_2",
+    "defaultMessage": "Username (Max 10 symbols)",
+    "description": "",
+    "en-US": "Name",
+    "ru-RU": "Имя"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_3",
+    "defaultMessage": "Birthday",
+    "description": "",
+    "en-US": "Day",
+    "ru-RU": "День"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_4",
+    "defaultMessage": "Date",
+    "description": "",
+    "en-US": "Date",
+    "ru-RU": "Дата"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_5",
+    "defaultMessage": "Month",
+    "description": "",
+    "en-US": "Month",
+    "ru-RU": "Месяц"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_6",
+    "defaultMessage": "Year",
+    "description": "",
+    "en-US": "Year",
+    "ru-RU": "Год"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_7",
+    "defaultMessage": "Gender",
+    "description": "",
+    "en-US": "Gender",
+    "ru-RU": "Пол"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_8",
+    "defaultMessage": "None selected",
+    "description": "",
+    "en-US": "Not selected, nothing is selected",
+    "ru-RU": "Не выбрано, ничего не выбрано"
+  },
+  {
+    "id": "test-project.1592825227411.generated_i18n_9",
+    "defaultMessage": "Country",
+    "description": "",
+    "en-US": "Country",
+    "ru-RU": "Страна"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_0",
+    "defaultMessage": "Search Filter",
+    "description": "",
+    "en-US": "Filter search",
+    "ru-RU": "Фильтр поиска"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_1",
+    "defaultMessage": "Chat with only who are needed",
+    "description": "",
+    "en-US": "Chat with those who are important to you",
+    "ru-RU": "Общайтесь только с важными людьми"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_2",
+    "defaultMessage": "Contacts",
+    "description": "",
+    "en-US": "Сontacts",
+    "ru-RU": "Контакты"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_3",
+    "defaultMessage": "You can follow friends",
+    "description": "",
+    "en-US": "You can follow to friends ' news",
+    "ru-RU": "Будьте в курсе новостей друзей"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_4",
+    "defaultMessage": "Chats",
+    "description": "",
+    "en-US": "Chats",
+    "ru-RU": "Чаты"
+  },
+  {
+    "id": "test-project.1592825240673.generated_i18n_5",
+    "defaultMessage": "You can chat with follow friends",
+    "description": "",
+    "en-US": "You can chat with friends",
+    "ru-RU": "Вы можете общаться с друзьями"
+  },
+  {
+    "id": "test-project.1592825247569.generated_i18n_0",
+    "defaultMessage": "Classic chat is anonymous and random /",
+    "description": "",
+    "en-US": "Classic chat is anonymous and random /",
+    "ru-RU": "Классический чат анонимный и случайный /"
+  },
+  {
+    "id": "test-project.1592825247569.generated_i18n_1",
+    "defaultMessage": "rate chat give you chance to find the soulmate",
+    "description": "",
+    "en-US": "Rating chat will give you a chance to find love",
+    "ru-RU": "Рейтинговый чат даст вам шанс найти вторую половинку"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_0",
+    "defaultMessage": "FAQ",
+    "description": "",
+    "en-US": "FAQ",
+    "ru-RU": "FAQ"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_1",
+    "defaultMessage": "Support help",
+    "description": "",
+    "en-US": "Support",
+    "ru-RU": "Помощь"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_2",
+    "defaultMessage": "What is Revolver?",
+    "description": "",
+    "en-US": "What is Revolver?",
+    "ru-RU": "Что такое Revolver?"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_3",
+    "defaultMessage": "How can I use Revolver?",
+    "description": "",
+    "en-US": "How can I use Revolver?",
+    "ru-RU": "Как я могу использовать Revolver?"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_4",
+    "defaultMessage": "Is Revolver free?",
+    "description": "",
+    "en-US": "There Revolver for free?",
+    "ru-RU": "Revolver - бесплатный?"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_5",
+    "defaultMessage": "Can I use Revolver anywhere in the world?",
+    "description": "",
+    "en-US": "Can I use the Revolver anywhere in the world?",
+    "ru-RU": "Могу ли я использовать Revolver в любой точке мира?"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_6",
+    "defaultMessage": "What is the minimum age requirement?",
+    "description": "",
+    "en-US": "What is the minimum age?",
+    "ru-RU": "Каков минимальный возраст?"
+  },
+  {
+    "id": "test-project.1592825259743.generated_i18n_7",
+    "defaultMessage": "Can I use anywhere in the world?",
+    "description": "",
+    "en-US": "Can I use anywhere in the world?",
+    "ru-RU": "Могу ли я использовать в любой точке мира?"
+  },
+  {
+    "id": "test-project.1592825279616.generated_i18n_0",
+    "defaultMessage": "Turn On",
+    "description": "",
+    "en-US": "Switch on",
+    "ru-RU": "Включить"
+  },
+  {
+    "id": "test-project.1592825279616.generated_i18n_1",
+    "defaultMessage": "Microphone OFF",
+    "description": "",
+    "en-US": "Microphone OFF",
+    "ru-RU": "Микрофон выключен"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_0",
+    "defaultMessage": "Start",
+    "description": "",
+    "en-US": "Start",
+    "ru-RU": "Начать"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_1",
+    "defaultMessage": "Stop",
+    "description": "",
+    "en-US": "Stop",
+    "ru-RU": "Стоп"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_2",
+    "defaultMessage": "Stop",
+    "description": "",
+    "en-US": "Stop",
+    "ru-RU": "Стоп"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_3",
+    "defaultMessage": "Next user",
+    "description": "",
+    "en-US": "Next",
+    "ru-RU": "Следующий"
+  },
+  {
+    "id": "test-project.1592825285483.generated_i18n_4",
+    "defaultMessage": "Stop",
+    "description": "",
+    "en-US": "Stop",
+    "ru-RU": "Стоп"
+  },
+  {
+    "id": "test-project.1592825292096.generated_i18n_0",
+    "defaultMessage": "join us and get acсess to more features /",
+    "description": "",
+    "en-US": "join us and get acsess to a large number of functions /",
+    "ru-RU": "присоединиться к нам и получить доступ к большому количеству функций /"
+  },
+  {
+    "id": "test-project.1592825292096.generated_i18n_1",
+    "defaultMessage": "Learn more",
+    "description": "",
+    "en-US": "learn more",
+    "ru-RU": "узнать больше"
+  },
+  {
+    "id": "test-project.1592825306893.generated_i18n_0",
+    "defaultMessage": "Email",
+    "description": "",
+    "en-US": "Email",
+    "ru-RU": "Email"
+  },
+  {
+    "id": "test-project.1592825306893.generated_i18n_1",
+    "defaultMessage": "Password",
+    "description": "",
+    "en-US": "Password",
+    "ru-RU": "Пароль"
+  },
+  {
+    "id": "test-project.1592825306893.generated_i18n_2",
+    "defaultMessage": "Submit",
+    "description": "",
+    "en-US": "Send",
+    "ru-RU": "Отправить"
+  },
+  {
+    "id": "test-project.1592825317763.description",
+    "defaultMessage": "Description имейл подтвержден",
+    "description": "",
+    "en-US": "Email confirmed!",
+    "ru-RU": "Почта подтверждена!"
+  },
+  {
+    "id": "test-project.1592825317763.generated_i18n_0",
+    "defaultMessage": "Email confirmed",
+    "description": "",
+    "en-US": "Email confirmed",
+    "ru-RU": "Email подтвержден"
+  },
+  {
+    "id": "test-project.1592825317763.generated_i18n_1",
+    "defaultMessage": "Go to main page",
+    "description": "",
+    "en-US": "Go to main",
+    "ru-RU": "Перейти на главную страницу"
+  },
+  {
+    "id": "test-project.1592825317763.title",
+    "defaultMessage": "Title имейл подтвержден",
+    "description": "",
+    "en-US": "Email confirmed!",
+    "ru-RU": "Почта подтверждена!"
+  },
+  {
+    "id": "test-project.1592825320736.description",
+    "defaultMessage": "Description нужен email",
+    "description": "",
+    "en-US": "Only mail left!",
+    "ru-RU": "Осталась только почта!"
+  },
+  {
+    "id": "test-project.1592825320736.generated_i18n_0",
+    "defaultMessage": "Введите Ваш email",
+    "description": "",
+    "en-US": "Enter your email",
+    "ru-RU": "Введите Ваш email"
+  },
+  {
+    "id": "test-project.1592825320736.generated_i18n_1",
+    "defaultMessage": "Продолжить",
+    "description": "",
+    "en-US": "Continue",
+    "ru-RU": "Продолжить"
+  },
+  {
+    "id": "test-project.1592825320736.title",
+    "defaultMessage": "Title нужен email",
+    "description": "",
+    "en-US": "Only mail left!",
+    "ru-RU": "Осталась только почта!"
+  },
+  {
+    "id": "test-project.1592825364466.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "Revolver  video chat",
+    "ru-RU": "Revolver видео чат"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_0",
+    "defaultMessage": "You should give access to your camera and microphone for start",
+    "description": "",
+    "en-US": "You need to provide access to your camera and microphone to start",
+    "ru-RU": "Вы должны предоставить доступ к вашей камере и микрофону для запуска"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_1",
+    "defaultMessage": "Report",
+    "description": "",
+    "en-US": "Report",
+    "ru-RU": "Жалоба"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_2",
+    "defaultMessage": "About me:",
+    "description": "",
+    "en-US": "About me:",
+    "ru-RU": "Обо мне:"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_3",
+    "defaultMessage": "PHOTOS",
+    "description": "",
+    "en-US": "PHOTO",
+    "ru-RU": "ФОТО"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_4",
+    "defaultMessage": "Add photos",
+    "description": "",
+    "en-US": "Add photos",
+    "ru-RU": "Добавить фотографии"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_5",
+    "defaultMessage": "Error uploading photos",
+    "description": "",
+    "en-US": "Error loading photos",
+    "ru-RU": "Ошибка при загрузке фотографии"
+  },
+  {
+    "id": "test-project.1592825364466.generated_i18n_6",
+    "defaultMessage": "You should give access to your camera and microphone for start",
+    "description": "",
+    "en-US": "You need to provide access to your camera and microphone to start",
+    "ru-RU": "Вы должны предоставить доступ к вашей камере и микрофону для запуска"
+  },
+  {
+    "id": "test-project.1592825364466.title",
+    "defaultMessage": "Title",
+    "description": "",
+    "en-US": "Revolver video chat",
+    "ru-RU": "Revolver - рандомный видео-чат с поиском по геолокации и рейтингом"
+  },
+  {
+    "id": "test-project.1592825421445.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "User profile",
+    "ru-RU": "Профиль пользователя"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_0",
+    "defaultMessage": "You should give access to your camera and microphone for start",
+    "description": "",
+    "en-US": "You need to provide access to your camera and microphone to start",
+    "ru-RU": "Вы должны предоставить доступ к вашей камере и микрофону для запуска"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_1",
+    "defaultMessage": "Report",
+    "description": "",
+    "en-US": "Report",
+    "ru-RU": "Жалоба"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_2",
+    "defaultMessage": "About me:",
+    "description": "",
+    "en-US": "About me:",
+    "ru-RU": "Обо мне:"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_3",
+    "defaultMessage": "Video call",
+    "description": "",
+    "en-US": "Video call",
+    "ru-RU": "Видеозвонок"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_4",
+    "defaultMessage": "PHOTOS",
+    "description": "",
+    "en-US": "PHOTO",
+    "ru-RU": "ФОТО"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_5",
+    "defaultMessage": "Add photos",
+    "description": "",
+    "en-US": "Add photos",
+    "ru-RU": "Добавить фотографии"
+  },
+  {
+    "id": "test-project.1592825421445.generated_i18n_6",
+    "defaultMessage": "Error uploading photos",
+    "description": "",
+    "en-US": "Error uploading a photo",
+    "ru-RU": "Ошибка при загрузке фотографии"
+  },
+  {
+    "id": "test-project.1592825421445.title",
+    "defaultMessage": "Профиль {username}",
+    "description": "",
+    "en-US": "Profile {username}",
+    "ru-RU": "Профиль {username}"
+  },
+  {
+    "id": "test-project.1592825433090.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "User deleted",
+    "ru-RU": "Пользователь удален"
+  },
+  {
+    "id": "test-project.1592825433090.generated_i18n_0",
+    "defaultMessage": "profile deleted",
+    "description": "",
+    "en-US": "Profile deleted",
+    "ru-RU": "Профиль удален"
+  },
+  {
+    "id": "test-project.1592825433090.title",
+    "defaultMessage": "Пользователь удален",
+    "description": "",
+    "en-US": "User deleted",
+    "ru-RU": "Пользователь удален"
+  },
+  {
+    "id": "test-project.1592825437801.generated_i18n_0",
+    "defaultMessage": "Loading...",
+    "description": "",
+    "en-US": "Loading...",
+    "ru-RU": "Загрузка"
+  },
+  {
+    "id": "test-project.1592825480116.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "My profile",
+    "ru-RU": "Мой профиль"
+  },
+  {
+    "id": "test-project.1592825480116.female",
+    "defaultMessage": "Female",
+    "description": "",
+    "en-US": "Female",
+    "ru-RU": "Женщина"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_0",
+    "defaultMessage": "Loading",
+    "description": "",
+    "en-US": "Loadind...",
+    "ru-RU": "Загрузка"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_1",
+    "defaultMessage": "Update Photo",
+    "description": "",
+    "en-US": "Update photo",
+    "ru-RU": "Обновление Фото"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_2",
+    "defaultMessage": "Edit profile",
+    "description": "",
+    "en-US": "Редактировать",
+    "ru-RU": "Редактировать профиль"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_3",
+    "defaultMessage": "Update the location",
+    "description": "",
+    "en-US": "Update location",
+    "ru-RU": "Обновление местоположения"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_4",
+    "defaultMessage": "About me:",
+    "description": "",
+    "en-US": "About me:",
+    "ru-RU": "Обо мне:"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_5",
+    "defaultMessage": "PHOTOS",
+    "description": "",
+    "en-US": "PHOTO",
+    "ru-RU": "ФОТО"
+  },
+  {
+    "id": "test-project.1592825480116.generated_i18n_6",
+    "defaultMessage": "Add photos",
+    "description": "",
+    "en-US": "Add photos",
+    "ru-RU": "Добавить фотографии"
+  },
+  {
+    "id": "test-project.1592825480116.lets_complete",
+    "defaultMessage": "Let’s complete the profile",
+    "description": "",
+    "en-US": "Let’s complete the profile!",
+    "ru-RU": "Давай закончим регистрацию!"
+  },
+  {
+    "id": "test-project.1592825480116.man",
+    "defaultMessage": "Male",
+    "description": "",
+    "en-US": "Male",
+    "ru-RU": "Мужчина"
+  },
+  {
+    "id": "test-project.1592825480116.title",
+    "defaultMessage": "Профиль {username}",
+    "description": "",
+    "en-US": "Profile {username}",
+    "ru-RU": "Профиль {username}"
+  },
+  {
+    "id": "test-project.1592825480116.why_complete",
+    "defaultMessage": "You should add infomation into your profile for better experience in communication",
+    "description": "",
+    "en-US": "You should add infomation into your profile for better experience in communication",
+    "ru-RU": "Заполни профиль, чтобы другие могли узнать тебя ближе!"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_0",
+    "defaultMessage": "Classic",
+    "description": "",
+    "en-US": "Classic",
+    "ru-RU": "Классика"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_1",
+    "defaultMessage": "Rate chat",
+    "description": "",
+    "en-US": "Rate chat",
+    "ru-RU": "Рейтинг"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_2",
+    "defaultMessage": "About",
+    "description": "",
+    "en-US": "About",
+    "ru-RU": "О проекте"
+  },
+  {
+    "id": "test-project.1593093663538.generated_i18n_3",
+    "defaultMessage": "Sign up with email",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.stream.there_will_be_yourvideo",
+    "defaultMessage": "здесь появится изображение с твоей камеры",
+    "description": "",
+    "en-US": "Image from your camera will appear here",
+    "ru-RU": "здесь появится изображение с твоей камеры"
+  },
+  {
+    "id": "test-project.techworks-page.description",
+    "defaultMessage": "Description",
+    "description": "",
+    "en-US": "Technical works",
+    "ru-RU": "Ведутся технические работы"
+  },
+  {
+    "id": "test-project.techworks-page.patience",
+    "defaultMessage": "Well, patience...",
+    "description": "",
+    "en-US": "Thank you for waiting❤️",
+    "ru-RU": "Благодарим за ожидание ❤️"
+  },
+  {
+    "id": "test-project.techworks-page.title",
+    "defaultMessage": "Title",
+    "description": "",
+    "en-US": "Technical works",
+    "ru-RU": "Технические работы"
+  },
+  {
+    "id": "test-project.techworks-page.works",
+    "defaultMessage": "Technical works",
+    "description": "",
+    "en-US": "Technical works",
+    "ru-RU": "Ведутся технические работы"
+  },
+  {
+    "id": "revolver.faq-titles.privacy_policy",
+    "defaultMessage": "Обработка персональных данных",
+    "description": "",
+    "en-US": "Personal data processing"
+  },
+  {
+    "id": "revolver.faq-titles.terms",
+    "defaultMessage": "Пользовательское соглашение",
+    "description": "",
+    "en-US": "User agreement"
+  },
+  {
+    "id": "revolver.login-page.signup",
+    "defaultMessage": "Регистрация",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  },
+  {
+    "id": "test-project.1591899604768.i_agree",
+    "defaultMessage": "Мне есть 18 лет и я согласен с",
+    "description": "",
+    "en-US": "I am already 18 years old and I agree with",
+    "ru-RU": "Мне есть 18 лет и я согласен с"
+  },
+  {
+    "id": "test-project.1591899604768.service_rules",
+    "defaultMessage": "правилами сервиса",
+    "description": "",
+    "en-US": "service rules",
+    "ru-RU": "правилами сервиса"
+  },
+  {
+    "id": "test-project.1591899604768.sign_up",
+    "defaultMessage": "Регистрация",
+    "description": "",
+    "en-US": "Sign up",
+    "ru-RU": "Регистрация"
+  }
+]

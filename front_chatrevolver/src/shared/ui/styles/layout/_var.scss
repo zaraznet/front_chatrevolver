@@ -1,0 +1,60 @@
+//fonts
+$lightFont: "Helvetica Light";
+$regFont: "Helvetica Regular";
+$boldFont: "Helvetica Bold";
+
+//colors
+
+$black: #262a33;
+$black8: #373d4a;
+$black56: rgba($black, 0.56);
+$black08: rgba($black, 0.08);
+
+$grey: #f2f7f7;
+$grey8: #cacece;
+$grey56: #a0a5ab;
+$grey08: #505663;
+
+$ultraBlack: #151517;
+
+$primary: #d2b47d;
+
+$bg: linear-gradient(#161a23, #262c3a);
+
+$radius: 8px;
+
+$secondary: #b79c6a;
+
+$alert: #dd4113;
+$greenLabel: #89f5cb;
+
+$shadow: 0 0 10px 2px $black;
+
+//media
+
+$lg: 1440px;
+$md: 1199px;
+$sm: 991px;
+$xs: 767px;
+
+// mixins
+
+@mixin placeholderColor($color) {
+  &::-moz-placeholder {
+    color: $color;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &::-ms-input-placeholder {
+    color: $color;
+  }
+  &::placeholder {
+    color: $color;
+  }
+}
+
+@import "text";

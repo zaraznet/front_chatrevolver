@@ -1,0 +1,31 @@
+@import "src/shared/ui/styles/layout/var";
+
+.dating_select_input {
+  select {
+    background: $black8;
+    border: 1px solid $grey56;
+    margin-top: 8px;
+    height: 44px;
+    cursor: pointer;
+
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.16em;
+
+    padding: 6px 40px 6px 10px;
+
+    @media (max-width: $xs) {
+      height: 36px;
+      margin-top: 0;
+    }
+
+    @media (max-width: $xs) {
+      height: 36px;
+      padding: 2px 40px 2px 10px;
+      font-size: 13px;
+    }
+  }
+}

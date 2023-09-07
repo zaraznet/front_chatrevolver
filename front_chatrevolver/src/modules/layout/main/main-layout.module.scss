@@ -1,0 +1,131 @@
+@import "src/shared/ui/styles/layout/var";
+
+.main_layout {
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &--frozen {
+    position: relative;
+    height: 100vh;
+  }
+
+  &__content {
+    margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%;
+    position: relative;
+
+    @media (max-width: 1405px) {
+      margin-left: 140px;
+    }
+
+    @media (max-width: 767px) {
+      margin-left: 0;
+    }
+
+    &--classic {
+      &:before {
+        content: "";
+        display: block;
+        background: #fff;
+        position: absolute;
+        top: (571px - 88px);
+        right: calc(340px + 40px + 232px);
+        bottom: 0;
+        left: -160px;
+
+        @media (max-width: 1599px) {
+          top: calc(436px - 88px);
+          right: calc(340px + 40px + 176px);
+        }
+
+        @media (max-width: 1405px) {
+          top: calc(360px - 68px);
+          right: calc(340px + 20px + 156px);
+        }
+
+        @media (max-width: 1199px) {
+          right: 170px;
+        }
+
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .video-content__classic-text {
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  &__center {
+    flex-grow: 1;
+    margin-right: 40px;
+    padding-bottom: 59px;
+
+    @media (max-width: 1405px) {
+      margin-right: 20px;
+    }
+
+    @media (max-width: 767px) {
+      margin-right: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  &__right {
+    width: 340px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1405px) {
+      margin-right: 20px;
+    }
+
+    @media (max-width: 1199px) {
+      display: none;
+    }
+
+    & > div {
+      margin-top: 16px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__right-baner {
+    margin-top: 16px;
+    height: 144px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    @media (max-width: 1405px) {
+      height: 88px;
+    }
+  }
+
+  &__full {
+    margin-right: 40px;
+    flex-grow: 1;
+    padding-bottom: 20px;
+
+    @media (max-width: $xs) {
+      margin: 0 8px;
+    }
+  }
+}

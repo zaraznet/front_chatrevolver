@@ -1,0 +1,49 @@
+@import "src/shared/ui/styles/layout/var";
+
+.text_area {
+  textarea {
+    @extend %paragraph3;
+
+    margin-top: 6px;
+    width: 100%;
+    resize: none;
+    height: 132px;
+    border: 1px solid $grey56;
+    padding: 14px 16px;
+    transition: 0.3s;
+    background: transparent;
+    color: $grey;
+    border-radius: $radius;
+
+    &:hover {
+      border-color: $grey8;
+    }
+
+    &:focus,
+    &:active {
+      border-color: $grey;
+    }
+  }
+
+  &.error {
+    textarea {
+      border-color: $primary !important;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .error_text {
+      opacity: 1;
+    }
+  }
+
+  .error_text {
+    @extend %caption;
+
+    color: #dd4113;
+    position: absolute;
+    left: 17px;
+    bottom: 4px;
+    opacity: 0;
+  }
+}

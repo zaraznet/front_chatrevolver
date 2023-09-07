@@ -1,0 +1,341 @@
+@import "src/shared/ui/styles/layout/var";
+
+.chat_skeleton {
+  pointer-events: none;
+
+  :global {
+    .chat {
+      height: 100%;
+      background: $black8;
+      max-height: 495px;
+      min-height: 320px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: $radius;
+
+      &--disabled {
+        //background: transparent;
+        pointer-events: none;
+
+        .chat-report,
+        .chat__block:not(.chat__block--disabled) {
+          display: none;
+        }
+
+        .chat-disabled-top,
+        .chat__block--disabled {
+          display: flex;
+        }
+
+        .chat__textarea {
+          @include placeholderColor(transparent);
+        }
+
+        .chat__send-button {
+          opacity: 1;
+        }
+
+        .chat-messages {
+          overflow: hidden;
+          display: block;
+          padding-top: 48px;
+
+          &__date,
+          &__typing {
+            display: none;
+          }
+        }
+
+        .chat-message {
+          background: $grey56;
+          padding: 0;
+          height: 52px;
+
+          &:nth-child(1) {
+            width: 185px;
+
+            @media (max-width: 1405px) {
+              display: none;
+            }
+          }
+
+          &:nth-child(2) {
+            width: 153px;
+
+            @media (max-width: 1405px) {
+              display: none;
+            }
+          }
+
+          &:nth-child(3) {
+            width: 219px;
+          }
+
+          &:nth-child(4) {
+            width: 212px;
+          }
+
+          &:before {
+            background: $grey56;
+          }
+
+          &:after {
+            background: $black8;
+          }
+
+          &--my {
+            background: $grey08;
+
+            &:before {
+              background: $grey08;
+            }
+          }
+        }
+      }
+
+      &__block {
+        flex-grow: 1;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+
+        &--default {
+          .chat-start {
+            display: flex;
+          }
+        }
+
+        &--loading {
+          .chat-loading {
+            display: block;
+          }
+        }
+
+        &--disabled {
+          display: none;
+        }
+      }
+
+      &__bottom {
+        padding: 12px 16px;
+        position: relative;
+      }
+
+      &__textarea {
+        @extend %paragraph3;
+
+        width: 100%;
+        height: 44px;
+        resize: none;
+        border-radius: $radius;
+        border: none;
+        padding: 12px 48px 12px 16px;
+        color: $black;
+        background-color: $grey08;
+        overflow: hidden;
+        transition: 0.3s;
+
+        @include placeholderColor($black8);
+
+        &:hover {
+          border-color: $black56;
+        }
+      }
+
+      &__send-button {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url("/img/chat-send-icon.svg");
+        opacity: 0;
+        cursor: pointer;
+        position: absolute;
+        right: 32px;
+        bottom: 25px;
+        pointer-events: none;
+
+        &--active {
+          pointer-events: auto;
+          opacity: 0.56;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      &__error {
+        &--show {
+          display: block !important;
+        }
+      }
+    }
+
+    .chat-disabled-top {
+      border-bottom: 1px solid $grey08;
+      padding: 12px 16px 10px;
+      display: none;
+      align-items: center;
+
+      &__ava {
+        background: $grey08;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+      }
+
+      &__content {
+        margin-left: 13px;
+      }
+
+      &__line {
+        background: $grey08;
+        border-radius: $radius;
+        height: 12px;
+        width: 73px;
+        display: block;
+        margin-bottom: 4px;
+
+        &:last-child {
+          width: 100px;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    // messages
+
+    .chat-messages {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0 16px 8px;
+
+      &__date {
+        @extend %paragraph3;
+
+        align-self: center;
+        color: $black56;
+        margin-bottom: 16px;
+      }
+
+      &__typing {
+        @extend %paragraph5;
+
+        color: $black56;
+        display: none;
+
+        &--show {
+          display: block;
+        }
+      }
+    }
+
+    // message
+
+    .chat-message {
+      background: $secondary;
+      margin: 0 0 16px 8px;
+      border-radius: $radius;
+      border-bottom-left-radius: 0;
+      padding: 8px 16px 4px;
+      position: relative;
+      max-width: 252px;
+      width: auto;
+      align-self: flex-start;
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 8px;
+        height: 12px;
+        left: -8px;
+        bottom: 0;
+        background: $secondary;
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 8px;
+        height: 12px;
+        left: -8px;
+        bottom: 0;
+        background: #fff;
+        border-bottom-right-radius: 9px;
+      }
+
+      &--failed {
+        .chat-message__try-again {
+          opacity: 1;
+          pointer-events: auto;
+        }
+      }
+
+      &--my {
+        background: $grey08;
+        border-bottom-left-radius: $radius;
+        border-bottom-right-radius: 0;
+        margin-right: 8px;
+        margin-left: auto;
+        align-self: flex-end;
+
+        &:before {
+          background: $grey08;
+          left: 100%;
+        }
+
+        &:after {
+          left: 100%;
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: 9px;
+        }
+      }
+
+      &__text {
+        @extend %text;
+
+        color: $black;
+      }
+
+      &__info {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      &__try-again {
+        @extend %caption;
+
+        margin-right: 8px;
+        cursor: pointer;
+        color: $grey56;
+        padding-right: 20px;
+        position: relative;
+        opacity: 0;
+        transition: 0.3s;
+        pointer-events: none;
+
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 12px;
+          height: 12px;
+          background: url("/img/try-again-icon.svg");
+          right: 0;
+          top: 1px;
+        }
+      }
+
+      &__time {
+        @extend %caption;
+
+        color: $black56;
+      }
+    }
+  }
+}

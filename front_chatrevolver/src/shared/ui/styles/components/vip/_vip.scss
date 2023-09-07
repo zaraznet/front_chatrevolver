@@ -1,0 +1,284 @@
+.vip {
+  max-width: 704px;
+
+  @media (max-width: $xs) {
+    width: calc(100% - 8px);
+    padding: 0 0 20px 8px;
+  }
+
+  &__plans {
+    max-width: 556px;
+
+    @media (max-width: $xs) {
+      width: calc(100% - 8px);
+    }
+
+    .vip-plans {
+      margin-bottom: 16px;
+
+      &__item {
+        width: calc(33.33% - 6px);
+
+        @media (max-width: $xs) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__extend {
+    margin-top: 48px;
+    margin-bottom: 8px;
+
+    @media (max-width: $xs) {
+      width: calc(100% - 8px);
+    }
+
+    .button {
+      margin-top: 24px;
+      max-width: 389px;
+    }
+  }
+
+  &__extend-text {
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+
+    span {
+      color: $primary;
+    }
+  }
+}
+
+.vip-promo {
+  background: #ffffff;
+  border: 1px solid rgba(42, 42, 42, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  &__title {
+    margin-top: 32px;
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  &__text {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 17px;
+    line-height: 24px;
+    color: $black;
+
+    @media (max-width: $xs) {
+      margin-bottom: 16px;
+    }
+
+    a {
+      text-decoration: underline;
+      color: $black;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.vip-extend {
+  margin: 24px 0 16px !important;
+
+  &__link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: $primary;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.vip-plans {
+  margin-top: 40px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $xs) {
+    margin-top: 8px;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    background: rgba(42, 42, 42, 0.1);
+    padding: 32px 30px;
+    width: calc(33.33% - 11px);
+    cursor: pointer;
+
+    @media (max-width: $xs) {
+      margin-top: 12px;
+      width: 100%;
+      padding: 20px;
+      display: flex;
+    }
+
+    &--highlighted {
+      background: $secondary;
+    }
+  }
+
+  &__term {
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 24px;
+
+    @media (max-width: $xs) {
+      width: 50%;
+      text-align: right;
+    }
+  }
+
+  &__price {
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-family: $regFont;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 18px;
+
+    @media (max-width: $xs) {
+      margin-top: 0;
+      margin-left: 16px;
+    }
+  }
+}
+
+.vip-status {
+  background: #ffffff;
+  border: 1px solid $black08;
+  padding: 20px;
+  display: flex;
+
+  @media (max-width: $xs) {
+    padding: 20px 12px;
+    margin-right: 8px;
+  }
+
+  &__ava {
+    width: 64px;
+    flex-shrink: 0;
+    margin-right: 24px;
+
+    @media (max-width: $xs) {
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__content {
+    flex-grow: 1;
+    color: $black;
+  }
+
+  &__title {
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+  }
+
+  &__text {
+    margin-top: 16px;
+    font-size: 17px;
+    line-height: 24px;
+
+    a {
+      color: $black;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.vip-table {
+  margin-top: 40px;
+  background: #ffffff;
+  border: 1px solid $black08;
+
+  @media (max-width: $xs) {
+    max-width: 556px;
+  }
+
+  &__title {
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    padding: 20px;
+    border-bottom: 1px solid $black08;
+  }
+
+  &__body {
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+
+    @media (max-width: $xs) {
+      width: 100vw;
+      max-width: 704px;
+    }
+  }
+
+  &__row {
+    display: flex;
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &--head {
+      font-family: $boldFont;
+    }
+  }
+
+  &__cell {
+    font-size: 17px;
+    line-height: 24px;
+    width: 92px;
+    flex-shrink: 0;
+    margin-right: 124px;
+
+    @media (max-width: $xs) {
+      margin-right: 32px;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

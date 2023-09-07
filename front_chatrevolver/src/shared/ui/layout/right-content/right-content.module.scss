@@ -1,0 +1,23 @@
+.right_content {
+  width: 340px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1405px) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 1199px) {
+    display: none;
+  }
+
+  & > div {
+    margin-top: 16px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

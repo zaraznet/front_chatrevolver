@@ -1,0 +1,24 @@
+@import "src/shared/ui/styles/layout/var";
+
+.header_language .language {
+  margin-top: -4px;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  @extend %heading2;
+
+  color: $grey56;
+  padding: 6px 5px 2px 9px;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+
+  &:hover {
+    //background: #ffffff;
+    color: $primary;
+  }
+}

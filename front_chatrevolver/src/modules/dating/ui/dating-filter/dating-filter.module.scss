@@ -1,0 +1,39 @@
+@import "src/shared/ui/styles/layout/var";
+
+.dating_filter {
+  margin-top: 45px;
+  background: $black8;
+  border-radius: $radius;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 24px;
+
+  gap: 16px 48px;
+
+  @media (max-width: 1640px) {
+    align-items: flex-end;
+    gap: 16px 24px;
+  }
+
+  @media (max-width: $xs) {
+    padding: 10px 12px;
+    gap: 16px 10px;
+    margin-top: 24px;
+  }
+
+  .age {
+    min-width: 276px;
+    max-width: 276px;
+
+    @media (max-width: $xs) {
+      min-width: 204px;
+      max-width: 204px;
+    }
+  }
+
+  .checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}

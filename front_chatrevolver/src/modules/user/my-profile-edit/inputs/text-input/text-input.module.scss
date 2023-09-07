@@ -1,0 +1,66 @@
+@import "src/shared/ui/styles/layout/var";
+
+.text_input {
+  position: relative;
+  width: 100%;
+
+  input {
+    @extend %paragraph3;
+
+    width: 100%;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 32px;
+    padding: 3px 8px 0;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: $black8;
+    border-radius: $radius;
+
+    @include placeholderColor($grey56);
+
+    &:hover,
+    &:focus {
+      border-color: #ffffff;
+    }
+
+    &:active {
+      border-color: #ffffff;
+    }
+
+    &:disabled {
+      color: $grey56;
+      border-color: $grey56;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+
+  &.error {
+    input {
+      border-color: $alert !important;
+      padding-right: 32px;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      width: 24px;
+      height: 24px;
+      background: url("/img/input-error-icon.svg");
+    }
+  }
+
+  .error_text {
+    @extend %paragraph5;
+
+    margin-top: 2px;
+
+    color: $alert;
+  }
+}

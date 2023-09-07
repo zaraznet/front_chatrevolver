@@ -1,0 +1,31 @@
+@import "src/shared/ui/styles/layout/var";
+
+.dating_filter_field {
+  max-width: 300px;
+  flex: 1;
+
+  @media (max-width: $xs) {
+    max-width: $xs;
+  }
+
+  label {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.16em;
+    height: 32px;
+    display: block;
+    color: $grey56;
+
+    margin-bottom: 8px;
+
+    @media (max-width: $xs) {
+      font-size: 13px;
+      line-height: 16px;
+      height: 16px;
+      margin-bottom: 4px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card_about {
+  margin-top: 16px;
+
+  .title {
+    @extend %paragraph;
+
+    color: $grey56;
+  }
+
+  p {
+    @extend %text;
+
+    color: #ffffff;
+    margin-top: 8px;
+  }
+}

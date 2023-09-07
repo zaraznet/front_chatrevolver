@@ -1,0 +1,9 @@
+@import "src/shared/ui/styles/layout/var";
+
+.day {
+  @extend %paragraph3;
+
+  align-self: center;
+  color: $grey56;
+  padding: 16px;
+}

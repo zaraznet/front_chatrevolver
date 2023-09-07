@@ -1,0 +1,33 @@
+.logo {
+  margin-right: 30px;
+  display: none;
+  align-items: center;
+
+  .img {
+    margin-right: 17px;
+    width: 58px;
+    height: 48px;
+    background: url("/img/logo.svg") no-repeat center;
+    background-size: cover;
+    flex-shrink: 0;
+
+    @media (max-width: 839px) {
+      width: 43px;
+      background-size: contain;
+    }
+  }
+
+  .text {
+    width: 189px;
+    height: 48px;
+    background: url("/img/logo-name.svg") no-repeat center;
+    background-size: cover;
+    margin-top: 2px;
+    flex-shrink: 0;
+
+    @media (max-width: 839px) {
+      width: 135px;
+      background-size: contain;
+    }
+  }
+}

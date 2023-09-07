@@ -1,0 +1,47 @@
+@import "src/shared/ui/styles/layout/var";
+
+.auth_tabs {
+  display: flex;
+  position: absolute;
+  top: 62px;
+
+  @media (max-width: $xs) {
+    top: 20px;
+  }
+}
+
+.item {
+  @extend %heading1;
+
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 38px;
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: $primary;
+  }
+
+  &.active {
+    cursor: default;
+    color: $primary;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 26px;
+      height: 4px;
+      background: $primary;
+      top: calc(100% + 4px);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

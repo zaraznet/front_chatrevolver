@@ -1,0 +1,101 @@
+@import "src/shared/ui/styles/layout/var";
+
+.message {
+  background: $primary;
+  margin: 0 24px;
+  margin-bottom: 8px;
+  border-radius: $radius;
+  border-bottom-left-radius: 0;
+  padding: 8px 16px 4px;
+  position: relative;
+  max-width: 80%;
+  width: auto;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    left: -8px;
+    bottom: 0;
+    background: $primary;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    left: -8px;
+    bottom: 0;
+    background: var(--chat-bg-color, #fff);
+
+    border-bottom-right-radius: 9px;
+  }
+
+  .time {
+    color: $ultraBlack;
+  }
+
+  &.my {
+    background: $grey08;
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: 0;
+    align-self: flex-end;
+
+    &:before {
+      background: $grey08;
+      left: 100%;
+    }
+
+    &:after {
+      left: 100%;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 9px;
+    }
+
+    .content {
+      color: #ffffff;
+    }
+
+    .time {
+      color: $grey56;
+      .icon {
+        display: block;
+      }
+    }
+  }
+}
+
+.content {
+  @extend %text;
+  color: $black;
+}
+
+.time {
+  @extend %caption;
+
+  color: var(--chat-message-time-color, $black56);
+  align-self: flex-end;
+  align-items: center;
+  display: flex;
+  position: relative;
+
+  .icon {
+    display: none;
+    opacity: 0;
+    padding-bottom: 2px;
+    margin-right: 4px;
+  }
+
+  &.read {
+    .icon {
+      opacity: 1;
+    }
+  }
+}

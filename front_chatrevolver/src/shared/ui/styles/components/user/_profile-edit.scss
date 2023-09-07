@@ -1,0 +1,378 @@
+@import "layout/var";
+
+.profile-edit {
+  background: #fff;
+  border: 1px solid $black08;
+  padding-bottom: 20px;
+
+  &__title {
+    @extend %heading1;
+
+    color: $black;
+    padding: 20px 20px 24px;
+    border-bottom: 1px solid $black08;
+
+    @media (max-width: 767px) {
+      padding: 12px 12px 8px;
+    }
+  }
+
+  &__block {
+    border-bottom: 1px solid $black08;
+    margin: 0 20px;
+    padding: 10px 0;
+
+    @media (max-width: 767px) {
+      margin: 0 12px;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  &__line {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      padding: 6px 0;
+    }
+
+    &--disabled {
+      .profile-edit__label {
+        color: $black56;
+      }
+
+      .profile-edit__input-wrap {
+        pointer-events: none;
+
+        &:after {
+          opacity: 0.08;
+        }
+      }
+
+      .profile-edit__input,
+      .profile-edit__textarea,
+      .profile-edit-tags {
+        color: $black56;
+        background: $grey;
+        border-color: $black08;
+        cursor: default;
+        pointer-events: none;
+      }
+
+      .profile-edit-tags__input {
+        color: $black56;
+      }
+
+      .profile-edit-tags__item {
+        background: $black08;
+      }
+    }
+  }
+
+  &__label {
+    @extend %paragraph3;
+
+    color: $black8;
+    width: 33.5%;
+    flex-shrink: 0;
+    margin-top: 7px;
+    margin-right: 20px;
+    text-align: right;
+    display: block;
+
+    @media (max-width: 1599px) {
+      width: 36%;
+      margin-right: 12px;
+    }
+
+    @media (max-width: 1405px) {
+      width: 29%;
+    }
+
+    @media (max-width: 900px) {
+      width: 26%;
+    }
+
+    @media (max-width: 767px) {
+      width: 100%;
+      text-align: left;
+      margin: 0 0 6px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 120px;
+
+    @media (max-width: 1599px) {
+      margin-right: 0;
+    }
+  }
+
+  &__input-wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &--select {
+      cursor: pointer;
+
+      &:nth-child(2) {
+        width: 43%;
+        flex-shrink: 0;
+      }
+
+      &:hover {
+        &:after {
+          opacity: 0.8;
+        }
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        width: 18px;
+        height: 10px;
+        background: url("../img/profile-edit-arrow.svg");
+        opacity: 0.56;
+        transition: 0.3s;
+      }
+
+      .profile-edit__input {
+        padding-right: 32px;
+
+        span {
+          width: 100%;
+          display: block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: $black56;
+        }
+      }
+    }
+
+    &--active {
+      &:after {
+        opacity: 1;
+      }
+
+      .profile-edit__input {
+        border-color: $black;
+      }
+      .profile-edit__list {
+        height: auto;
+        opacity: 1;
+      }
+    }
+
+    &--error {
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        width: 24px;
+        height: 24px;
+        background: url("../img/input-error-icon.svg");
+      }
+
+      .profile-edit__input,
+      .profile-edit__textarea,
+      .profile-edit-tags {
+        border-color: $primary !important;
+        padding-right: 32px;
+      }
+    }
+  }
+
+  &__input {
+    @extend %paragraph3;
+
+    width: 100%;
+    color: $black;
+    border: 1px solid $black56;
+    height: 32px;
+    padding: 3px 8px 0;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+
+    @include placeholderColor($black56);
+
+    &:hover,
+    &:focus {
+      border-color: $black8;
+    }
+
+    &:active {
+      border-color: $black;
+    }
+
+    &:disabled {
+      color: $black56;
+      background: $grey;
+      border-color: $black08;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+
+  &__textarea {
+    @extend %paragraph3;
+
+    width: 100%;
+    color: $black;
+    border: 1px solid $black56;
+    height: 132px;
+    padding: 6px 8px 6px;
+    transition: 0.3s;
+    resize: none;
+
+    @include placeholderColor($black56);
+
+    &:hover,
+    &:focus {
+      border-color: $black8;
+    }
+
+    &:active {
+      border-color: $black;
+    }
+
+    &:disabled {
+      color: $black56;
+      background: $grey;
+      border-color: $black08;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+
+  &__list {
+    height: 0;
+    opacity: 0;
+    overflow: auto;
+    max-height: 148px;
+    transition: 0.3s;
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0 0 4px;
+    list-style: none;
+    border: 1px solid $black;
+    background: #fff;
+    z-index: 10;
+  }
+
+  &__option {
+    @extend %paragraph3;
+
+    color: $black;
+    padding: 1px 7px 0;
+    height: 19px;
+    transition: 0.3s;
+    margin-top: 4px;
+
+    &:hover {
+      background: $grey;
+    }
+  }
+
+  &__button {
+    @extend %paragraph2;
+
+    margin: 10px auto;
+    display: block;
+    width: 144px;
+    height: 40px;
+    background: $primary;
+    color: $grey;
+    border-radius: 20px;
+    padding-top: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background: $secondary;
+      color: $black;
+    }
+
+    &:disabled,
+    &--disabled {
+      background: $primary;
+      color: $grey56;
+    }
+  }
+}
+
+.profile-edit-tags {
+  border: 1px solid $black56;
+  transition: 0.3s;
+  min-height: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 8px 4px 8px 8px;
+
+  &:hover {
+    border-color: $black8;
+  }
+
+  &__item {
+    @extend %paragraph4;
+
+    color: $grey;
+    background: $black;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px 8px 1px;
+    margin-right: 4px;
+
+    &:hover {
+      .profile-edit-tags__delete {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__delete {
+    width: 12px;
+    height: 12px;
+    background: url("../img/delete-tag-icon.svg");
+    margin-left: 4px;
+    margin-top: -3px;
+    opacity: 0.56;
+    transition: 0.3s;
+  }
+
+  &__input {
+    @extend %paragraph3;
+
+    margin-right: 4px;
+    width: 90px;
+    padding: 2px 4px 0;
+    color: $black;
+    border: 0;
+    background: transparent;
+  }
+}

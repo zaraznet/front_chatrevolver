@@ -1,0 +1,12 @@
+@import "src/shared/ui/styles/layout/var";
+
+.header_online {
+  @extend %heading3;
+
+  color: $grey56;
+  margin-left: 40px;
+
+  @media (max-width: 1089px) {
+    display: none;
+  }
+}

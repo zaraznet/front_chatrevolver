@@ -1,0 +1,104 @@
+@import "src/shared/ui/styles/layout/var";
+
+.video_chat_advantages {
+  margin: 32px 200px 0 0;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 1599px) {
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 0;
+    margin-top: 0;
+    padding: 24px 12px 40px;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 1px solid $black08;
+    margin-right: 20px;
+    flex-shrink: 0;
+    max-width: 50%;
+
+    @media (max-width: 1234px) {
+      border-right: 0;
+    }
+
+    &:nth-child(2) {
+      @media (max-width: 1599px) {
+        border-right: 0;
+        margin-right: 0;
+      }
+
+      @media (max-width: 1234px) {
+        width: 100%;
+        margin-top: 36px;
+      }
+
+      @media (max-width: 767px) {
+        margin-top: 28px;
+      }
+    }
+
+    &:last-child {
+      border-right: 0;
+      margin-right: 0;
+
+      @media (max-width: 1599px) {
+        margin-top: 36px;
+        width: 100%;
+      }
+
+      @media (max-width: 767px) {
+        margin-top: 28px;
+      }
+    }
+  }
+
+  .content {
+    margin-left: 16px;
+  }
+
+  .title {
+    @extend %paragraph2;
+    color: #ffffff;
+  }
+
+  .text {
+    @extend %paragraph6;
+    color: #ffffff;
+  }
+
+  &::before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    top: (571px - 88px);
+    right: calc(340px + 40px + 232px);
+    bottom: 0;
+    left: -160px;
+    z-index: -1;
+
+    @media (max-width: 1599px) {
+      top: calc(436px - 88px);
+      right: calc(340px + 40px + 176px);
+    }
+
+    @media (max-width: 1405px) {
+      top: calc(360px - 68px);
+      right: calc(340px + 20px + 156px);
+    }
+
+    @media (max-width: 1199px) {
+      right: 170px;
+    }
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}

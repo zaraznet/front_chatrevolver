@@ -1,0 +1,40 @@
+@import "src/shared/ui/styles/layout/var";
+
+.range {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  padding: 6px 0;
+  border-top: 1px solid $grey08;
+  border-bottom: 1px solid $grey08;
+
+  input {
+    @extend %paragraph3;
+
+    width: 108px;
+    height: 44px;
+    display: block;
+    color: $grey;
+    background: $grey08;
+    border: 1px solid $grey08;
+    padding: 2px 16px 0;
+    transition: 0.3s;
+    border-radius: $radius;
+
+    @include placeholderColor($grey8);
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: $secondary;
+    }
+  }
+
+  span {
+    width: 12px;
+    height: 1px;
+    display: block;
+    background: $grey8;
+    margin: 0 12px;
+  }
+}

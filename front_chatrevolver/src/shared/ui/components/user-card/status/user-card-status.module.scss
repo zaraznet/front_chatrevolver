@@ -1,0 +1,20 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card_status {
+  @extend %text;
+
+  color: #ffffff;
+  transition: 0.3s;
+
+  &--empty {
+    color: $grey56;
+  }
+
+  &:before {
+    content: "”";
+  }
+
+  &:after {
+    content: "”";
+  }
+}

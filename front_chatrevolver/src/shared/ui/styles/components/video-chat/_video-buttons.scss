@@ -1,0 +1,131 @@
+@import "layout/var";
+
+.video-buttons {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+  flex-shrink: 0;
+
+  &--start {
+    .video-buttons__stop,
+    .video-buttons__big {
+      display: none;
+    }
+
+    .video-buttons__big--start {
+      display: block;
+    }
+  }
+
+  &--call {
+    .video-buttons__stop,
+    .video-buttons__big {
+      display: none;
+    }
+
+    .video-buttons__big--call {
+      display: block;
+    }
+  }
+
+  &--end {
+    .video-buttons__stop,
+    .video-buttons__big {
+      display: none;
+    }
+
+    .video-buttons__big--end {
+      display: block;
+    }
+  }
+
+  &__stop {
+    @extend %paragraph6;
+
+    background: $black;
+    color: $grey;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    padding-top: 33px;
+    position: relative;
+    transition: 0.3s;
+
+    &:hover {
+      color: $secondary;
+
+      &:before {
+        background: $secondary;
+      }
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      background: $grey;
+      top: 14px;
+      left: 22px;
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: $black;
+      top: 21px;
+      left: 29px;
+      transition: 0.3s;
+    }
+  }
+
+  &__big {
+    @extend %heading1;
+
+    color: $grey;
+    height: 64px;
+    background: $primary;
+    padding: 4px 16px 0;
+    margin-left: 8px;
+    flex-grow: 1;
+    cursor: pointer;
+
+    &:hover {
+      background: $secondary;
+      color: $black;
+    }
+
+    &:disabled,
+    &--disabled {
+      background: $primary;
+      color: $grey56;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    &--start {
+      display: none;
+      margin-left: 0;
+    }
+
+    &--call {
+      display: none;
+      margin-left: 0;
+    }
+
+    &--end {
+      display: none;
+      margin-left: 0;
+      background: $black;
+    }
+  }
+}

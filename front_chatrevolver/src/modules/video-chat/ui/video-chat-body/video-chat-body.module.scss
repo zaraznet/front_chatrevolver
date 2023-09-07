@@ -1,0 +1,41 @@
+@import "src/shared/ui/styles/layout/var";
+
+.video_chat_body {
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 767px) {
+    padding-top: 8px;
+    flex-direction: column;
+  }
+
+  .main {
+    flex-grow: 1;
+    margin-right: 40px;
+
+    @media (max-width: 1405px) {
+      margin-right: 20px;
+    }
+
+    @media (max-width: 767px) {
+      margin: 0 8px 16px;
+      order: 1;
+    }
+  }
+
+  .right {
+    width: 340px;
+    flex-shrink: 0;
+
+    @media (max-width: 1599px) {
+      width: 284px;
+    }
+
+    @media (max-width: 767px) {
+      order: 0;
+      width: 100%;
+      padding: 0 8px;
+    }
+  }
+}

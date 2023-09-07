@@ -1,0 +1,11 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card_header_my {
+  @extend %title;
+
+  color: #ffffff;
+
+  @media (max-width: 1599px) {
+    margin-bottom: 4px;
+  }
+}

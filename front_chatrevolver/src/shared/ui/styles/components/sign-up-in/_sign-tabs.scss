@@ -1,0 +1,46 @@
+@import "layout/var";
+
+.sign-tabs {
+  display: flex;
+  position: absolute;
+  top: 62px;
+
+  @media (max-width: $xs) {
+    top: 20px;
+  }
+
+  &__item {
+    @extend %heading1;
+
+    color: $black;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 38px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: $primary;
+    }
+
+    &--active {
+      cursor: default;
+      color: $primary;
+      position: relative;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 26px;
+        height: 4px;
+        background: $primary;
+        top: calc(100% + 4px);
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}

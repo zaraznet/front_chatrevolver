@@ -1,0 +1,608 @@
+{
+  "auth.confirm-email.error": {
+    "defaultMessage": "Something went wrong. Try to follow the link from the letter again."
+  },
+  "auth.confirm-email.loading": {
+    "defaultMessage": "Wait while we confirm your email..."
+  },
+  "auth.confirm-email.title": {
+    "defaultMessage": "Email Confirmation"
+  },
+  "auth.login.recovery_link": {
+    "defaultMessage": "I forgot my password"
+  },
+  "auth.login.submit": {
+    "defaultMessage": "Sign in"
+  },
+  "auth.recovery.new_password.submit": {
+    "defaultMessage": "Sign in"
+  },
+  "auth.recovery.new_password.title": {
+    "defaultMessage": "New password"
+  },
+  "auth.recovery.sent.description": {
+    "defaultMessage": "We sent an email to your address. Click the link in the letter to recover the password."
+  },
+  "auth.recovery.sent.title": {
+    "defaultMessage": "Recover the password"
+  },
+  "auth.recovery.submit": {
+    "defaultMessage": "Send"
+  },
+  "auth.recovery.title": {
+    "defaultMessage": "Recover the password"
+  },
+  "auth.sign_up.checkbox": {
+    "defaultMessage": "I’m 18 y.o. I agree with <a>service rules</a>"
+  },
+  "auth.sign_up.submit": {
+    "defaultMessage": "Sign up"
+  },
+  "auth.sign_up.success.description": {
+    "defaultMessage": "We sent an email to your address. Click the link in the letter to confirm your email."
+  },
+  "auth.sign_up.success.title": {
+    "defaultMessage": "Sign up with email"
+  },
+  "auth.social_login.or_with": {
+    "defaultMessage": "or with"
+  },
+  "auth.tabs.sign_in": {
+    "defaultMessage": "Sign in"
+  },
+  "auth.tabs.sign_up": {
+    "defaultMessage": "Sign up"
+  },
+  "chat.empty.hello_message": {
+    "defaultMessage": "hello"
+  },
+  "chat.empty.say_hello": {
+    "defaultMessage": "Just say ‘{hello_message}’"
+  },
+  "chat.empty.title": {
+    "defaultMessage": "Let’s start to chat!"
+  },
+  "chat.input_toolbar.placeholder": {
+    "defaultMessage": "Write a message..."
+  },
+  "chat.typing_indicator.noname_typing": {
+    "defaultMessage": "Typing"
+  },
+  "chat.typing_indicator.user_typing": {
+    "defaultMessage": "{name} typing"
+  },
+  "dating.filter.age": {
+    "defaultMessage": "Age"
+  },
+  "dating.filter.country": {
+    "defaultMessage": "Country"
+  },
+  "dating.filter.gender": {
+    "defaultMessage": "Gender"
+  },
+  "dating.filter.location": {
+    "defaultMessage": "Location"
+  },
+  "dating.filter.location.any": {
+    "defaultMessage": "Any"
+  },
+  "dating.filter.location.near": {
+    "defaultMessage": "The Closest of All"
+  },
+  "dating.filter.online": {
+    "defaultMessage": "Online"
+  },
+  "dating.filter.only_vip": {
+    "defaultMessage": "Only VIP"
+  },
+  "dating.filter.rating": {
+    "defaultMessage": "Rating"
+  },
+  "dating.filter.rating.any": {
+    "defaultMessage": "Any Rating"
+  },
+  "dating.filter.rating.high": {
+    "defaultMessage": "Only with a High Rating"
+  },
+  "dating.filter.with_photos": {
+    "defaultMessage": "With photos"
+  },
+  "dating.list.open_profile": {
+    "defaultMessage": "Open Profile"
+  },
+  "errors.ILLEGAL_STATE_NO_RIGHTS": {
+    "defaultMessage": "ILLEGAL_STATE_NO_RIGHTS"
+  },
+  "errors._ignore_this_message": {
+    "defaultMessage": ".."
+  },
+  "errors.activation_code_not_found": {
+    "defaultMessage": "ACTIVATION CODE NOT FOUND"
+  },
+  "errors.bad_oauth": {
+    "defaultMessage": "BAD OAUTH"
+  },
+  "errors.blocked": {
+    "defaultMessage": "blocked"
+  },
+  "errors.email_in_use": {
+    "defaultMessage": "Этот Email уже существует. Попробуйте войти в аккаунт"
+  },
+  "errors.email_incorrect_format": {
+    "defaultMessage": "Невалидный email"
+  },
+  "errors.need_email": {
+    "defaultMessage": "NEED EMAIL"
+  },
+  "errors.recovery_code_not_found": {
+    "defaultMessage": "Неверный код восстановления пароля"
+  },
+  "errors.unknown": {
+    "defaultMessage": "UNKNOWN"
+  },
+  "errors.user_locked": {
+    "defaultMessage": "USER LOCKED"
+  },
+  "errors.user_not_activated": {
+    "defaultMessage": "Email не подтвержден"
+  },
+  "errors.user_not_found": {
+    "defaultMessage": "Пользователь с таким email не существует"
+  },
+  "errors.wrong_password": {
+    "defaultMessage": "Неверный пароль"
+  },
+  "faq.support_modal.success.title": {
+    "defaultMessage": "Letter sent"
+  },
+  "faq.support_modal.text": {
+    "defaultMessage": "What is the issue?"
+  },
+  "faq.support_modal.title": {
+    "defaultMessage": "Support help"
+  },
+  "faq.support_modal.type": {
+    "defaultMessage": "Type of the issue"
+  },
+  "gender.female": {
+    "defaultMessage": "Woman"
+  },
+  "gender.male": {
+    "defaultMessage": "Man"
+  },
+  "gender.undef": {
+    "defaultMessage": "Any"
+  },
+  "input.about_me": {
+    "defaultMessage": "About me"
+  },
+  "input.birthday": {
+    "defaultMessage": "birthday"
+  },
+  "input.city": {
+    "defaultMessage": "City"
+  },
+  "input.country": {
+    "defaultMessage": "Country"
+  },
+  "input.email": {
+    "defaultMessage": "Email"
+  },
+  "input.gender": {
+    "defaultMessage": "Gender"
+  },
+  "input.gender.female": {
+    "defaultMessage": "Женщина"
+  },
+  "input.gender.male": {
+    "defaultMessage": "Мужчина"
+  },
+  "input.gender.undef": {
+    "defaultMessage": "Не указано"
+  },
+  "input.new_email": {
+    "defaultMessage": "New email"
+  },
+  "input.new_password": {
+    "defaultMessage": "Password (Latin, number, min 6 symbols)"
+  },
+  "input.new_password_repeat": {
+    "defaultMessage": "Repeat the password"
+  },
+  "input.password": {
+    "defaultMessage": "Password"
+  },
+  "input.range.from": {
+    "defaultMessage": "From {value}"
+  },
+  "input.range.to": {
+    "defaultMessage": "To"
+  },
+  "input.select.any": {
+    "defaultMessage": "Any"
+  },
+  "input.tags": {
+    "defaultMessage": "Tags"
+  },
+  "input.username": {
+    "defaultMessage": "Username (Max 10 symbols)"
+  },
+  "menu.about": {
+    "defaultMessage": "About"
+  },
+  "menu.chats": {
+    "defaultMessage": "Chats"
+  },
+  "menu.classic": {
+    "defaultMessage": "Classic"
+  },
+  "menu.contacts": {
+    "defaultMessage": "Contacts"
+  },
+  "menu.dating": {
+    "defaultMessage": "Dating"
+  },
+  "menu.faq": {
+    "defaultMessage": "FAQ"
+  },
+  "menu.filters": {
+    "defaultMessage": "Filters"
+  },
+  "menu.help": {
+    "defaultMessage": "Help"
+  },
+  "menu.logout": {
+    "defaultMessage": "Log out"
+  },
+  "menu.my_profile": {
+    "defaultMessage": "My Profile"
+  },
+  "menu.rate": {
+    "defaultMessage": "Rate chat"
+  },
+  "menu.settings": {
+    "defaultMessage": "Settings"
+  },
+  "menu.sign_in": {
+    "defaultMessage": "Sign in"
+  },
+  "menu.sign_up_sign_in": {
+    "defaultMessage": "Sign up / Sign in"
+  },
+  "menu.sign_up_with_email": {
+    "defaultMessage": "Sign up with email"
+  },
+  "modal.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "modal.ok": {
+    "defaultMessage": "OK"
+  },
+  "pages.call.end_call": {
+    "defaultMessage": "Call"
+  },
+  "pages.my_profile.edit": {
+    "defaultMessage": "Edit Profile"
+  },
+  "pages.profile.open_chat": {
+    "defaultMessage": "Open chat"
+  },
+  "pages.profile.start_call": {
+    "defaultMessage": "Call"
+  },
+  "shared.back": {
+    "defaultMessage": "Back"
+  },
+  "shared.distance.km": {
+    "defaultMessage": "{dist} km from you"
+  },
+  "shared.distance.meters": {
+    "defaultMessage": "{dist} m from you"
+  },
+  "shared.online": {
+    "defaultMessage": "{value} online"
+  },
+  "shared.update_location": {
+    "defaultMessage": "Update the location"
+  },
+  "shared.update_location.error": {
+    "defaultMessage": "Location update error"
+  },
+  "shared.update_location.loading": {
+    "defaultMessage": "Update location"
+  },
+  "shared.update_location.success": {
+    "defaultMessage": "Location updated"
+  },
+  "shared.user_card.about_me": {
+    "defaultMessage": "About me"
+  },
+  "shared.user_card.report": {
+    "defaultMessage": "Report"
+  },
+  "shared.user_card.status.placeholder": {
+    "defaultMessage": "Set status..."
+  },
+  "shared.user_card.status.save": {
+    "defaultMessage": "Save"
+  },
+  "shared.user_card.tags": {
+    "defaultMessage": "Tags"
+  },
+  "sidebar.chat.back": {
+    "defaultMessage": "Back"
+  },
+  "sidebar.chat.delete": {
+    "defaultMessage": "Delete chat"
+  },
+  "sidebar.chat.offline": {
+    "defaultMessage": "offline"
+  },
+  "sidebar.chat.online": {
+    "defaultMessage": "online"
+  },
+  "sidebar.chat.profile": {
+    "defaultMessage": "Profile"
+  },
+  "sidebar.chat.video_call": {
+    "defaultMessage": "Video Call"
+  },
+  "sidebar.chat_list.empty": {
+    "defaultMessage": "No chats"
+  },
+  "sidebar.chat_list.item.empty": {
+    "defaultMessage": "No messages"
+  },
+  "sidebar.chat_list.item.mine": {
+    "defaultMessage": "You"
+  },
+  "sidebar.contacts.friends": {
+    "defaultMessage": "Friends"
+  },
+  "sidebar.contacts.friends.empty": {
+    "defaultMessage": "No friends"
+  },
+  "sidebar.contacts.requests": {
+    "defaultMessage": "Requests"
+  },
+  "sidebar.contacts.requests.empty": {
+    "defaultMessage": "No friend requests"
+  },
+  "sidebar.settings.delete_profile": {
+    "defaultMessage": "Delete Profile"
+  },
+  "sidebar.settings.email_notifications": {
+    "defaultMessage": "Email notification"
+  },
+  "sidebar.settings.email_notifications.dating": {
+    "defaultMessage": "Dating Digest"
+  },
+  "sidebar.settings.everyone": {
+    "defaultMessage": "Everyone can see"
+  },
+  "sidebar.settings.photo": {
+    "defaultMessage": "Photos"
+  },
+  "sidebar.settings.privacy": {
+    "defaultMessage": "Privacy"
+  },
+  "sidebar.settings.profile": {
+    "defaultMessage": "Profile"
+  },
+  "sidebar.settings.rating": {
+    "defaultMessage": "My rating can be seen"
+  },
+  "sidebar.settings.rating.contacts": {
+    "defaultMessage": "Contacts Only"
+  },
+  "sidebar.settings.rating.everyone": {
+    "defaultMessage": "Everyone"
+  },
+  "sidebar.settings.rating.nobody": {
+    "defaultMessage": "Nobody"
+  },
+  "sidebar.settings.security": {
+    "defaultMessage": "Security"
+  },
+  "sidebar.settings.status": {
+    "defaultMessage": "Status Message"
+  },
+  "sidebar.settings.userpic": {
+    "defaultMessage": "Userpic"
+  },
+  "user.chat_remove_modal.cancel": {
+    "defaultMessage": "No"
+  },
+  "user.chat_remove_modal.ok": {
+    "defaultMessage": "Yes, delete"
+  },
+  "user.chat_remove_modal.title": {
+    "defaultMessage": "Delete chat forever?"
+  },
+  "user.email_change_modal.success.description": {
+    "defaultMessage": "We sent an email to your address. Click the link in the letter to confirm your email."
+  },
+  "user.email_change_modal.success.title": {
+    "defaultMessage": "Confirm new Email"
+  },
+  "user.email_change_modal.title": {
+    "defaultMessage": "Change email"
+  },
+  "user.friend_remove_modal.cancel": {
+    "defaultMessage": "No"
+  },
+  "user.friend_remove_modal.ok": {
+    "defaultMessage": "Yes, remove"
+  },
+  "user.friend_remove_modal.title": {
+    "defaultMessage": "Remove friend?"
+  },
+  "user.my_photo.update": {
+    "defaultMessage": "Update Photo"
+  },
+  "user.my_photo.upload_error": {
+    "defaultMessage": "Photo upload error"
+  },
+  "user.my_profile_deleted.description": {
+    "defaultMessage": "Вы можете восстановить свой профиль"
+  },
+  "user.my_profile_deleted.restore": {
+    "defaultMessage": "Восстановить"
+  },
+  "user.my_profile_deleted.title": {
+    "defaultMessage": "Ваш профиль был удален"
+  },
+  "user.new_profile.description": {
+    "defaultMessage": "You should add information into your profile for better experience in communication"
+  },
+  "user.new_profile.title": {
+    "defaultMessage": "Let’s complete the profile"
+  },
+  "user.password_change_modal.current_password": {
+    "defaultMessage": "Current password"
+  },
+  "user.password_change_modal.new_password": {
+    "defaultMessage": "New password"
+  },
+  "user.password_change_modal.new_password_repeat": {
+    "defaultMessage": "Repeat new password"
+  },
+  "user.password_change_modal.success": {
+    "defaultMessage": "Password has been changed"
+  },
+  "user.password_change_modal.title": {
+    "defaultMessage": "Change password"
+  },
+  "user.photo_list.add": {
+    "defaultMessage": "Add photos"
+  },
+  "user.photo_list.title": {
+    "defaultMessage": "Photos"
+  },
+  "user.photo_list.upload_error": {
+    "defaultMessage": "Photo upload error"
+  },
+  "user.profile_blocked.title": {
+    "defaultMessage": "Профиль заблокирован"
+  },
+  "user.profile_delete_modal.cancel": {
+    "defaultMessage": "No"
+  },
+  "user.profile_delete_modal.ok": {
+    "defaultMessage": "Yes, delete"
+  },
+  "user.profile_delete_modal.title": {
+    "defaultMessage": "Delete your profile?"
+  },
+  "user.profile_deleted.title": {
+    "defaultMessage": "Профиль был удален"
+  },
+  "user.profile_edit.submit": {
+    "defaultMessage": "Save"
+  },
+  "user.profile_edit.title": {
+    "defaultMessage": "Profile editing"
+  },
+  "user.report_modal.reason": {
+    "defaultMessage": "What is the issue?"
+  },
+  "user.report_modal.reason.0": {
+    "defaultMessage": "Harassment and cyberbullying"
+  },
+  "user.report_modal.reason.1": {
+    "defaultMessage": "Violent threats"
+  },
+  "user.report_modal.reason.2": {
+    "defaultMessage": "Child endangerment"
+  },
+  "user.report_modal.reason.3": {
+    "defaultMessage": "Hate speech against a protected group"
+  },
+  "user.report_modal.reason.4": {
+    "defaultMessage": "Spam and Scams"
+  },
+  "user.report_modal.reason.5": {
+    "defaultMessage": "Privacy"
+  },
+  "user.report_modal.reason.other": {
+    "defaultMessage": "None of these are your issue"
+  },
+  "user.report_modal.success": {
+    "defaultMessage": "Report sent"
+  },
+  "user.report_modal.title": {
+    "defaultMessage": "Report user"
+  },
+  "user.vip_activate_modal.cancel": {
+    "defaultMessage": "No"
+  },
+  "user.vip_activate_modal.description": {
+    "defaultMessage": "Дарим VIP статус всем пользователям на 100 дней. VIP статус дает возможность писать сообщения всем найденным через поиск анкетам без ограничения."
+  },
+  "user.vip_activate_modal.ok": {
+    "defaultMessage": "Yes, activate"
+  },
+  "user.vip_activate_modal.success": {
+    "defaultMessage": "VIP activated"
+  },
+  "user.vip_activate_modal.title": {
+    "defaultMessage": "Activate VIP?"
+  },
+  "video_chat.advantages.0.description": {
+    "defaultMessage": "Chat with only who are needed"
+  },
+  "video_chat.advantages.0.title": {
+    "defaultMessage": "Search Filter"
+  },
+  "video_chat.advantages.1.description": {
+    "defaultMessage": "You can chat with follow friends"
+  },
+  "video_chat.advantages.1.title": {
+    "defaultMessage": "Contacts"
+  },
+  "video_chat.advantages.2.description": {
+    "defaultMessage": "You can follow friends"
+  },
+  "video_chat.advantages.2.title": {
+    "defaultMessage": "Chats"
+  },
+  "video_chat.classic.title": {
+    "defaultMessage": "Join us and get access to more features / <a>Learn more</a>"
+  },
+  "video_chat.controls.next": {
+    "defaultMessage": "Next User"
+  },
+  "video_chat.controls.start": {
+    "defaultMessage": "Start"
+  },
+  "video_chat.controls.stop": {
+    "defaultMessage": "Stop"
+  },
+  "video_chat.incoming_call": {
+    "defaultMessage": "Incoming call"
+  },
+  "video_chat.incoming_call.answer": {
+    "defaultMessage": "Answer the call"
+  },
+  "video_chat.my_video.micro_off": {
+    "defaultMessage": "Turn off the microphone"
+  },
+  "video_chat.my_video.micro_on": {
+    "defaultMessage": "Turn on the microphone"
+  },
+  "video_chat.my_video.no_stream": {
+    "defaultMessage": "your video will appear here"
+  },
+  "video_chat.review": {
+    "defaultMessage": "How do you rate me?"
+  },
+  "vip.promo_card.description": {
+    "defaultMessage": "Пользователи с VIP статусом могут писать личные сообщения всем, кого найдет через <a>поиск анкет</a>"
+  },
+  "vip.promo_card.submit": {
+    "defaultMessage": "Станьте VIP"
+  },
+  "vip.promo_card.title": {
+    "defaultMessage": "Общение без ограничений"
+  }
+}

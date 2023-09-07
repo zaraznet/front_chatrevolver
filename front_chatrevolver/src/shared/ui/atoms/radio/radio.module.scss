@@ -1,0 +1,73 @@
+@import "src/shared/ui/styles/layout/var";
+
+.radio {
+  cursor: pointer;
+  display: block;
+  padding: 16px 0;
+  border-bottom: 1px solid $grey08;
+
+  input {
+    display: none;
+
+    &:checked + p {
+      &:before {
+        border-color: $secondary;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  p {
+    @extend %text;
+
+    position: relative;
+    padding-left: 38px;
+    padding-top: 3px;
+    color: $grey8;
+    transition: 0.3s;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 22px;
+      height: 22px;
+      border: 1px solid $grey;
+      transition: 0.3s;
+      border-radius: 50%;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 9px;
+      top: 9px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $secondary;
+      opacity: 0;
+    }
+
+    span {
+      @extend %caption;
+      margin-left: 12px;
+
+      color: $grey56;
+    }
+
+    &:hover {
+      color: $grey;
+
+      &:before {
+        border-color: $secondary;
+      }
+    }
+  }
+}

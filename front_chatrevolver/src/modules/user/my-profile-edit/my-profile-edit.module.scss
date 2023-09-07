@@ -1,0 +1,25 @@
+@import "src/shared/ui/styles/layout/var";
+
+.my_profile_edit {
+  background: $black8;
+  border-radius: $radius;
+  padding-bottom: 20px;
+
+  h1 {
+    @extend %heading1;
+
+    color: #ffffff;
+    padding: 20px 20px 24px;
+    border-bottom: 1px solid $black08;
+    margin-bottom: 10px;
+
+    @media (max-width: 767px) {
+      padding: 12px 12px 8px;
+    }
+  }
+}
+
+.divider {
+  border-bottom: 1px solid $grey08;
+  margin: 10px 20px;
+}

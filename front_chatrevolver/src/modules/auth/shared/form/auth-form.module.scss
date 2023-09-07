@@ -1,0 +1,23 @@
+@import "src/shared/ui/styles/layout/var";
+
+.auth_form {
+  & > h1 {
+    @extend %heading1;
+
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+
+  & > p {
+    @extend %paragraph;
+
+    color: #ffffff;
+    margin-bottom: 38px;
+
+    &--tech {
+      margin-top: 20px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+}

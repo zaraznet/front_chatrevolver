@@ -1,0 +1,103 @@
+@import "src/shared/ui/styles/layout/var";
+
+.text_input {
+  margin-bottom: 14px;
+
+  input {
+    @extend %paragraph3;
+
+    width: 100%;
+    height: 48px;
+    border: 1px solid $grey56;
+    padding: 0 16px;
+    transition: 0.3s;
+    background: transparent;
+    color: $grey;
+    border-radius: $radius;
+
+    &:hover {
+      border-color: $grey8;
+    }
+
+    &:focus,
+    &:active {
+      border-color: $grey;
+    }
+
+    &:disabled {
+      border-color: $grey56;
+      color: $grey56;
+    }
+  }
+
+  &.disabled {
+    .label {
+      color: $grey56;
+    }
+
+    input {
+      border-color: $grey56;
+      color: $grey56;
+      pointer-events: none;
+    }
+  }
+
+  .error_text {
+    @extend %caption;
+
+    color: $alert;
+    position: absolute;
+    left: 17px;
+    top: -21px;
+    opacity: 0;
+  }
+
+  &.error {
+    input {
+      border-color: $alert !important;
+      padding-bottom: 15px;
+    }
+
+    .error_text {
+      opacity: 1;
+    }
+  }
+
+  .label {
+    @extend %text;
+
+    display: block;
+    color: $grey56;
+    margin-bottom: 6px;
+  }
+
+  .help {
+    position: relative;
+  }
+
+  .icon {
+    position: absolute;
+    display: block;
+    pointer-events: none;
+    top: -36px;
+    right: 13px;
+    width: 24px;
+    height: 24px;
+
+    &.clickable {
+      pointer-events: all;
+      cursor: pointer;
+    }
+  }
+
+  .note {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0.16em;
+  }
+}
+
+.eye_icon {
+  color: #ffffff;
+}

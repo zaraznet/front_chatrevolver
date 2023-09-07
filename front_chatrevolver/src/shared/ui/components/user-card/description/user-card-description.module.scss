@@ -1,0 +1,29 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card_description {
+  @extend %paragraph;
+
+  color: $grey56;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  @media (max-width: 1599px) {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+  }
+
+  @media (max-width: $sm) {
+    order: 5;
+  }
+}

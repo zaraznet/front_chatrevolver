@@ -1,0 +1,105 @@
+@import "src/shared/ui/styles/layout/var";
+
+.faq_article {
+  background: $black8;
+  padding: 40px;
+  border-radius: $radius;
+  margin-right: 40px;
+  flex-grow: 1;
+  margin-bottom: 40px;
+
+  @media (max-width: 1405px) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 1199px) {
+    padding: 12px;
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 0;
+    margin-top: 16px;
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  h1 {
+    @extend %heading2;
+
+    color: #ffffff;
+    max-width: 440px;
+  }
+
+  .content {
+    @extend %text;
+
+    max-width: 640px;
+    color: $black;
+
+    & > *:first-child {
+      margin-top: 0 !important;
+    }
+
+    p {
+      margin-top: 8px;
+      color: #ffffff;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @extend %title;
+      color: #ffffff;
+
+      margin-top: 40px;
+    }
+
+    ol,
+    ul {
+      margin-top: 16px;
+
+      li {
+        margin-top: 8px;
+        color: #ffffff;
+      }
+    }
+
+    ol {
+      padding-left: 25px;
+
+      li {
+        padding-left: 12px;
+      }
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+
+      li {
+        padding-left: 36px;
+        position: relative;
+
+        &:before {
+          content: "–";
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+
+  a {
+    color: #ffffff;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

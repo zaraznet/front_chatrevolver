@@ -1,0 +1,39 @@
+@import "src/shared/ui/styles/layout/var";
+
+.typing_indicator {
+  @extend %paragraph5;
+  color: var(--chat-system-text-color, $black56);
+
+  padding: 8px 24px;
+  transition: all 150ms;
+
+  &:after {
+    content: " .";
+    animation: dots 1.5s infinite;
+  }
+
+  &.hide {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    color: transparent;
+    text-shadow: 0.325em 0 0 transparent, 0.65em 0 0 transparent;
+  }
+  40% {
+    color: var(--chat-system-text-color, $black56);
+    text-shadow: 0.325em 0 0 transparent, 0.65em 0 0 transparent;
+  }
+  60% {
+    text-shadow: 0.325em 0 0 var(--chat-system-text-color, $black56), 0.65em 0 0 transparent;
+  }
+  80%,
+  100% {
+    text-shadow: 0.325em 0 0 var(--chat-system-text-color, $black56), 0.65em 0 0 var(--chat-system-text-color, $black56);
+  }
+}

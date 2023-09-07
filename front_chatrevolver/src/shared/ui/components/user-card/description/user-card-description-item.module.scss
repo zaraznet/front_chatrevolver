@@ -1,0 +1,25 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card_description_item {
+  padding: 4px 8px 0 0;
+  flex-shrink: 0;
+  margin-right: 8px;
+
+  &:not(:empty) {
+    &:not(:last-child) {
+      border-right: 1px solid $grey08;
+    }
+  }
+
+  img {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    object-fit: cover;
+  }
+
+  &:last-of-type {
+    border-right: none;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.content {
+  flex-grow: 1;
+  margin-right: 40px;
+  padding-bottom: 59px;
+
+  @media (max-width: 1405px) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+}

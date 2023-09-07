@@ -1,0 +1,83 @@
+@import "layout/var";
+
+.faq-list {
+  background: #fff;
+  border: 1px solid $black08;
+  padding: 20px;
+
+  @media (max-width: 1199px) {
+    padding: 12px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    @extend %heading1;
+
+    color: $black;
+  }
+
+  &__help-link {
+    @extend %text;
+
+    color: $primary;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: $primary;
+    }
+
+    &:hover {
+      color: $black;
+
+      &:after {
+        background: $black;
+      }
+    }
+
+    &:disabled,
+    &--disabled {
+      color: $black56;
+      cursor: default;
+      pointer-events: none;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 16px;
+
+    @media (max-width: 1199px) {
+      margin-top: 10px;
+    }
+  }
+
+  &__link {
+    @extend %text;
+
+    display: block;
+    border-top: 1px solid $black08;
+    color: $black;
+    padding: 18px 0 14px;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}

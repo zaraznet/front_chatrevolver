@@ -1,0 +1,58 @@
+@import "src/shared/ui/styles/layout/var";
+
+.button {
+  @extend %heading1;
+
+  width: 100%;
+  height: 64px;
+  color: $ultraBlack;
+  cursor: pointer;
+  padding-top: 7px;
+  border-radius: $radius;
+
+  &:hover {
+    color: $ultraBlack;
+    background: $secondary;
+  }
+
+  &:disabled,
+  &--disabled {
+    color: $grey56 !important;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &--primary {
+    background: $primary;
+
+    &:disabled,
+    &.button--disabled {
+      background: $primary !important;
+    }
+  }
+
+  &--black {
+    background: $black;
+
+    &:disabled,
+    &.button--disabled {
+      background: $black8 !important;
+    }
+  }
+
+  &--secondary {
+    background: $secondary;
+    color: $black;
+  }
+
+  &__hidden-xs {
+    @media (max-width: $xs) {
+      display: none;
+    }
+  }
+
+  &__light {
+    font-family: $lightFont !important;
+    font-size: 20px;
+  }
+}

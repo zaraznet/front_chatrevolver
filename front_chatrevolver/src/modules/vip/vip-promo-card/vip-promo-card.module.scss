@@ -1,0 +1,45 @@
+@import "src/shared/ui/styles/layout/var";
+
+.vip_promo_card {
+  background: $black8;
+  border-radius: $radius;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  h3 {
+    margin-top: 32px;
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+
+    @media (max-width: $xs) {
+      margin-bottom: 16px;
+    }
+
+    a {
+      text-decoration: underline;
+      color: #ffffff;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

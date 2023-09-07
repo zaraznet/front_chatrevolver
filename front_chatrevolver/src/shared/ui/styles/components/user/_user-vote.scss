@@ -1,0 +1,203 @@
+@import "layout/var";
+
+.user-vote {
+  border: 1px solid $black08;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $black08;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: -9px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $black08;
+  }
+
+  &__content {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+
+  &__ava {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__info {
+    margin-left: 12px;
+  }
+
+  &__name {
+    @extend %paragraph2;
+
+    color: $black;
+  }
+
+  &__text {
+    @extend %paragraph5;
+
+    color: $black8;
+  }
+
+  &__button {
+    display: block;
+    margin: 1px 1px 0 auto;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: relative;
+
+    &--follow {
+      background: linear-gradient(180deg, #ffde3d 0%, #dd4113 100%);
+
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        background: #fff;
+        width: 7px;
+        height: 1px;
+        left: 7px;
+        top: 10px;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        background: #fff;
+        width: 1px;
+        height: 7px;
+        left: 10px;
+        top: 7px;
+      }
+
+      &:hover {
+        background: $primary;
+      }
+    }
+
+    &--cancel {
+      background: $black56;
+
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        background: #fff;
+        width: 7px;
+        height: 1px;
+        left: 7px;
+        top: 10px;
+      }
+
+      &:hover {
+        background: $black;
+      }
+    }
+
+    &--unfollow {
+      background: url("../img/unfollow-icon.svg") no-repeat center;
+      background-size: cover;
+
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        background: #fff;
+        width: 7px;
+        height: 1px;
+        left: 7px;
+        top: 10px;
+        transition: 0.3s;
+        opacity: 0;
+      }
+
+      &:hover {
+        background: $black;
+
+        &:before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    border-top: 1px solid $black08;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__go {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/right-arrow.svg");
+    opacity: 0.56;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.user-vote-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  &__item {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background: url("../img/star-empty.svg");
+    transition: 0.3;
+    cursor: pointer;
+
+    &:hover,
+    &--full {
+      background-image: url("../img/star-full.svg");
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

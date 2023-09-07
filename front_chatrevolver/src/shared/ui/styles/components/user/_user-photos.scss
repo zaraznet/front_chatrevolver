@@ -1,0 +1,216 @@
+@import "layout/var";
+
+.user-photos {
+  margin-top: 40px;
+
+  @media (max-width: 767px) {
+    margin-top: 20px;
+    padding: 0 8px;
+  }
+
+  &--profile {
+    .user-photos__add {
+      display: block;
+    }
+
+    .user-photos-grid__photo {
+      &:hover {
+        &:after {
+          opacity: 1;
+        }
+
+        .user-photos-grid__delete {
+          opacity: 1;
+          pointer-events: auto;
+        }
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: $black08;
+        opacity: 0;
+        transition: 0.3s;
+      }
+    }
+  }
+
+  &--no_photos {
+    .user-photos-grid {
+      display: none;
+
+      &__photo {
+        &:hover {
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .user-photos-grid--empty {
+      display: flex;
+    }
+  }
+
+  &--error {
+    .user-photos-error {
+      display: block;
+    }
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    margin-bottom: 8px;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    @extend %heading1;
+
+    color: $black;
+  }
+
+  &__add {
+    @extend %paragraph2;
+
+    display: none;
+    background: #fff;
+    border-radius: 20px;
+    color: $primary;
+    padding: 10px 34px;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    &:hover {
+      background: $primary;
+      color: $grey;
+    }
+
+    &:disabled,
+    &--disabled {
+      color: $primary;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+}
+
+.user-photos-error {
+  @extend %text;
+
+  display: none;
+  color: #fff;
+  background: $primary;
+  margin: 8px 0 3px;
+  padding: 10px 48px 6px 12px;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/error-icon.svg");
+    top: 8px;
+    right: 12px;
+  }
+
+  &--ava {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+}
+
+.user-photos-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 767px) {
+    justify-content: space-between;
+  }
+
+  &--empty {
+    display: none;
+
+    .user-photos-grid__item {
+      cursor: default;
+    }
+
+    .user-photos-grid__photo {
+      border: 1px solid $black08;
+    }
+  }
+
+  &__item {
+    width: calc(25% - 6px);
+    position: relative;
+    overflow: hidden;
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      margin: 4px 0 0;
+      width: calc(50% - 2px);
+    }
+
+    &:nth-child(4n + 4) {
+      margin-right: 0;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
+
+  &__photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__delete {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/delete-photo-icon.svg");
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s;
+  }
+}

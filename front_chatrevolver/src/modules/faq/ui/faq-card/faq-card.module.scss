@@ -1,0 +1,85 @@
+@import "src/shared/ui/styles/layout/var";
+
+.faq_card {
+  background: $black8;
+  padding: 20px;
+  border-radius: $radius;
+
+  @media (max-width: 1199px) {
+    padding: 12px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    @extend %heading1;
+    color: #ffffff;
+  }
+
+  .support_link {
+    @extend %text;
+
+    color: $primary;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: $primary;
+    }
+
+    &:hover {
+      color: $secondary;
+
+      &:after {
+        background: $secondary;
+      }
+    }
+
+    &:disabled {
+      color: $black56;
+      cursor: default;
+      pointer-events: none;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .content {
+    margin-top: 16px;
+
+    @media (max-width: 1199px) {
+      margin-top: 10px;
+    }
+  }
+
+  .link {
+    @extend %text;
+
+    display: block;
+    border-top: 1px solid $grey08;
+    color: #ffffff;
+    padding: 18px 0 14px;
+    cursor: pointer;
+
+    &.active {
+      color: $primary;
+    }
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

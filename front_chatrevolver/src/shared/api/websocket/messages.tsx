@@ -1,0 +1,38 @@
+export enum MessageReceiveType {
+  AUTHENTICATION_MESSAGE = "AUTHENTICATION_MESSAGE",
+  ENTER_QUEUE = "ENTER_QUEUE",
+  LEAVE_QUEUE = "LEAVE_QUEUE",
+  LEAVE_ROOM = "LEAVE_ROOM",
+  PING = "PING",
+
+  FILTER_SETTINGS = "FILTER_SETTINGS",
+
+  MESSAGE = "MESSAGE",
+  CALL = "CALL",
+  END_CALL = "END_CALL",
+  HANGUP = "HANGUP",
+  TYPING = "TYPING",
+}
+
+export enum MessageSentType {
+  NEW_STATE = "NEW_STATE",
+  ENTER_ROOM = "ENTER_ROOM",
+  LEAVE_ROOM = "LEAVE_ROOM",
+  PEER_ID_ASSIGN = "PEER_ID_ASSIGN",
+  PONG = "PONG",
+
+  ONLINE_NOW = "ONLINE_NOW",
+  USER_ONLINE_STATUS = "USER_ONLINE_STATUS",
+
+  MESSAGE = "MESSAGE",
+  CALL = "CALL",
+  CALL_FINISHED = "CALL_FINISHED",
+  CALL_EXPIRED = "CALL_EXPIRED",
+  TYPING = "TYPING",
+
+  MESSAGES_READ = "MESSAGES_READ",
+}
+
+export abstract class IncomingMessage {
+  constructor(public readonly type: MessageReceiveType) {}
+}

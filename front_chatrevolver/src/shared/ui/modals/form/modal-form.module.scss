@@ -1,0 +1,67 @@
+@import "src/shared/ui/styles/layout/var";
+
+.modal_form {
+  color: $grey8;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 4px;
+
+  &--join {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 767px) {
+      margin-top: 32px;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  button {
+    @extend %paragraph2;
+
+    margin-top: 20px;
+    color: $ultraBlack;
+    background: $primary;
+    cursor: pointer;
+    border-radius: $radius;
+    width: 144px;
+    height: 40px;
+    padding-top: 3px;
+
+    &:hover {
+      background: $secondary;
+    }
+
+    &:not([type="submit"]) {
+      margin-right: 20px;
+      width: 116px;
+      background: $grey08;
+      color: #ffffff;
+
+      &:hover {
+        background: $black8;
+      }
+    }
+
+    &:disabled {
+      color: $grey8 !important;
+      background-color: $grey56;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    &--big {
+      width: 180px;
+      margin-top: 0;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,327 @@
+@import "layout/var";
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 28px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding: 0 8px;
+  }
+
+  &__left {
+    width: 340px;
+    flex-shrink: 0;
+    margin-right: 40px;
+
+    @media (max-width: 1599px) {
+      width: 244px;
+    }
+
+    @media (max-width: 1405px) {
+      width: 214px;
+      margin-right: 20px;
+    }
+
+    @media (max-width: 900px) {
+      width: 150px;
+    }
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+
+  &__photo {
+    position: relative;
+
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+
+      .profile__photo-update {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(0.15deg, rgba(42, 42, 42, 0.56) 0.19%, rgba(42, 42, 42, 0) 42.26%);
+      opacity: 0;
+      transition: 0.3s;
+
+      @media (max-width: 767px) {
+        opacity: 1;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+  }
+
+  &__photo-update {
+    @extend %paragraph2;
+
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 1px solid $grey;
+    border-radius: 20px;
+    z-index: 3;
+    color: $grey;
+    padding: 12px 39px 8px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+
+    &:hover {
+      background: $primary;
+      border-color: $primary;
+    }
+
+    @media (max-width: 767px) {
+      opacity: 1;
+    }
+  }
+
+  &__edit-button {
+    @extend %heading1;
+
+    margin-top: 16px;
+    width: 100%;
+    height: 64px;
+    background: $primary;
+    color: $grey;
+    cursor: pointer;
+    padding-top: 5px;
+
+    @media (max-width: 767px) {
+      margin-top: 8px;
+    }
+
+    &:hover {
+      background: $secondary;
+      color: $black;
+    }
+
+    &:disabled,
+    &--disabled {
+      background: $primary;
+      color: $grey56;
+      pointer-events: none;
+      cursor: default;
+    }
+  }
+
+  &__verify-button {
+    @extend %heading1;
+
+    margin-top: 8px;
+    width: 100%;
+    min-height: 64px;
+    background: $secondary;
+    color: $black;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+
+  &__right {
+    width: 100%;
+
+    @media (max-width: 767px) {
+      margin-top: 16px;
+    }
+
+    & > div {
+      margin-top: 16px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.profile-new {
+  background: #fff;
+  border: 1px solid $black08;
+  padding: 16px 24px 20px 40px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 1599px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  &__content {
+    width: 100%;
+
+    @media (max-width: 1599px) {
+      margin-right: 16px;
+    }
+
+    @media (max-width: 767px) {
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    @extend %heading1;
+
+    color: $primary;
+    margin-right: 50px;
+
+    @media (max-width: 1599px) {
+      margin-right: 0;
+    }
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__text {
+    @extend %text;
+
+    color: $black;
+    margin-top: 8px;
+    margin-right: 70px;
+
+    @media (max-width: 1599px) {
+      margin-right: 0;
+    }
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__image {
+    align-self: flex-end;
+    width: 331px;
+    flex-shrink: 0;
+
+    @media (max-width: 1599px) {
+      width: 293px;
+    }
+
+    @media (max-width: 1405px) {
+      width: 243px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 767px) {
+      margin-top: 16px;
+      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.profile-mobile-baner {
+  width: 100%;
+  padding: 16px 8px 0;
+  overflow: hidden;
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.profile-deleted {
+  width: 100%;
+  height: calc(100% + 39px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding-top: 140px;
+
+  @media (max-width: 767px) {
+    height: 100%;
+    padding: 40px 0;
+    justify-content: center;
+  }
+
+  img {
+    opacity: 0.8;
+  }
+
+  &__title {
+    @extend %heading1;
+
+    margin-top: 20px;
+    text-align: center;
+    color: $black8;
+  }
+
+  &__text {
+    @extend %paragraph;
+
+    margin-top: 20px;
+    color: $black;
+    text-align: center;
+
+    span {
+      display: block;
+      color: $primary;
+    }
+  }
+
+  &__button {
+    @extend %paragraph2;
+
+    color: $grey;
+    background: $primary;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 208px;
+    height: 40px;
+    padding-top: 3px;
+
+    &:hover {
+      background: $secondary;
+      color: $black;
+    }
+
+    &:disabled,
+    &--disabled {
+      background: $primary;
+      color: $grey56;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+}

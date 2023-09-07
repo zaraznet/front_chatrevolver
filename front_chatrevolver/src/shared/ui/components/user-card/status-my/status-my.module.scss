@@ -1,0 +1,79 @@
+@import "src/shared/ui/styles/layout/var";
+
+.status_with_hover {
+  cursor: pointer;
+  border-radius: $radius;
+
+  &:hover {
+    background: $grey08;
+  }
+
+  &.empty {
+    color: $grey56;
+
+    &:before {
+      content: "";
+    }
+
+    &:after {
+      content: "";
+    }
+  }
+}
+
+.status_my {
+  background: $grey08;
+  border-radius: $radius;
+  padding: 20px 24px;
+  margin: -1px 0 0 -28px;
+  width: calc(100% + 56px);
+
+  input,
+  textarea {
+    @extend %paragraph3;
+
+    border-radius: $radius;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    padding: 7px 8px 5px;
+    border: 1px solid $grey56;
+    transition: 0.3s;
+    resize: none;
+
+    &:hover,
+    &:focus {
+      border-color: #ffffff;
+    }
+
+    &:active {
+      border-color: #ffffff;
+    }
+  }
+
+  button {
+    @extend %paragraph2;
+
+    color: $ultraBlack;
+    background: $primary;
+    border-radius: $radius;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 144px;
+    height: 40px;
+    padding-top: 3px;
+
+    &:hover {
+      background: $secondary;
+    }
+
+    &:disabled,
+    &--disabled {
+      background: $primary;
+      color: $grey56;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+}

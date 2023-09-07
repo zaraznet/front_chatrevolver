@@ -1,0 +1,13 @@
+@import "src/shared/ui/styles/layout/var";
+
+.message_container {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+  scroll-behavior: smooth;
+  flex: 1;
+
+  > * {
+    flex-shrink: 0;
+  }
+}

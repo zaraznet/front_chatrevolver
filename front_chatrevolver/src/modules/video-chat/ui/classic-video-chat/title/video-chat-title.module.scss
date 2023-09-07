@@ -1,0 +1,48 @@
+@import "src/shared/ui/styles/layout/var";
+
+.video_chat_title {
+  @extend %heading2;
+
+  color: #ffffff;
+  max-width: 528px;
+  margin: 20px 0 0;
+
+  @media (max-width: 1405px) {
+    max-width: 456px;
+  }
+
+  @media (max-width: 767px) {
+    order: 2;
+    padding: 24px 20px 0;
+    margin-top: 8px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  &.unauthorized {
+    max-width: 100% !important;
+    margin: 52px 112px 0 0;
+
+    @media (max-width: 1599px) {
+      margin-right: 70px;
+    }
+
+    @media (max-width: 1405px) {
+      margin-right: 25px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 24px 20px 0;
+      margin-top: 8px;
+      margin-right: 0;
+    }
+  }
+
+  a {
+    color: $primary;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

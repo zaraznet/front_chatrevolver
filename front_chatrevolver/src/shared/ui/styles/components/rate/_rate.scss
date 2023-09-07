@@ -1,0 +1,171 @@
+.rate {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.rate-item {
+  width: calc(20% - 16px);
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 346px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &:nth-child(5n + 5) {
+    @media (min-width: 1441px) {
+      margin-right: 0;
+    }
+  }
+
+  &:nth-child(4n + 4) {
+    @media (min-width: 1200px) and (max-width: $lg) {
+      margin-right: 0 !important;
+    }
+  }
+
+  &:nth-child(3n + 3) {
+    @media (min-width: 992px) and (max-width: $md) {
+      margin-right: 0 !important;
+    }
+  }
+
+  &:nth-child(even) {
+    @media (min-width: 768px) and (max-width: $sm) {
+      margin-right: 0 !important;
+    }
+  }
+
+  @media (max-width: $lg) {
+    width: calc(25% - 15px);
+  }
+
+  @media (max-width: 1280px) {
+    width: calc(25% - 18px);
+    margin-right: 24px;
+    height: 322px;
+  }
+
+  @media (max-width: $md) {
+    width: calc(33.33% - 16px);
+  }
+
+  @media (max-width: $sm) {
+    width: calc(50% - 12px);
+  }
+
+  @media (max-width: $xs) {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-top: 8px;
+  }
+
+  &--vip {
+    .rate-item__vip {
+      display: block;
+    }
+  }
+
+  &:hover {
+    .rate-item__location,
+    .rate-item__gender {
+      opacity: 0;
+    }
+
+    .button {
+      transform: translateY(0);
+    }
+  }
+
+  &__photo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__vip {
+    position: relative;
+    font-family: $boldFont;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    background: linear-gradient(236.31deg, #ffde3d 14.17%, #dd4113 85%);
+    border-radius: 99px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+    margin: 18px 0 0 16px;
+    display: none;
+    color: white;
+  }
+
+  &__info {
+    background: linear-gradient(180deg, rgba(42, 42, 42, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+    margin-top: auto;
+    padding: 16px;
+    position: relative;
+    min-height: 120px;
+
+    @media (min-width: 1280px) {
+      min-height: 96px;
+    }
+  }
+
+  &__name {
+    color: white;
+    font-family: $boldFont;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+  }
+
+  &__location {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+
+    img {
+      max-width: 24px;
+    }
+
+    span {
+      margin-left: 12px;
+      font-family: $regFont;
+      font-size: 17px;
+      line-height: 24px;
+      letter-spacing: 0.08em;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  &__gender {
+    margin-top: 8px;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: $regFont;
+    font-size: 17px;
+    line-height: 24px;
+    transition: 0.3s;
+  }
+
+  .button {
+    background: $secondary;
+    position: absolute;
+    color: $black;
+    bottom: 0;
+    transform: translateY(100%);
+  }
+}

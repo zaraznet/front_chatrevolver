@@ -1,0 +1,30 @@
+@import "src/shared/ui/styles/layout/var";
+
+.user_card_tags {
+  margin-top: 8px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .label {
+    @extend %paragraph;
+    color: $grey56;
+    margin-right: 8px;
+  }
+
+  .item {
+    @extend %paragraph4;
+
+    margin: 8px 4px 8px 0;
+    display: block;
+    color: $ultraBlack;
+    background: $primary;
+    border-radius: $radius;
+    padding: 3px 14px 1px 16px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

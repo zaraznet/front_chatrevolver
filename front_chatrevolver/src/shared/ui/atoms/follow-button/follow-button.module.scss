@@ -1,0 +1,379 @@
+@import "src/shared/ui/styles/layout/var";
+
+.follow_button {
+  @extend %paragraph4;
+
+  border-radius: 28px;
+  color: $ultraBlack;
+  padding: 3px 16px 1px;
+  cursor: pointer;
+  position: relative;
+
+  @media (max-width: $sm) {
+    order: 2;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &.follow {
+    background: $primary;
+    background-size: 200% 200%;
+    padding-left: 32px;
+    width: 106px;
+
+    &:after {
+      content: "follow";
+    }
+
+    &:before {
+      background: url("/img/info-follow-icon.svg");
+    }
+
+    &.loading {
+      &:before {
+        background: $ultraBlack url("/img/small-loader-primary.svg");
+      }
+    }
+
+    &:hover,
+    &.hover,
+    &.loading {
+      background: $secondary;
+      background-size: 200% 200%;
+    }
+  }
+
+  &.cancel {
+    padding-right: 32px;
+    background: $black56;
+    width: 106px;
+    color: #ffffff;
+
+    &:after {
+      content: "cancel";
+    }
+
+    &:before {
+      left: calc(100% - 24px);
+      background: url("/img/info-cancel-icon.svg");
+    }
+
+    &.loading {
+      &:before {
+        background: white url("/img/small-loader-black.svg");
+      }
+    }
+
+    &:hover,
+    &.hover,
+    &.loading {
+      background: $black;
+    }
+  }
+
+  &.unfollow {
+    border: 1px solid $primary;
+    color: $primary;
+    width: 106px;
+
+    &:after {
+      content: "following";
+    }
+
+    &:hover,
+    &.hover,
+    &.loading {
+      background: $secondary;
+      color: $grey;
+
+      &:after {
+        content: "unfollow";
+      }
+    }
+
+    &.loading {
+      padding-left: 24px;
+
+      &:before {
+        background: url("/img/small-loader.svg");
+      }
+    }
+  }
+
+  &.small {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    &:after {
+      content: "";
+    }
+
+    &:before {
+      left: 0;
+      top: 0;
+      transform: none;
+    }
+
+    &.loading {
+      &:before {
+        background-color: transparent;
+      }
+    }
+
+    &.follow {
+      &:before {
+        background: url("/img/follow-outline.svg");
+      }
+
+      &.loading {
+        &:before {
+          background: url("/img/small-loader.svg");
+        }
+      }
+    }
+
+    &.cancel {
+      background-color: #ffffff;
+      &:before {
+        background: url("/img/cancel-outline.svg");
+      }
+
+      &.loading {
+        &:before {
+          background: url("/img/small-loader.svg");
+        }
+      }
+    }
+
+    &.unfollow {
+      &:after {
+        content: "";
+      }
+
+      background: $primary;
+      border: none;
+
+      &:before {
+        background: url("/img/unfollow-outline.svg");
+      }
+
+      &:hover,
+      &.hover,
+      &.loading {
+        background: #ffffff;
+
+        &:before {
+          background: url("/img/cancel-outline.svg");
+        }
+      }
+
+      &.loading {
+        &:before {
+          background: url("/img/small-loader.svg");
+        }
+      }
+    }
+  }
+}
+
+.follow_button_ru {
+  @extend %paragraph4;
+
+  border-radius: 28px;
+  color: $ultraBlack;
+  padding: 3px 16px 1px;
+  cursor: pointer;
+  position: relative;
+
+  @media (max-width: $sm) {
+    order: 2;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &.follow {
+    background: $primary;
+    background-size: 200% 200%;
+    padding-left: 32px;
+    width: 106px;
+
+    &:after {
+      content: "дружить";
+    }
+
+    &:before {
+      background: url("/img/info-follow-icon.svg");
+    }
+
+    &.loading {
+      &:before {
+        background: $ultraBlack url("/img/small-loader-primary.svg");
+      }
+    }
+
+    &:hover,
+    &.hover,
+    &.loading {
+      background: $secondary;
+      background-size: 200% 200%;
+    }
+  }
+
+  &.cancel {
+    padding-right: 32px;
+    background: $black56;
+    width: 106px;
+    color: #ffffff;
+
+    &:after {
+      content: "отмена";
+    }
+
+    &:before {
+      left: calc(100% - 24px);
+      background: url("/img/info-cancel-icon.svg");
+    }
+
+    &.loading {
+      &:before {
+        background: white url("/img/small-loader-black.svg");
+      }
+    }
+
+    &:hover,
+    &.hover,
+    &.loading {
+      background: $black;
+    }
+  }
+
+  &.unfollow {
+    border: 1px solid $primary;
+    color: $primary;
+    width: 106px;
+
+    &:after {
+      content: "в друзьях";
+    }
+
+    &:hover,
+    &.hover,
+    &.loading {
+      background: $secondary;
+      color: $grey;
+
+      &:after {
+        content: "удалить";
+      }
+    }
+
+    &.loading {
+      padding-left: 24px;
+
+      &:before {
+        background: url("/img/small-loader.svg");
+      }
+    }
+  }
+
+  &.small {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    &:after {
+      content: "";
+    }
+
+    &:before {
+      left: 0;
+      top: 0;
+      transform: none;
+    }
+
+    &.loading {
+      &:before {
+        background-color: transparent;
+      }
+    }
+
+    &.follow {
+      &:before {
+        background: url("/img/follow-outline.svg");
+      }
+
+      &.loading {
+        &:before {
+          background: url("/img/small-loader.svg");
+        }
+      }
+    }
+
+    &.cancel {
+      background-color: #ffffff;
+      &:before {
+        background: url("/img/cancel-outline.svg");
+      }
+
+      &.loading {
+        &:before {
+          background: url("/img/small-loader.svg");
+        }
+      }
+    }
+
+    &.unfollow {
+      &:after {
+        content: "";
+      }
+
+      background: $primary;
+      border: none;
+
+      &:before {
+        background: url("/img/unfollow-outline.svg");
+      }
+
+      &:hover,
+      &.hover,
+      &.loading {
+        background: #ffffff;
+
+        &:before {
+          background: url("/img/cancel-outline.svg");
+        }
+      }
+
+      &.loading {
+        &:before {
+          background: url("/img/small-loader.svg");
+        }
+      }
+    }
+  }
+}

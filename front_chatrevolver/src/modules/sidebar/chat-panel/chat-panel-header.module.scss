@@ -1,0 +1,183 @@
+@import "src/shared/ui/styles/layout/var";
+
+.chat_panel_header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.back {
+  @extend %paragraph3;
+
+  color: $grey56;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  .text {
+    padding-top: 4px;
+    margin-left: 12px;
+  }
+}
+
+.user {
+  flex: 1;
+  text-align: center;
+
+  .name {
+    @extend %paragraph2;
+    color: $grey;
+  }
+
+  .online {
+    @extend %paragraph5;
+    color: $grey8;
+  }
+}
+
+.right {
+  display: flex;
+  align-items: center;
+
+  --avatar-bg: black;
+}
+
+.more {
+  margin-left: 4px;
+  position: relative;
+  cursor: pointer;
+  color: $grey8;
+
+  @media (max-width: 767px) {
+    margin-right: 4px;
+  }
+
+  &.active {
+    .menu {
+      height: auto;
+    }
+  }
+
+  .top {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: $grey8;
+
+    &:hover {
+      .ava {
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .ava {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: url("/img/sign-ava.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 44px;
+      height: 44px;
+      display: block;
+      border: 1px solid $primary;
+      border-radius: 50%;
+      left: -5px;
+      top: -5px;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      display: block;
+      background: linear-gradient(180deg, rgba(221, 65, 19, 0) 0%, $primary 100%);
+      border-radius: 50%;
+      left: 0;
+      top: 0;
+      transition: 0.3s;
+      opacity: 0;
+    }
+  }
+
+  .arrow {
+    display: block;
+    width: 18px;
+    height: 10px;
+    background: url("/img/profile-arrow.svg") no-repeat center;
+    background-size: cover;
+    margin-left: 11px;
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.menu {
+  position: absolute;
+  top: calc(100% + 16px);
+  right: 0;
+  width: 152px;
+  height: 0;
+  transition: 0.3s;
+  overflow: hidden;
+  z-index: 2;
+  border-radius: $radius;
+
+  .name {
+    @extend %text;
+
+    background: $primary;
+    color: $grey;
+    padding: 11px 12px 10px;
+  }
+
+  .list {
+    background-color: $black8;
+    border-top: 0;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link {
+    @extend %paragraph3;
+
+    color: #ffffff;
+    cursor: pointer;
+    height: 48px;
+
+    border-top: 1px solid $grey08;
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+      border: none;
+    }
+
+    &:hover {
+      color: $primary;
+    }
+
+    .icon {
+      margin-right: 12px;
+      padding-bottom: 2px;
+    }
+
+    .label {
+      padding-top: 2px;
+    }
+  }
+}

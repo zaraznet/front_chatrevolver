@@ -1,0 +1,53 @@
+@import "src/shared/ui/styles/layout/var";
+
+.input_toolbar {
+  padding: 12px 16px;
+  border-top: 1px solid var(--chat-border-color, rgba(42, 42, 42, 0.08));
+
+  .input_wrapper {
+    position: relative;
+    //border-radius: 22px;
+    overflow: hidden;
+    font-size: 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    color: var(--chat-placeholder-color, $black56);
+    transition: opacity 150ms;
+
+    &:disabled {
+      pointer-events: none;
+      opacity: 0;
+    }
+  }
+
+  textarea {
+    @extend %paragraph3;
+
+    padding: 12px 48px 10px 16px;
+    width: 100%;
+    resize: none;
+
+    background: transparent;
+
+    color: var(--chat-input-color, $black);
+    border-radius: $radius;
+    border: 1px solid var(--chat-border-color, rgba(42, 42, 42, 0.08));
+    transition: border-color 200ms;
+
+    &:focus {
+      border-color: var(--chat-border-active-color, rgba(42, 42, 42, 0.56));
+    }
+
+    &::placeholder {
+      color: var(--chat-placeholder-color, $black56);
+    }
+  }
+}
